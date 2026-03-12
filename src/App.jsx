@@ -1203,6 +1203,495 @@ const STYLES = [
   [1198,"Social media content creation meta BTS",25,["brand","medium","medium","visual","rhythm"]],
   [1199,"Closing cleanup end of night process",25,["brand","medium","medium","visual","closer"]],
   [1200,"Opening ritual first light first coffee",25,["drink","medium","medium","visual","opener"]],
+  // ─── INDUSTRY EXPANSION: 488 styles across 16 verticals (IDs 1201-1688) ───
+  [1201,"Guitar fretboard close-up finger work",6,["gear", "slow", "macro", "visual", "texture"]],
+  [1202,"Drum stick impact slow-mo cymbal spray",5,["gear", "fast", "close", "audio", "payoff"]],
+  [1203,"Vinyl record needle drop macro",6,["gear", "slow", "macro", "audio", "opener"]],
+  [1204,"Soundboard fader push rack focus",3,["gear", "medium", "close", "visual", "rhythm"]],
+  [1205,"Stage lights piercing through fog machine haze",4,["space", "fast", "wide", "visual", "opener"]],
+  [1206,"Crowd sing-along split-screen performer POV",23,["people", "fast", "wide", "audio", "payoff"]],
+  [1207,"Amp knob crank to distortion kick-in",11,["gear", "medium", "macro", "audio", "transition"]],
+  [1208,"Pedalboard stomp chain reaction",11,["gear", "fast", "close", "audio", "rhythm"]],
+  [1209,"Vocal booth isolation glass reflection",6,["person", "slow", "close", "visual", "texture"]],
+  [1210,"DAW waveform timelapse beat building",15,["process", "fast", "close", "visual", "rhythm"]],
+  [1211,"Guitar string vibration macro slow-mo",5,["gear", "slow", "macro", "visual", "texture"]],
+  [1212,"Backstage tunnel walk to stage reveal",2,["person", "medium", "medium", "visual", "opener"]],
+  [1213,"Drum skin ripple high-speed capture",5,["gear", "slow", "macro", "visual", "texture"]],
+  [1214,"Setlist handwritten paper close-up",6,["brand", "slow", "close", "visual", "opener"]],
+  [1215,"Microphone feedback screech visual pulse",11,["gear", "fast", "close", "audio", "payoff"]],
+  [1216,"Tour bus window rolling landscape",3,["space", "slow", "wide", "visual", "transition"]],
+  [1217,"Sound check empty venue atmosphere",13,["space", "slow", "wide", "audio", "opener"]],
+  [1218,"Merch table fan interaction montage",14,["people", "medium", "medium", "visual", "closer"]],
+  [1219,"Instrument case open reveal",2,["gear", "slow", "close", "visual", "opener"]],
+  [1220,"Bass drop sync light flash",11,["space", "fast", "wide", "audio", "payoff"]],
+  [1221,"Piano key hammer mechanism macro",5,["gear", "slow", "macro", "visual", "texture"]],
+  [1222,"Album art to real scene match cut",2,["brand", "medium", "close", "visual", "transition"]],
+  [1223,"Green room candid pre-show nerves",14,["person", "slow", "close", "visual", "opener"]],
+  [1224,"Crowd mosaic aerial pull-back",19,["people", "fast", "wide", "visual", "payoff"]],
+  [1225,"Mixing desk EQ sweep audio-visual sync",11,["gear", "medium", "close", "audio", "rhythm"]],
+  [1226,"Speaker cone vibration extreme macro",5,["gear", "slow", "macro", "tactile", "texture"]],
+  [1227,"Ticket stub nostalgic analog grain",16,["brand", "slow", "close", "visual", "opener"]],
+  [1228,"Encore chant crowd energy build",11,["people", "fast", "wide", "audio", "payoff"]],
+  [1229,"Roadie cable wrap BTS process",25,["process", "medium", "close", "visual", "closer"]],
+  [1230,"Spotify stream counter rising timelapse",15,["brand", "fast", "close", "visual", "payoff"]],
+  [1231,"Rehearsal room whiteboard song structure",25,["process", "slow", "medium", "visual", "texture"]],
+  [1232,"Rapper hand gesture rhythmic close-up",14,["person", "fast", "close", "motion", "rhythm"]],
+  [1233,"Turntable scratch crossfader sync",11,["gear", "fast", "close", "audio", "rhythm"]],
+  [1234,"Festival wristband collection texture",6,["brand", "slow", "macro", "tactile", "texture"]],
+  [1235,"Light rig programming BTS timelapse",25,["process", "fast", "wide", "visual", "rhythm"]],
+  [1236,"Front door approach walkthrough entrance",3,["space", "medium", "wide", "visual", "opener"]],
+  [1237,"Kitchen island orbital smooth glide",3,["space", "slow", "medium", "visual", "rhythm"]],
+  [1238,"Window light golden hour room flood",4,["space", "slow", "wide", "visual", "texture"]],
+  [1239,"Fireplace crackle ambient close-up",12,["space", "slow", "close", "audio", "texture"]],
+  [1240,"Bathroom vanity mirror reflection pan",3,["space", "medium", "close", "visual", "rhythm"]],
+  [1241,"Aerial property boundary pull-out reveal",19,["space", "slow", "wide", "visual", "opener"]],
+  [1242,"Floor plan overlay to real room transition",8,["space", "medium", "wide", "visual", "transition"]],
+  [1243,"Pool surface reflection sky shimmer",6,["space", "slow", "close", "visual", "texture"]],
+  [1244,"Key turning in lock new home moment",14,["product", "slow", "macro", "audio", "opener"]],
+  [1245,"Closet door slide storage reveal",2,["space", "medium", "close", "visual", "transition"]],
+  [1246,"Staircase ascending tracking shot",3,["space", "medium", "medium", "motion", "transition"]],
+  [1247,"Neighborhood street aerial flyover context",19,["space", "slow", "wide", "visual", "opener"]],
+  [1248,"Backsplash tile texture macro pan",6,["space", "slow", "macro", "tactile", "texture"]],
+  [1249,"Sunset balcony view time-lapse",5,["space", "slow", "wide", "visual", "closer"]],
+  [1250,"Smart home device activation demo",7,["product", "medium", "close", "visual", "rhythm"]],
+  [1251,"Walk-in pantry shelf detail scan",3,["space", "slow", "close", "visual", "texture"]],
+  [1252,"Garage door open curb appeal reveal",2,["space", "medium", "wide", "visual", "opener"]],
+  [1253,"Hardwood floor texture low angle glide",6,["space", "slow", "close", "tactile", "texture"]],
+  [1254,"Countertop material swatch comparison",12,["product", "slow", "close", "visual", "rhythm"]],
+  [1255,"Backyard entertaining space lifestyle vignette",14,["space", "medium", "wide", "visual", "payoff"]],
+  [1256,"Before-after renovation split wipe",2,["space", "medium", "wide", "visual", "payoff"]],
+  [1257,"Ceiling height vertical pan dramatic",3,["space", "slow", "wide", "visual", "texture"]],
+  [1258,"Thermostat energy efficiency callout",8,["product", "medium", "close", "visual", "rhythm"]],
+  [1259,"Drone orbit around property full 360",19,["space", "slow", "wide", "visual", "closer"]],
+  [1260,"Light switch cascade room illumination",4,["space", "medium", "wide", "visual", "rhythm"]],
+  [1261,"Blueprint to finished build match dissolve",2,["process", "medium", "wide", "visual", "transition"]],
+  [1262,"Fixture close-up hardware detail",6,["product", "slow", "macro", "visual", "texture"]],
+  [1263,"Mortgage rate graphic overlay lifestyle",8,["brand", "medium", "wide", "visual", "rhythm"]],
+  [1264,"Virtual staging empty to furnished morph",15,["space", "medium", "wide", "visual", "transition"]],
+  [1265,"Open house sign to door tracking follow",3,["brand", "medium", "wide", "visual", "opener"]],
+  [1266,"Attic crawl space inspection POV",3,["space", "medium", "close", "visual", "texture"]],
+  [1267,"Dumbbell rack pull slow-mo muscle tension",5,["gear", "slow", "close", "visual", "texture"]],
+  [1268,"Treadmill speed ramp match-cut heartbeat",11,["gear", "fast", "medium", "audio", "rhythm"]],
+  [1269,"Sweat droplet macro skin surface",6,["person", "slow", "macro", "visual", "texture"]],
+  [1270,"Yoga pose transition fluid timelapse",5,["person", "slow", "wide", "motion", "rhythm"]],
+  [1271,"Weight plate stack clang impact sync",11,["gear", "fast", "close", "audio", "payoff"]],
+  [1272,"Mirror wall gym reflection symmetry",13,["space", "medium", "wide", "visual", "opener"]],
+  [1273,"Protein shake blender vortex overhead",12,["drink", "fast", "close", "visual", "rhythm"]],
+  [1274,"Boxing glove lace-up preparation ritual",14,["gear", "slow", "close", "visual", "opener"]],
+  [1275,"Battle rope wave slow-mo ripple",5,["gear", "slow", "medium", "motion", "rhythm"]],
+  [1276,"Chalk dust explosion clap hands",7,["person", "fast", "close", "visual", "opener"]],
+  [1277,"Heart rate monitor climb graphic overlay",8,["person", "fast", "close", "visual", "rhythm"]],
+  [1278,"Kettlebell swing arc tracking shot",3,["gear", "fast", "medium", "motion", "rhythm"]],
+  [1279,"Ice bath plunge reaction close-up",14,["person", "fast", "close", "visual", "payoff"]],
+  [1280,"Foam roller texture on muscle macro",6,["gear", "slow", "macro", "tactile", "texture"]],
+  [1281,"Sunrise outdoor bootcamp silhouette wide",4,["people", "medium", "wide", "visual", "opener"]],
+  [1282,"Meal prep container assembly line overhead",12,["food", "medium", "close", "visual", "rhythm"]],
+  [1283,"Spin class bike cadence sync music",11,["gear", "fast", "medium", "audio", "rhythm"]],
+  [1284,"Stretching flexibility progression split-screen",23,["person", "slow", "medium", "visual", "payoff"]],
+  [1285,"Gym floor rubber texture low angle",6,["space", "slow", "close", "tactile", "texture"]],
+  [1286,"Rep counter graphic overlay pump set",8,["person", "fast", "close", "visual", "rhythm"]],
+  [1287,"Sauna steam rising atmospheric slow-mo",7,["space", "slow", "medium", "thermal", "texture"]],
+  [1288,"Before-after body transformation morph",2,["person", "medium", "medium", "visual", "payoff"]],
+  [1289,"Jump rope cadence feet-only close-up",5,["person", "fast", "close", "motion", "rhythm"]],
+  [1290,"Smoothie ingredient toss aerial catch",12,["food", "fast", "close", "visual", "rhythm"]],
+  [1291,"Resistance band stretch snap release",5,["gear", "fast", "close", "motion", "payoff"]],
+  [1292,"Class instructor countdown motivational",14,["person", "fast", "close", "audio", "payoff"]],
+  [1293,"Recovery room dim lighting meditation",4,["space", "slow", "wide", "visual", "closer"]],
+  [1294,"Personal record celebration fist pump",14,["person", "fast", "close", "visual", "payoff"]],
+  [1295,"Barbell loading plate-by-plate build-up",25,["gear", "medium", "close", "audio", "opener"]],
+  [1296,"Pool lap underwater camera glide",3,["person", "medium", "medium", "visual", "rhythm"]],
+  [1297,"Wearable fitness tracker data pulse",15,["gear", "medium", "macro", "visual", "rhythm"]],
+  [1298,"Lipstick bullet twist-up macro",12,["product", "slow", "macro", "visual", "opener"]],
+  [1299,"Foundation blend skin texture transition",6,["product", "slow", "macro", "tactile", "texture"]],
+  [1300,"Hair color transformation reveal mirror",2,["person", "medium", "close", "visual", "payoff"]],
+  [1301,"Eyeshadow palette swipe finger swatch",12,["product", "slow", "macro", "tactile", "texture"]],
+  [1302,"Fabric drape fall slow-mo silk cascade",5,["product", "slow", "close", "visual", "texture"]],
+  [1303,"Runway walk low-angle shoe strut",3,["person", "fast", "close", "motion", "rhythm"]],
+  [1304,"Perfume spritz mist cloud backlit",7,["product", "slow", "close", "visual", "texture"]],
+  [1305,"Outfit spin 360 full look reveal",20,["person", "medium", "medium", "visual", "payoff"]],
+  [1306,"Nail art brush stroke detail macro",12,["process", "slow", "macro", "visual", "texture"]],
+  [1307,"Zipper pull close-up garment detail",6,["product", "slow", "macro", "audio", "texture"]],
+  [1308,"Vanity mirror ring light reflection setup",4,["space", "medium", "close", "visual", "opener"]],
+  [1309,"Contour sculpt before-after face split",2,["person", "medium", "close", "visual", "payoff"]],
+  [1310,"Skincare serum dropper golden drip",12,["product", "slow", "macro", "visual", "texture"]],
+  [1311,"Closet outfit selection montage swipe",24,["product", "fast", "medium", "visual", "rhythm"]],
+  [1312,"Eyelash curl dramatic eye open reveal",2,["person", "slow", "macro", "visual", "payoff"]],
+  [1313,"Shoe unboxing tissue paper unfold",2,["product", "slow", "close", "audio", "opener"]],
+  [1314,"Flat lay outfit grid overhead arrange",12,["product", "slow", "wide", "visual", "opener"]],
+  [1315,"Hair straightener steam sizzle close-up",7,["gear", "slow", "close", "audio", "texture"]],
+  [1316,"Jewelry sparkle catch-light rotation",4,["product", "slow", "macro", "visual", "texture"]],
+  [1317,"Blush brush powder puff cloud",7,["product", "medium", "close", "visual", "rhythm"]],
+  [1318,"GRWM mirror reflection time-lapse compress",5,["person", "fast", "medium", "visual", "rhythm"]],
+  [1319,"Sewing machine needle fabric feed macro",25,["process", "slow", "macro", "visual", "texture"]],
+  [1320,"Color palette moodboard match-cut to outfit",10,["brand", "medium", "close", "visual", "transition"]],
+  [1321,"Mascara wand pull-out product detail",12,["product", "slow", "macro", "visual", "texture"]],
+  [1322,"Haul bag dump table spill reveal",2,["product", "fast", "medium", "visual", "opener"]],
+  [1323,"Pattern textile weave macro texture",6,["product", "slow", "macro", "tactile", "texture"]],
+  [1324,"Dressing room curtain pull outfit reveal",2,["person", "medium", "medium", "visual", "payoff"]],
+  [1325,"Lip gloss application reflective shine macro",12,["product", "slow", "macro", "visual", "texture"]],
+  [1326,"Stitching detail hand-sewn craft close-up",25,["process", "slow", "macro", "visual", "texture"]],
+  [1327,"Fashion show front row audience reaction",23,["people", "fast", "medium", "visual", "rhythm"]],
+  [1328,"Engine bay reveal hood pop-up",2,["product", "medium", "close", "audio", "opener"]],
+  [1329,"Wheel spin burnout smoke cloud",7,["product", "fast", "close", "visual", "payoff"]],
+  [1330,"Paint correction swirl removal 50/50",12,["process", "slow", "macro", "visual", "payoff"]],
+  [1331,"Exhaust note rev cold start audio",11,["product", "medium", "close", "audio", "opener"]],
+  [1332,"Ceramic coating water bead sheeting",6,["product", "slow", "macro", "visual", "payoff"]],
+  [1333,"Dashboard gauge cluster startup sequence",2,["product", "medium", "close", "visual", "opener"]],
+  [1334,"Suspension compression pothole slow-mo",5,["product", "slow", "close", "motion", "texture"]],
+  [1335,"Detailing foam cannon coverage spray",7,["process", "medium", "wide", "visual", "opener"]],
+  [1336,"Headlight DRL sequential animation",4,["product", "slow", "close", "visual", "texture"]],
+  [1337,"Tire tread texture macro rotation",6,["product", "slow", "macro", "tactile", "texture"]],
+  [1338,"Rolling shot highway pace car tracking",3,["product", "fast", "medium", "motion", "rhythm"]],
+  [1339,"Interior leather stitch detail scan",6,["product", "slow", "macro", "tactile", "texture"]],
+  [1340,"Car wash tunnel light play through glass",4,["product", "medium", "close", "visual", "rhythm"]],
+  [1341,"Turbo spool whistle boost build",11,["gear", "fast", "close", "audio", "payoff"]],
+  [1342,"Door handle approach pull chrome reflection",6,["product", "slow", "close", "visual", "opener"]],
+  [1343,"Undercarriage low-angle drive-over POV",3,["product", "fast", "close", "motion", "rhythm"]],
+  [1344,"Dyno pull power graph overlay sync",8,["product", "fast", "close", "audio", "payoff"]],
+  [1345,"Key fob unlock chirp light flash",11,["product", "medium", "medium", "audio", "opener"]],
+  [1346,"Brake caliper color pop selective desat",10,["product", "slow", "close", "visual", "texture"]],
+  [1347,"Windshield rain bead POV interior drive",6,["space", "slow", "wide", "visual", "texture"]],
+  [1348,"Garage lift ascending reveal underside",2,["product", "slow", "wide", "visual", "transition"]],
+  [1349,"Shift knob gear change palm grip close",14,["person", "fast", "close", "tactile", "rhythm"]],
+  [1350,"Clay bar glide surface decontamination",25,["process", "slow", "macro", "tactile", "texture"]],
+  [1351,"Speedometer needle climb acceleration sync",11,["product", "fast", "close", "visual", "payoff"]],
+  [1352,"Wrap install squeegee smooth bubble-free",25,["process", "slow", "close", "visual", "rhythm"]],
+  [1353,"Auction lot walk classic car reveal",3,["product", "medium", "wide", "visual", "opener"]],
+  [1354,"Oil change pour golden flow close-up",12,["process", "slow", "close", "visual", "texture"]],
+  [1355,"Steering wheel hand-over-hand curve tracking",14,["person", "medium", "close", "motion", "rhythm"]],
+  [1356,"Convertible top retract mechanical unfold",5,["product", "medium", "medium", "motion", "transition"]],
+  [1357,"Exhaust tip carbon fiber texture detail",6,["product", "slow", "macro", "visual", "texture"]],
+  [1358,"Concrete pour flow spread timelapse",5,["process", "medium", "wide", "visual", "rhythm"]],
+  [1359,"Nail gun rapid fire framing sync",11,["gear", "fast", "close", "audio", "rhythm"]],
+  [1360,"Level bubble center precision close-up",6,["gear", "slow", "macro", "visual", "texture"]],
+  [1361,"Scaffolding assembly timelapse ground to sky",5,["process", "fast", "wide", "visual", "opener"]],
+  [1362,"Welding spark shower slow-mo cascade",7,["process", "slow", "close", "visual", "texture"]],
+  [1363,"Blueprint unroll on sawhorse reveal",2,["process", "slow", "close", "visual", "opener"]],
+  [1364,"Excavator bucket scoop dirt dramatic",5,["gear", "medium", "wide", "visual", "rhythm"]],
+  [1365,"Tile grout line precision detail macro",6,["process", "slow", "macro", "visual", "texture"]],
+  [1366,"Crane lift steel beam aerial wide",19,["gear", "slow", "wide", "visual", "payoff"]],
+  [1367,"Sawdust spray blade cut slow-mo",5,["gear", "fast", "close", "visual", "rhythm"]],
+  [1368,"Plumb line drop straight edge verify",6,["gear", "slow", "close", "visual", "texture"]],
+  [1369,"Drywall mud skim coat smooth finish",25,["process", "slow", "close", "tactile", "texture"]],
+  [1370,"Pipe thread cutting lathe spin",5,["gear", "medium", "close", "visual", "rhythm"]],
+  [1371,"Foundation to roof progress drone orbit",19,["space", "medium", "wide", "visual", "payoff"]],
+  [1372,"Tool belt equip morning ritual",14,["gear", "medium", "close", "visual", "opener"]],
+  [1373,"Electrical wire strip crimp terminate",25,["process", "medium", "macro", "visual", "rhythm"]],
+  [1374,"Hardhat POV first-person site walk",3,["space", "medium", "wide", "visual", "opener"]],
+  [1375,"Demolition wall smash dust explosion",7,["process", "fast", "wide", "visual", "payoff"]],
+  [1376,"Laser level grid line projection room",22,["gear", "slow", "wide", "visual", "texture"]],
+  [1377,"Paint roller wall coverage satisfying",25,["process", "medium", "close", "visual", "rhythm"]],
+  [1378,"Cabinet install hinge align precision",25,["process", "slow", "close", "visual", "texture"]],
+  [1379,"Sunrise jobsite crew arrival wide",4,["people", "slow", "wide", "visual", "opener"]],
+  [1380,"Thermal imaging insulation check reveal",22,["space", "medium", "wide", "thermal", "texture"]],
+  [1381,"Backhoe trench dig aerial overhead",19,["gear", "medium", "wide", "visual", "rhythm"]],
+  [1382,"Mortar spread brick lay rhythm sequence",11,["process", "medium", "close", "visual", "rhythm"]],
+  [1383,"Copper pipe solder flame glow detail",7,["process", "slow", "close", "visual", "texture"]],
+  [1384,"Measuring tape snap retract audio sync",11,["gear", "fast", "close", "audio", "rhythm"]],
+  [1385,"Rebar grid pour-ready aerial pattern",19,["process", "slow", "wide", "visual", "texture"]],
+  [1386,"Truck tailgate tool load morning prep",25,["gear", "medium", "medium", "visual", "opener"]],
+  [1387,"Floor epoxy pour self-leveling spread",5,["process", "slow", "close", "visual", "texture"]],
+  [1388,"Framing square corner check precision",6,["gear", "slow", "close", "visual", "texture"]],
+  [1389,"Surgical glove snap-on sterile prep",14,["gear", "medium", "close", "audio", "opener"]],
+  [1390,"Microscope slide focus rack through cells",22,["process", "slow", "macro", "visual", "texture"]],
+  [1391,"X-ray light box reveal scan detail",4,["product", "slow", "close", "visual", "texture"]],
+  [1392,"Dental impression mold set close-up",25,["process", "slow", "close", "visual", "texture"]],
+  [1393,"Heartbeat monitor beep visual pulse sync",11,["gear", "medium", "close", "audio", "rhythm"]],
+  [1394,"Lab coat walk hallway tracking authority",3,["person", "medium", "medium", "visual", "opener"]],
+  [1395,"Prescription bottle label detail scan",12,["product", "slow", "macro", "visual", "texture"]],
+  [1396,"Surgical instrument tray layout overhead",12,["gear", "slow", "close", "visual", "opener"]],
+  [1397,"Waiting room ambient patient perspective",13,["space", "slow", "wide", "visual", "opener"]],
+  [1398,"Blood pressure cuff inflate arm compress",25,["gear", "medium", "close", "visual", "rhythm"]],
+  [1399,"Stethoscope chest listen focus face",14,["person", "slow", "close", "audio", "texture"]],
+  [1400,"MRI machine slide-in patient POV",3,["gear", "slow", "close", "visual", "transition"]],
+  [1401,"Pharmacy pill count tray precision",25,["process", "slow", "close", "visual", "rhythm"]],
+  [1402,"Hand sanitizer dispenser foam spread",7,["process", "medium", "close", "visual", "rhythm"]],
+  [1403,"Ultrasound wand gel slide screen reveal",22,["gear", "slow", "close", "visual", "payoff"]],
+  [1404,"Physical therapy resistance band stretch",14,["person", "medium", "medium", "visual", "rhythm"]],
+  [1405,"Eye exam light pupil dilation macro",22,["person", "slow", "macro", "visual", "texture"]],
+  [1406,"Vaccine injection arm close-up reassurance",14,["process", "medium", "close", "visual", "rhythm"]],
+  [1407,"Hospital corridor long perspective depth",13,["space", "slow", "wide", "visual", "opener"]],
+  [1408,"Scrub cap tie-back pre-surgery ritual",14,["person", "medium", "close", "visual", "opener"]],
+  [1409,"Defibrillator charge beep paddles ready",11,["gear", "fast", "close", "audio", "payoff"]],
+  [1410,"Patient chart data overlay vital signs",8,["process", "medium", "close", "visual", "rhythm"]],
+  [1411,"Therapy session empathetic nod close-up",14,["person", "slow", "close", "visual", "texture"]],
+  [1412,"Ambulance light bar strobe emergency",4,["gear", "fast", "medium", "visual", "opener"]],
+  [1413,"Wheelchair assist compassionate care moment",14,["people", "slow", "medium", "visual", "closer"]],
+  [1414,"Lab centrifuge spin sample separation",5,["gear", "medium", "close", "visual", "rhythm"]],
+  [1415,"Newborn weight scale first measurement",14,["person", "slow", "close", "visual", "payoff"]],
+  [1416,"Recovery room curtain pull patient check",2,["space", "medium", "close", "visual", "transition"]],
+  [1417,"Pill organizer weekly fill overhead",25,["process", "slow", "close", "visual", "rhythm"]],
+  [1418,"Telehealth screen split doctor-patient",23,["people", "medium", "close", "visual", "rhythm"]],
+  [1419,"Gavel strike desk impact authority",11,["gear", "fast", "close", "audio", "opener"]],
+  [1420,"Legal brief page flip scan speed read",5,["product", "fast", "close", "visual", "rhythm"]],
+  [1421,"Office nameplate door approach reveal",2,["brand", "slow", "close", "visual", "opener"]],
+  [1422,"Handshake deal close corporate trust",14,["people", "medium", "close", "visual", "payoff"]],
+  [1423,"Contract signature pen stroke macro",12,["process", "slow", "macro", "visual", "payoff"]],
+  [1424,"Bookshelf law volume pull focus",6,["space", "slow", "close", "visual", "texture"]],
+  [1425,"Courtroom wide establishing shot gravity",13,["space", "slow", "wide", "visual", "opener"]],
+  [1426,"Document stamp notarize seal press",7,["process", "medium", "close", "audio", "rhythm"]],
+  [1427,"Conference table overhead meeting layout",13,["space", "slow", "wide", "visual", "opener"]],
+  [1428,"Whiteboard strategy session diagram build",25,["process", "medium", "medium", "visual", "rhythm"]],
+  [1429,"Business card exchange professional detail",14,["brand", "medium", "close", "visual", "texture"]],
+  [1430,"Elevator pitch hallway walk-and-talk",3,["person", "medium", "medium", "audio", "rhythm"]],
+  [1431,"Diploma frame wall credential display",6,["brand", "slow", "close", "visual", "texture"]],
+  [1432,"Filing cabinet drawer evidence pull",2,["process", "medium", "close", "visual", "transition"]],
+  [1433,"Deposition transcript scrolling text overlay",1,["process", "medium", "close", "visual", "rhythm"]],
+  [1434,"Scale of justice balance metaphor close",12,["brand", "slow", "close", "visual", "texture"]],
+  [1435,"Corner office window city view authority",13,["space", "slow", "wide", "visual", "opener"]],
+  [1436,"Client consultation empathetic listen nod",14,["person", "slow", "close", "visual", "texture"]],
+  [1437,"Laptop screen case research data scroll",15,["process", "medium", "close", "visual", "rhythm"]],
+  [1438,"Team huddle pre-trial strategy circle",14,["people", "medium", "medium", "visual", "opener"]],
+  [1439,"Leather briefcase clasp open document pull",2,["gear", "slow", "close", "audio", "opener"]],
+  [1440,"Verdict announcement reaction face close",14,["person", "fast", "close", "visual", "payoff"]],
+  [1441,"Clock ticking deadline pressure cutaway",11,["gear", "slow", "close", "audio", "rhythm"]],
+  [1442,"Witness stand perspective courtroom POV",3,["space", "medium", "wide", "visual", "texture"]],
+  [1443,"Red seal wax stamp document authentication",7,["process", "slow", "macro", "visual", "texture"]],
+  [1444,"Post-meeting corridor debrief walk",3,["people", "medium", "medium", "visual", "closer"]],
+  [1445,"Bar exam prep study stack depth of field",12,["product", "slow", "close", "visual", "texture"]],
+  [1446,"Firm lobby logo reception authority",18,["brand", "slow", "wide", "visual", "opener"]],
+  [1447,"PowerPoint to speaker match-cut presentation",2,["person", "medium", "medium", "visual", "transition"]],
+  [1448,"Pen click nervous habit anticipation detail",14,["person", "slow", "macro", "audio", "texture"]],
+  [1449,"Tractor plowing row furrow aerial parallel",19,["gear", "slow", "wide", "visual", "opener"]],
+  [1450,"Seed drop soil close-up planting macro",12,["process", "slow", "macro", "visual", "texture"]],
+  [1451,"Irrigation pivot sprinkler rainbow mist",7,["gear", "slow", "wide", "visual", "texture"]],
+  [1452,"Harvest combine grain pour golden flow",12,["process", "medium", "close", "visual", "payoff"]],
+  [1453,"Sunrise barn silhouette wide establishing",4,["space", "slow", "wide", "visual", "opener"]],
+  [1454,"Calf feeding bucket nuzzle close-up",14,["animal", "slow", "close", "visual", "texture"]],
+  [1455,"Soil crumble hand texture test",6,["process", "slow", "macro", "tactile", "texture"]],
+  [1456,"Grain silo fill aerial overhead pour",19,["space", "medium", "wide", "visual", "rhythm"]],
+  [1457,"Chicken coop egg collection basket fill",25,["process", "slow", "close", "visual", "rhythm"]],
+  [1458,"Fence line repair post hole dig",25,["process", "medium", "medium", "visual", "rhythm"]],
+  [1459,"Crop row drone flyover symmetry",19,["space", "slow", "wide", "visual", "texture"]],
+  [1460,"Milk parlor udder attach automation",25,["process", "medium", "close", "visual", "rhythm"]],
+  [1461,"Hay bale stack barn interior depth",13,["space", "slow", "wide", "visual", "texture"]],
+  [1462,"Fruit pick hand twist stem snap",12,["process", "slow", "close", "audio", "rhythm"]],
+  [1463,"Greenhouse humidity condensation glass drip",6,["space", "slow", "macro", "visual", "texture"]],
+  [1464,"Weather vane spin wind indicator wide",7,["gear", "slow", "medium", "visual", "texture"]],
+  [1465,"Livestock auction ring bid paddle raise",14,["people", "fast", "medium", "audio", "rhythm"]],
+  [1466,"Farm truck dust trail sunrise drive",3,["gear", "medium", "wide", "visual", "opener"]],
+  [1467,"Root vegetable pull earth to hand reveal",2,["process", "medium", "close", "visual", "payoff"]],
+  [1468,"Beehive frame pull honey comb detail",12,["process", "slow", "close", "visual", "texture"]],
+  [1469,"Barn cat mouser patrol tracking shot",3,["animal", "slow", "medium", "visual", "rhythm"]],
+  [1470,"Grain moisture test crush sample close",25,["process", "slow", "macro", "visual", "texture"]],
+  [1471,"Tractor cab instrument panel startup",2,["gear", "medium", "close", "visual", "opener"]],
+  [1472,"Crop duster aerial spray pass flyover",19,["gear", "fast", "wide", "visual", "rhythm"]],
+  [1473,"Fermentation tank bubble airlock rhythm",12,["process", "slow", "close", "audio", "rhythm"]],
+  [1474,"Dried herb bundle hanging barn rafter",6,["product", "slow", "close", "visual", "texture"]],
+  [1475,"Sheep shearing fleece peel reveal",25,["process", "medium", "close", "visual", "payoff"]],
+  [1476,"Farm-to-table plate final garnish close",12,["food", "slow", "close", "visual", "closer"]],
+  [1477,"Windmill blade rotation sky timelapse",5,["gear", "slow", "wide", "visual", "texture"]],
+  [1478,"Barn owl perch night vision specialty",22,["animal", "slow", "medium", "visual", "texture"]],
+  [1479,"Code terminal scroll syntax highlight cascade",15,["process", "fast", "close", "visual", "rhythm"]],
+  [1480,"SaaS dashboard metric counter tick-up",15,["product", "medium", "close", "visual", "payoff"]],
+  [1481,"Server rack LED blink pattern array",4,["gear", "slow", "close", "visual", "texture"]],
+  [1482,"App UI interaction finger tap flow",15,["product", "medium", "close", "visual", "rhythm"]],
+  [1483,"Keyboard typing ASMR mechanical switch",11,["gear", "medium", "close", "audio", "rhythm"]],
+  [1484,"Circuit board macro chip landscape",6,["gear", "slow", "macro", "visual", "texture"]],
+  [1485,"Wireframe to rendered UI morph transition",2,["product", "medium", "close", "visual", "transition"]],
+  [1486,"Startup whiteboard pivot brainstorm chaos",25,["process", "fast", "medium", "visual", "rhythm"]],
+  [1487,"Cable management rack tidy before-after",2,["process", "slow", "close", "visual", "payoff"]],
+  [1488,"Deploy pipeline green checkmarks cascade",15,["process", "fast", "close", "visual", "payoff"]],
+  [1489,"Holographic data visualization 3D float",15,["product", "slow", "medium", "visual", "texture"]],
+  [1490,"Desk setup cable-free minimal overhead",12,["space", "slow", "wide", "visual", "opener"]],
+  [1491,"GitHub commit graph contribution heatmap",8,["process", "medium", "close", "visual", "rhythm"]],
+  [1492,"Robot arm pick-and-place automation loop",5,["gear", "medium", "medium", "motion", "rhythm"]],
+  [1493,"VR headset put-on world reveal",2,["gear", "medium", "close", "visual", "opener"]],
+  [1494,"3D printer layer-by-layer timelapse build",5,["gear", "slow", "close", "visual", "rhythm"]],
+  [1495,"Microchip wafer macro rainbow refraction",6,["product", "slow", "macro", "visual", "texture"]],
+  [1496,"Team standup video grid remote culture",23,["people", "medium", "close", "visual", "rhythm"]],
+  [1497,"Loading spinner to reveal product launch",2,["product", "medium", "close", "visual", "payoff"]],
+  [1498,"Ethernet cable click port insert ASMR",11,["gear", "medium", "macro", "audio", "texture"]],
+  [1499,"Dark mode toggle interface switch",10,["product", "medium", "close", "visual", "transition"]],
+  [1500,"Drone delivery package drop futuristic",19,["product", "medium", "wide", "visual", "payoff"]],
+  [1501,"Screen reflection glasses developer face",4,["person", "slow", "close", "visual", "texture"]],
+  [1502,"API call response time graph pulse",8,["process", "fast", "close", "visual", "rhythm"]],
+  [1503,"Unboxing tech product peel plastic reveal",2,["product", "slow", "close", "audio", "opener"]],
+  [1504,"Data center aisle walk cooling hum",13,["space", "slow", "wide", "audio", "opener"]],
+  [1505,"Multi-monitor setup panoramic workspace",13,["space", "slow", "wide", "visual", "opener"]],
+  [1506,"Raspberry Pi project wire macro chaos",6,["gear", "slow", "macro", "visual", "texture"]],
+  [1507,"Cloud infrastructure animated diagram overlay",8,["process", "medium", "wide", "visual", "rhythm"]],
+  [1508,"Laptop hinge open morning routine start",2,["gear", "medium", "close", "visual", "opener"]],
+  [1509,"Chalkboard equation write dramatic reveal",1,["process", "medium", "close", "visual", "rhythm"]],
+  [1510,"Student lightbulb moment reaction close-up",14,["person", "fast", "close", "visual", "payoff"]],
+  [1511,"Library book spine scan tracking dolly",3,["space", "slow", "close", "visual", "texture"]],
+  [1512,"Science experiment reaction bubble fizz",7,["process", "fast", "close", "visual", "payoff"]],
+  [1513,"Graduation cap toss slow-mo sky release",5,["people", "slow", "wide", "visual", "payoff"]],
+  [1514,"Whiteboard marker squeak diagram build",25,["process", "medium", "close", "audio", "rhythm"]],
+  [1515,"Textbook page flip study montage",5,["product", "fast", "close", "visual", "rhythm"]],
+  [1516,"Classroom hand raise eager participation",14,["people", "medium", "medium", "visual", "rhythm"]],
+  [1517,"Lab goggles on safety prep ritual",14,["person", "medium", "close", "visual", "opener"]],
+  [1518,"Globe spin finger stop destination pick",7,["gear", "medium", "close", "motion", "transition"]],
+  [1519,"Microscope eyepiece student discovery",22,["person", "slow", "close", "visual", "texture"]],
+  [1520,"Campus quad aerial autumn colors wide",19,["space", "slow", "wide", "visual", "opener"]],
+  [1521,"Pencil sketch to digital render transition",2,["process", "medium", "close", "visual", "transition"]],
+  [1522,"Backpack unzip supplies tumble ASMR",11,["gear", "medium", "close", "audio", "opener"]],
+  [1523,"Test grade reveal paper flip moment",2,["product", "fast", "close", "visual", "payoff"]],
+  [1524,"Pottery wheel clay center spin form",25,["process", "slow", "close", "motion", "rhythm"]],
+  [1525,"Periodic table element highlight glow",8,["product", "medium", "close", "visual", "texture"]],
+  [1526,"Music class instrument first note attempt",14,["person", "slow", "close", "audio", "texture"]],
+  [1527,"Robotics club bot test run arena",25,["gear", "fast", "medium", "visual", "payoff"]],
+  [1528,"Lecture hall tiered seating wide depth",13,["space", "slow", "wide", "visual", "opener"]],
+  [1529,"Art studio paint splatter creative mess",7,["space", "medium", "close", "visual", "texture"]],
+  [1530,"Diploma scroll unfurl name reveal",2,["product", "slow", "close", "visual", "payoff"]],
+  [1531,"Flash card rapid study flip sequence",5,["product", "fast", "close", "visual", "rhythm"]],
+  [1532,"School bell ring hallway rush energy",11,["space", "fast", "wide", "audio", "transition"]],
+  [1533,"3D skeleton model anatomy rotation",21,["product", "slow", "medium", "visual", "texture"]],
+  [1534,"Student project presentation nervous start",14,["person", "medium", "medium", "visual", "opener"]],
+  [1535,"Calligraphy pen ink flow letter form",12,["process", "slow", "macro", "visual", "texture"]],
+  [1536,"Chemistry titration color change moment",7,["process", "slow", "close", "visual", "payoff"]],
+  [1537,"Locker combination spin open pull reveal",2,["gear", "medium", "close", "audio", "transition"]],
+  [1538,"Study group table overhead notes spread",14,["people", "slow", "wide", "visual", "texture"]],
+  [1539,"Shopping bag tissue reveal product pull",2,["product", "medium", "close", "visual", "opener"]],
+  [1540,"Price tag flip sale callout pop",1,["product", "fast", "close", "visual", "rhythm"]],
+  [1541,"Clothing rack swipe browse selection",3,["product", "fast", "medium", "visual", "rhythm"]],
+  [1542,"Package unboxing knife slit tape pull",2,["product", "slow", "close", "audio", "opener"]],
+  [1543,"Product turntable 360 spin seamless loop",20,["product", "slow", "medium", "visual", "rhythm"]],
+  [1544,"Add-to-cart button tap screen record",24,["product", "fast", "close", "visual", "payoff"]],
+  [1545,"Warehouse shelf pick-pack process flow",25,["process", "fast", "wide", "visual", "rhythm"]],
+  [1546,"Fabric texture hand-feel squeeze test",6,["product", "slow", "close", "tactile", "texture"]],
+  [1547,"Window display mannequin style tableau",13,["space", "slow", "wide", "visual", "opener"]],
+  [1548,"Barcode scan beep inventory check",11,["process", "fast", "close", "audio", "rhythm"]],
+  [1549,"Fitting room mirror outfit approval nod",14,["person", "medium", "medium", "visual", "payoff"]],
+  [1550,"Cash register drawer open transaction close",11,["gear", "medium", "close", "audio", "closer"]],
+  [1551,"Stack and fold display table visual merch",25,["process", "medium", "close", "visual", "rhythm"]],
+  [1552,"Customer review screenshot scroll social proof",24,["brand", "medium", "close", "visual", "rhythm"]],
+  [1553,"Delivery truck door roll-up warehouse load",2,["gear", "medium", "wide", "visual", "opener"]],
+  [1554,"Color swatch variation grid comparison",12,["product", "slow", "close", "visual", "texture"]],
+  [1555,"Flash sale countdown timer urgency overlay",8,["brand", "fast", "close", "visual", "rhythm"]],
+  [1556,"Store aisle overhead bird-eye symmetry",19,["space", "slow", "wide", "visual", "texture"]],
+  [1557,"Influencer try-on reaction genuine moment",24,["person", "medium", "medium", "visual", "payoff"]],
+  [1558,"Packing station bubble wrap ASMR ship",11,["process", "medium", "close", "audio", "rhythm"]],
+  [1559,"Product comparison side-by-side split frame",23,["product", "medium", "close", "visual", "rhythm"]],
+  [1560,"Loyalty card stamp punch satisfying fill",7,["brand", "slow", "close", "visual", "closer"]],
+  [1561,"Email notification order confirmed screen",24,["brand", "fast", "close", "visual", "payoff"]],
+  [1562,"Return label peel stick shipping prep",25,["process", "medium", "close", "visual", "rhythm"]],
+  [1563,"Storefront neon sign flicker night exterior",4,["brand", "slow", "wide", "visual", "opener"]],
+  [1564,"Checkout counter interaction smile exchange",14,["people", "medium", "medium", "visual", "closer"]],
+  [1565,"Seasonal display changeover timelapse",17,["process", "fast", "wide", "visual", "transition"]],
+  [1566,"Shopping cart fill cumulative product stack",9,["product", "medium", "medium", "visual", "rhythm"]],
+  [1567,"Gift wrapping fold crease ribbon curl",25,["process", "slow", "close", "visual", "closer"]],
+  [1568,"QR code scan phone point activate",15,["process", "fast", "close", "visual", "transition"]],
+  [1569,"First dance spotlight circle warm glow",4,["people", "slow", "medium", "visual", "payoff"]],
+  [1570,"Ring box open sparkle macro reveal",2,["product", "slow", "macro", "visual", "payoff"]],
+  [1571,"Veil lift face reveal ceremony moment",2,["person", "slow", "close", "visual", "payoff"]],
+  [1572,"Bouquet toss slow-mo catch celebration",5,["people", "fast", "medium", "visual", "payoff"]],
+  [1573,"Table setting detail place card macro",12,["product", "slow", "macro", "visual", "texture"]],
+  [1574,"Venue empty to decorated timelapse transform",5,["space", "fast", "wide", "visual", "transition"]],
+  [1575,"Champagne cork pop fizz pour cascade",7,["drink", "fast", "close", "audio", "payoff"]],
+  [1576,"Cake cutting first slice serve close",12,["food", "slow", "close", "visual", "rhythm"]],
+  [1577,"Guest book signature pen close-up",12,["process", "slow", "macro", "visual", "texture"]],
+  [1578,"Aisle walk tracking shot following behind",3,["person", "slow", "medium", "visual", "opener"]],
+  [1579,"Sparkler exit tunnel couple walkthrough",7,["people", "medium", "wide", "visual", "closer"]],
+  [1580,"Getting ready button hook zipper pull",14,["person", "slow", "close", "visual", "opener"]],
+  [1581,"Invitation suite flat lay detail styling",12,["product", "slow", "close", "visual", "opener"]],
+  [1582,"DJ booth crowd reaction bass drop sync",11,["people", "fast", "wide", "audio", "payoff"]],
+  [1583,"Flower arrangement stem cut prep BTS",25,["process", "medium", "close", "visual", "rhythm"]],
+  [1584,"Toast speech reaction crowd laughter",14,["people", "medium", "medium", "audio", "payoff"]],
+  [1585,"Confetti cannon burst slow-mo rain",7,["people", "slow", "wide", "visual", "payoff"]],
+  [1586,"Sunset ceremony golden hour backlit vows",4,["people", "slow", "wide", "visual", "payoff"]],
+  [1587,"Dance floor overhead kaleidoscope motion",19,["people", "fast", "wide", "visual", "rhythm"]],
+  [1588,"Photo booth strip rapid flash sequence",23,["people", "fast", "close", "visual", "rhythm"]],
+  [1589,"Centerpiece candle flame flicker ambient",4,["space", "slow", "close", "visual", "texture"]],
+  [1590,"Bridesmaid lineup reveal dress color pop",10,["people", "medium", "wide", "visual", "payoff"]],
+  [1591,"Venue exterior drone approach establishing",19,["space", "slow", "wide", "visual", "opener"]],
+  [1592,"Ribbon cutting ceremony scissor snap",7,["process", "fast", "close", "audio", "payoff"]],
+  [1593,"Place setting name card calligraphy detail",1,["product", "slow", "macro", "visual", "texture"]],
+  [1594,"Sendoff car decorated tin cans drag",7,["people", "medium", "wide", "audio", "closer"]],
+  [1595,"Cocktail hour ambient crowd soft focus",10,["people", "slow", "wide", "visual", "rhythm"]],
+  [1596,"Ring exchange hand close-up ceremony",12,["product", "slow", "macro", "visual", "payoff"]],
+  [1597,"Lantern release night sky float away",7,["people", "slow", "wide", "visual", "closer"]],
+  [1598,"Bridal suite getting ready mirror moment",14,["person", "slow", "medium", "visual", "opener"]],
+  [1599,"Volunteer hands building community montage",14,["people", "medium", "close", "visual", "rhythm"]],
+  [1600,"Donation counter rising graphic overlay",8,["brand", "fast", "close", "visual", "payoff"]],
+  [1601,"Before-after community impact split screen",23,["space", "medium", "wide", "visual", "payoff"]],
+  [1602,"Thank you card handwrite personal close",12,["process", "slow", "macro", "visual", "closer"]],
+  [1603,"Beneficiary story portrait slow push-in",3,["person", "slow", "close", "visual", "opener"]],
+  [1604,"Supply distribution line human chain pass",14,["people", "medium", "wide", "visual", "rhythm"]],
+  [1605,"Gala event table setting elegant wide",17,["space", "slow", "wide", "visual", "opener"]],
+  [1606,"Charity run starting line crowd energy",14,["people", "fast", "wide", "visual", "opener"]],
+  [1607,"Food bank shelf stock volunteer fill",25,["process", "medium", "medium", "visual", "rhythm"]],
+  [1608,"Mission statement typography scroll reveal",1,["brand", "medium", "close", "visual", "opener"]],
+  [1609,"Children beneficiary smile genuine candid",14,["person", "slow", "close", "visual", "payoff"]],
+  [1610,"Fundraiser thermometer fill graphic climb",8,["brand", "medium", "close", "visual", "payoff"]],
+  [1611,"Habitat build wall raise team effort",14,["people", "medium", "wide", "visual", "payoff"]],
+  [1612,"Clean water pour glass first sip relief",12,["drink", "slow", "close", "visual", "payoff"]],
+  [1613,"Animal rescue kennel to home transition",9,["animal", "medium", "medium", "visual", "payoff"]],
+  [1614,"Disaster relief aerial damage context",19,["space", "slow", "wide", "visual", "opener"]],
+  [1615,"Donor wall name plaque gratitude detail",6,["brand", "slow", "close", "visual", "closer"]],
+  [1616,"Impact statistics infographic build overlay",8,["brand", "medium", "close", "visual", "rhythm"]],
+  [1617,"Community garden planting together hands",14,["people", "slow", "close", "visual", "rhythm"]],
+  [1618,"Quilt square assembly patchwork metaphor",25,["process", "slow", "close", "visual", "texture"]],
+  [1619,"Ribbon pinning advocacy symbol close-up",14,["brand", "slow", "macro", "visual", "texture"]],
+  [1620,"School supplies backpack fill donation prep",25,["product", "medium", "close", "visual", "rhythm"]],
+  [1621,"Candlelight vigil flame array solemn wide",4,["people", "slow", "wide", "visual", "closer"]],
+  [1622,"Testimonial interview face soft light",14,["person", "slow", "close", "visual", "texture"]],
+  [1623,"Grant check presentation handshake moment",14,["people", "medium", "medium", "visual", "payoff"]],
+  [1624,"Mural painting community art collaboration",25,["process", "medium", "wide", "visual", "rhythm"]],
+  [1625,"Applause standing ovation event recognition",14,["people", "fast", "wide", "audio", "closer"]],
+  [1626,"Care package assembly line box fill seal",25,["process", "medium", "close", "visual", "rhythm"]],
+  [1627,"Sunrise hope new day symbolic establishing",4,["space", "slow", "wide", "visual", "opener"]],
+  [1628,"Handprint wall community participation art",7,["people", "slow", "close", "visual", "closer"]],
+  [1629,"Puppy paw pad macro texture detail",6,["animal", "slow", "macro", "tactile", "texture"]],
+  [1630,"Cat slow blink trust signal close-up",14,["animal", "slow", "close", "visual", "texture"]],
+  [1631,"Dog shake slow-mo water spray arc",5,["animal", "slow", "medium", "visual", "payoff"]],
+  [1632,"Aquarium fish schooling pattern hypnotic",5,["animal", "slow", "medium", "visual", "rhythm"]],
+  [1633,"Feather texture macro bird plumage",6,["animal", "slow", "macro", "visual", "texture"]],
+  [1634,"Treat toss catch slow-mo mouth snap",5,["animal", "fast", "close", "visual", "payoff"]],
+  [1635,"Grooming brush stroke fur flow reveal",25,["animal", "slow", "close", "visual", "rhythm"]],
+  [1636,"Nose boop finger touch macro reaction",14,["animal", "slow", "macro", "visual", "texture"]],
+  [1637,"Zoomies tracking shot chaotic energy",3,["animal", "fast", "wide", "motion", "rhythm"]],
+  [1638,"Sleeping pet breathing rhythm ambient",14,["animal", "slow", "close", "audio", "texture"]],
+  [1639,"Adoption meet first contact emotional",14,["animal", "slow", "close", "visual", "payoff"]],
+  [1640,"Terrarium ecosystem micro world macro",22,["animal", "slow", "macro", "visual", "texture"]],
+  [1641,"Horse gallop field tracking parallel run",3,["animal", "fast", "medium", "motion", "rhythm"]],
+  [1642,"Vet exam stethoscope listen pet calm",14,["animal", "slow", "close", "visual", "texture"]],
+  [1643,"Puppy pile cuddle stack overhead",14,["animal", "slow", "close", "visual", "closer"]],
+  [1644,"Bird in flight wing spread freeze frame",5,["animal", "fast", "medium", "visual", "payoff"]],
+  [1645,"Kibble pour bowl fill ASMR crunch",11,["product", "medium", "close", "audio", "rhythm"]],
+  [1646,"Leash clip harness up walk prep ritual",14,["animal", "medium", "close", "visual", "opener"]],
+  [1647,"Tank feeding time fish frenzy surface",5,["animal", "fast", "close", "visual", "rhythm"]],
+  [1648,"Paw print stamp ink pad art process",25,["animal", "slow", "close", "visual", "texture"]],
+  [1649,"Shelter kennel walk row after row depth",13,["space", "slow", "medium", "visual", "opener"]],
+  [1650,"Pet costume outfit reveal funny reaction",24,["animal", "medium", "medium", "visual", "payoff"]],
+  [1651,"Tongue out panting happy face portrait",14,["animal", "medium", "close", "visual", "texture"]],
+  [1652,"Snake skin shed texture iridescent macro",6,["animal", "slow", "macro", "visual", "texture"]],
+  [1653,"Dog agility course weave pole tracking",3,["animal", "fast", "medium", "motion", "rhythm"]],
+  [1654,"Cat toy chase laser dot erratic follow",3,["animal", "fast", "close", "motion", "rhythm"]],
+  [1655,"Rabbit nose twitch extreme close macro",5,["animal", "slow", "macro", "visual", "texture"]],
+  [1656,"Pet door flap entry surprise home arrival",2,["animal", "fast", "medium", "visual", "payoff"]],
+  [1657,"Collar tag jingle name ID detail",11,["product", "slow", "macro", "audio", "texture"]],
+  [1658,"Barn animal feeding trough morning routine",25,["animal", "medium", "medium", "visual", "rhythm"]],
+  [1659,"Slow-mo slam dunk rim shake impact",5,["person", "fast", "medium", "visual", "payoff"]],
+  [1660,"Cleat dig turf spray kickoff launch",5,["gear", "fast", "close", "visual", "opener"]],
+  [1661,"Scoreboard flip number change tension",1,["brand", "fast", "close", "visual", "payoff"]],
+  [1662,"Sweat drip mid-play intensity macro",6,["person", "slow", "macro", "visual", "texture"]],
+  [1663,"Ball spin rotation seam detail slow-mo",5,["gear", "slow", "macro", "motion", "texture"]],
+  [1664,"Crowd wave stadium aerial sweep",19,["people", "fast", "wide", "visual", "rhythm"]],
+  [1665,"Locker room pre-game speech huddle",14,["people", "medium", "medium", "audio", "opener"]],
+  [1666,"Starting blocks explosion sprint launch",5,["person", "fast", "close", "motion", "opener"]],
+  [1667,"Medal podium step-up reveal celebration",2,["person", "medium", "medium", "visual", "payoff"]],
+  [1668,"Ref whistle blow freeze play stoppage",11,["person", "fast", "medium", "audio", "transition"]],
+  [1669,"Water bottle squeeze spray face refresh",7,["person", "medium", "close", "visual", "rhythm"]],
+  [1670,"Instant replay multi-angle slow-mo breakdown",23,["person", "slow", "medium", "visual", "rhythm"]],
+  [1671,"Chalk toss weightlifting cloud explosion",7,["person", "fast", "medium", "visual", "opener"]],
+  [1672,"Finish line tape break chest through",5,["person", "fast", "medium", "motion", "payoff"]],
+  [1673,"Helmet visor reflection intensity stare",14,["person", "slow", "close", "visual", "opener"]],
+  [1674,"Pool lane splash flip turn underwater",3,["person", "fast", "close", "visual", "rhythm"]],
+  [1675,"Bat crack ball connect slow-mo launch",11,["gear", "fast", "close", "audio", "payoff"]],
+  [1676,"Jersey number reveal back turn name drop",2,["brand", "medium", "close", "visual", "opener"]],
+  [1677,"Penalty kick goalkeeper dive stretch",5,["person", "fast", "wide", "motion", "payoff"]],
+  [1678,"Training montage multi-exercise rapid cut",9,["person", "fast", "medium", "visual", "rhythm"]],
+  [1679,"Trophy lift overhead confetti rain",7,["person", "slow", "medium", "visual", "payoff"]],
+  [1680,"Glove lace tighten boxing prep ritual",14,["gear", "slow", "close", "visual", "opener"]],
+  [1681,"Racket string vibration ball impact macro",5,["gear", "fast", "macro", "visual", "texture"]],
+  [1682,"Sideline coach clipboard strategy gesture",14,["person", "medium", "medium", "visual", "rhythm"]],
+  [1683,"Stadium tunnel walk entrance light reveal",2,["person", "medium", "wide", "visual", "opener"]],
+  [1684,"Ice skate blade carve shave spray",5,["gear", "fast", "close", "visual", "texture"]],
+  [1685,"Puck drop face-off overhead freeze",5,["gear", "fast", "close", "visual", "opener"]],
+  [1686,"Gymnastics landing stick impact absorb",5,["person", "fast", "close", "motion", "payoff"]],
+  [1687,"Starting pistol smoke bang silence break",11,["gear", "fast", "close", "audio", "opener"]],
+  [1688,"Fan face paint application pre-game ritual",14,["person", "medium", "close", "visual", "opener"]],
 ];
 
 const CATEGORIES = [
@@ -1233,17 +1722,146 @@ const CATEGORIES = [
   { id: 25, name: "BTS & Process", icon: "🎬" },
 ];
 
-const INDUSTRIES = [
-  { id: "restaurant", name: "Restaurant", icon: "🍽️", catWeights: { 7: 1.5, 9: 1.4, 12: 1.8, 14: 1.3, 11: 1.2 } },
-  { id: "bar", name: "Bar / Lounge", icon: "🍸", catWeights: { 4: 1.5, 7: 1.4, 11: 1.5, 14: 1.3, 5: 1.2 } },
-  { id: "hotel", name: "Hotel / Resort", icon: "🏨", catWeights: { 13: 1.6, 19: 1.5, 4: 1.3, 17: 1.3, 14: 1.2 } },
-  { id: "cafe", name: "Café / Coffee", icon: "☕", catWeights: { 12: 1.5, 6: 1.4, 16: 1.3, 14: 1.2, 10: 1.3 } },
-  { id: "brewery", name: "Brewery / Distillery", icon: "🍺", catWeights: { 7: 1.5, 9: 1.4, 25: 1.5, 13: 1.3, 5: 1.2 } },
-  { id: "casino", name: "Casino / Entertainment", icon: "🎰", catWeights: { 2: 1.4, 4: 1.5, 5: 1.4, 8: 1.3, 17: 1.3 } },
-  { id: "catering", name: "Catering / Events", icon: "🎪", catWeights: { 17: 1.6, 14: 1.5, 13: 1.3, 9: 1.3, 19: 1.2 } },
-  { id: "retail", name: "Retail / Storefront", icon: "🏪", catWeights: { 13: 1.4, 18: 1.5, 1: 1.4, 8: 1.3, 24: 1.3 } },
-  { id: "other", name: "Other", icon: "✨", catWeights: {} },
-];
+
+// ─── KEYWORD ENGINE: 16 industry verticals ───
+const KEYWORD_ENGINE = {
+  music: {
+    name: "Music & Audio", icon: "🎵",
+    primary: ["band","album","song","track","concert","music","musician","singer","artist","rapper","DJ","producer","songwriter","performer","vocalist"],
+    secondary: ["guitar","drums","bass","piano","studio","tour","vinyl","spotify","streaming","playlist","festival","venue","stage","microphone","recording","mixing","mastering","lyrics","melody","beat","rhythm","hip-hop","rock","pop","jazz","country","R&B","EDM","indie","metal","punk","folk","blues"],
+    slang: ["gig","set","drop","feat","collab","banger","bars","flow","vibe","jam","hook","verse","chorus","mixtape","EP","LP","single","release","headliner","encore","setlist","soundcheck","backstage"],
+    equipment: ["amp","pedal","mic","mixer","DAW","Ableton","Logic Pro","Pro Tools","FL Studio","synth","sampler","drum machine","turntable","controller","monitor","speaker","PA","interface","preamp","MIDI","headphones"],
+    catWeights: {11:1.6,5:1.4,4:1.3,14:1.2,25:1.1,7:1.2,16:1.2}
+  },
+  real_estate: {
+    name: "Real Estate", icon: "🏠",
+    primary: ["house","home","property","listing","realtor","real estate","apartment","condo","townhouse","mortgage","housing","residence"],
+    secondary: ["bedroom","bathroom","kitchen","living room","garage","backyard","patio","pool","basement","floor plan","curb appeal","staging","showing","open house","MLS","HOA","closing","inspection","renovation","remodel","neighborhood"],
+    slang: ["starter home","dream home","just listed","just sold","under contract","pocket listing","walkthrough","tour","good bones","spacious","motivated seller","bidding war"],
+    equipment: ["drone","wide-angle lens","gimbal","Matterport","3D tour","virtual staging","Zillow","Redfin"],
+    catWeights: {13:1.7,19:1.6,3:1.5,4:1.3,2:1.3,6:1.2,20:1.2}
+  },
+  fitness: {
+    name: "Fitness & Wellness", icon: "💪",
+    primary: ["gym","workout","fitness","exercise","training","personal trainer","coach","athlete","bodybuilding","CrossFit","yoga","pilates"],
+    secondary: ["weights","cardio","strength","HIIT","reps","sets","squat","deadlift","bench press","stretching","flexibility","recovery","protein","supplements","macros","muscle","endurance","marathon","boxing","MMA","cycling","swimming"],
+    slang: ["PR","personal record","leg day","bro split","superset","drop set","beast mode","grind","gains","swole","meal prep","cheat day","deload","progressive overload"],
+    equipment: ["dumbbell","barbell","kettlebell","resistance band","treadmill","Peloton","rowing machine","foam roller","yoga mat","Fitbit","Apple Watch","Garmin"],
+    catWeights: {14:1.6,5:1.5,11:1.3,3:1.3,25:1.2,8:1.2,7:1.1}
+  },
+  beauty_fashion: {
+    name: "Beauty & Fashion", icon: "💄",
+    primary: ["makeup","beauty","skincare","fashion","clothing","style","cosmetics","designer","model","runway","boutique","apparel"],
+    secondary: ["lipstick","foundation","mascara","eyeshadow","blush","moisturizer","serum","hair","hairstyle","nail polish","perfume","fragrance","dress","shoes","heels","sneakers","handbag","jewelry","sunglasses"],
+    slang: ["GRWM","get ready with me","haul","unboxing","swatch","dupe","holy grail","flat lay","OOTD","outfit of the day","slay","serving","beat","clean girl","quiet luxury","streetwear","fit check"],
+    equipment: ["ring light","beauty blender","brush set","palette","curling iron","flat iron","sewing machine","steamer","Sephora","Ulta","Dyson Airwrap"],
+    catWeights: {12:1.6,6:1.5,10:1.4,14:1.3,2:1.3,24:1.3,4:1.2,5:1.1}
+  },
+  automotive: {
+    name: "Automotive", icon: "🚗",
+    primary: ["car","vehicle","auto","automotive","truck","SUV","sedan","coupe","motorcycle","dealership","mechanic","detailing"],
+    secondary: ["engine","horsepower","torque","turbo","exhaust","suspension","brakes","tires","wheels","paint","wrap","ceramic coating","interior","drift","racing","track day","EV","electric vehicle","Tesla","BMW","Mercedes","Porsche","Ferrari","Ford"],
+    slang: ["whip","ride","build","mod","tuned","bolt-on","stock","aftermarket","lowered","slammed","boosted","sleeper","daily driver","project car","burnout","launch control"],
+    equipment: ["OBD2","jack","torque wrench","buffer","polisher","clay bar","foam cannon","pressure washer","dyno","GoPro","dashcam"],
+    catWeights: {5:1.5,11:1.4,6:1.4,12:1.3,25:1.3,3:1.3,2:1.2,7:1.2}
+  },
+  construction: {
+    name: "Construction & Trades", icon: "🔨",
+    primary: ["construction","building","contractor","builder","trades","renovation","remodel","plumbing","electrical","HVAC","roofing","framing"],
+    secondary: ["foundation","concrete","drywall","insulation","flooring","tile","hardwood","cabinet","countertop","paint","siding","brick","welding","steel","lumber","demolition","permit","inspection","blueprint","subcontractor"],
+    slang: ["punch list","change order","rough-in","trim-out","custom build","gut job","load bearing","DIY","measure twice cut once"],
+    equipment: ["hammer","nail gun","circular saw","miter saw","drill","impact driver","level","laser level","tape measure","grinder","excavator","Bobcat","Dewalt","Milwaukee","Makita"],
+    catWeights: {25:1.6,5:1.5,13:1.4,6:1.3,19:1.3,7:1.3,11:1.2,22:1.2,2:1.1}
+  },
+  medical: {
+    name: "Medical & Healthcare", icon: "🏥",
+    primary: ["doctor","hospital","clinic","medical","healthcare","health","patient","nurse","physician","surgeon","dentist","therapy","practice","wellness"],
+    secondary: ["diagnosis","treatment","prescription","surgery","procedure","appointment","specialist","cardiology","dermatology","pediatric","emergency","physical therapy","pharmacy","imaging","X-ray","MRI","telehealth"],
+    slang: ["scrubs","rounds","on call","stat","triage","intake","discharge","follow-up","referral","bedside manner"],
+    equipment: ["stethoscope","blood pressure cuff","otoscope","thermometer","pulse oximeter","EKG","defibrillator","ventilator","IV","surgical table","PPE","Epic","Cerner","EHR"],
+    catWeights: {14:1.6,22:1.5,25:1.3,13:1.2,8:1.2,3:1.1,23:1.1,4:1.1}
+  },
+  legal: {
+    name: "Legal & Law", icon: "⚖️",
+    primary: ["lawyer","attorney","law firm","legal","court","litigation","counsel","paralegal","judge","trial","lawsuit","practice"],
+    secondary: ["contract","deposition","testimony","plaintiff","defendant","verdict","settlement","personal injury","estate planning","corporate law","intellectual property","patent","trademark","bankruptcy","employment law"],
+    slang: ["retainer","billable hours","pro bono","brief","motion","filing","discovery","objection","sustained","sidebar","precedent","due diligence","contingency","class action"],
+    equipment: ["gavel","briefcase","legal pad","LexisNexis","Westlaw","DocuSign","court reporter","notary"],
+    catWeights: {14:1.5,13:1.4,1:1.3,9:1.3,6:1.2,3:1.2,4:1.1,18:1.1}
+  },
+  agriculture: {
+    name: "Agriculture & Farming", icon: "🌾",
+    primary: ["farm","farming","agriculture","ranch","ranching","crop","livestock","harvest","farmer","grower","orchard","vineyard"],
+    secondary: ["tractor","combine","planting","irrigation","fertilizer","organic","soil","field","pasture","barn","silo","grain","wheat","corn","cattle","dairy","beef","poultry","hay","crop rotation","farmers market"],
+    slang: ["bumper crop","cash crop","homestead","sustainable","regenerative","u-pick","calving season","free-range","grass-fed","heirloom","heritage breed"],
+    equipment: ["tractor","John Deere","Case IH","Kubota","combine harvester","planter","sprayer","baler","milking machine","electric fence","GPS guidance","drone","soil probe"],
+    catWeights: {19:1.7,5:1.5,25:1.4,12:1.3,6:1.3,4:1.2,13:1.2,22:1.1,14:1.1}
+  },
+  tech: {
+    name: "Tech & Software", icon: "💻",
+    primary: ["software","app","SaaS","startup","tech","technology","developer","coding","programming","platform","cloud","AI","artificial intelligence"],
+    secondary: ["website","web app","mobile app","API","backend","frontend","database","server","DevOps","agile","product","feature","launch","beta","MVP","UI","UX","React","Python","JavaScript","AWS","Docker","machine learning","data science","analytics","dashboard"],
+    slang: ["ship it","deploy","push to prod","hotfix","bug","refactor","tech debt","scalable","disrupt","pivot","iterate","growth hack","product-market fit","unicorn","bootstrap","open source","hackathon","standup","demo day","pitch deck"],
+    equipment: ["laptop","MacBook","monitor","mechanical keyboard","webcam","standing desk","server rack","GitHub","VS Code","Figma","Notion","Jira","Slack","Vercel","Stripe"],
+    catWeights: {15:1.7,8:1.4,3:1.2,2:1.3,24:1.3,1:1.2,5:1.1,21:1.1}
+  },
+  education: {
+    name: "Education", icon: "🎓",
+    primary: ["school","university","college","education","teacher","professor","student","classroom","tutor","learning","course","curriculum","academy"],
+    secondary: ["lesson","lecture","seminar","workshop","library","textbook","exam","grade","degree","diploma","scholarship","campus","STEM","kindergarten","elementary","high school","graduate","masters","PhD","online learning"],
+    slang: ["back to school","finals week","study group","cram","office hours","dean's list","commencement","alumni","field trip"],
+    equipment: ["whiteboard","smartboard","projector","Chromebook","iPad","Google Classroom","Canvas","Kahoot","microscope","calculator"],
+    catWeights: {14:1.5,13:1.3,25:1.3,1:1.3,7:1.2,9:1.2,8:1.2,22:1.1,19:1.1}
+  },
+  retail: {
+    name: "Retail & E-Commerce", icon: "🛍️",
+    primary: ["store","shop","retail","e-commerce","ecommerce","online store","shopping","merchandise","product","brand","inventory","wholesale"],
+    secondary: ["sale","discount","promotion","coupon","checkout","cart","SKU","POS","fulfillment","warehouse","supply chain","visual merchandising","display","window display","signage"],
+    slang: ["haul","unboxing","try-on","must-have","bestseller","new arrival","restock","sold out","limited edition","drop","launch","flash sale","BOGO","Black Friday","shop small","link in bio"],
+    equipment: ["POS system","barcode scanner","label printer","Shopify","WooCommerce","Klaviyo","Mailchimp"],
+    catWeights: {12:1.5,2:1.4,24:1.4,6:1.3,1:1.3,8:1.3,3:1.2,4:1.2,20:1.1,18:1.1}
+  },
+  wedding: {
+    name: "Wedding & Events", icon: "💒",
+    primary: ["wedding","bride","groom","bridal","engagement","ceremony","reception","event","party","celebration","planner","coordinator"],
+    secondary: ["venue","chapel","altar","aisle","vows","ring","bouquet","flowers","florist","centerpiece","invitation","RSVP","bridesmaid","groomsman","DJ","caterer","cake","first dance","honeymoon","rehearsal dinner","bachelorette"],
+    slang: ["I do","said yes","engaged","bride tribe","elopement","micro wedding","destination wedding","golden hour","first look","getting ready","something blue"],
+    equipment: ["arch","arbor","guest book","cake topper","sparklers","photo booth","backdrop","string lights","fairy lights","seating chart"],
+    catWeights: {4:1.6,14:1.5,7:1.4,12:1.3,5:1.3,17:1.4,3:1.3,10:1.3,2:1.2,19:1.1,23:1.1}
+  },
+  nonprofit: {
+    name: "Nonprofit & Social Impact", icon: "💚",
+    primary: ["nonprofit","non-profit","charity","foundation","NGO","mission","cause","donation","fundraising","volunteer","advocacy","501c3"],
+    secondary: ["donor","grant","impact","community","outreach","awareness","campaign","program","service","aid","relief","empowerment","equity","inclusion","social justice","conservation","sustainability","mental health"],
+    slang: ["give back","pay it forward","making a difference","grassroots","boots on the ground","underserved","stakeholder","annual fund","capital campaign","giving Tuesday","donor retention"],
+    equipment: ["donation box","silent auction","gala","phone bank","annual report","impact report","Salesforce","Bloomerang"],
+    catWeights: {14:1.6,9:1.5,8:1.3,1:1.3,4:1.2,3:1.2,17:1.2,19:1.1,23:1.1}
+  },
+  pet: {
+    name: "Pet & Animal", icon: "🐾",
+    primary: ["pet","dog","cat","puppy","kitten","animal","rescue","shelter","veterinary","vet","groomer","grooming","breeder"],
+    secondary: ["breed","adoption","foster","training","obedience","agility","treat","kibble","flea","tick","paw","fur","coat","fish","bird","rabbit","reptile","horse"],
+    slang: ["good boy","pupper","doggo","floof","zoomies","sploot","blep","boop","tippy taps","toe beans","loaf","adopt don't shop","fur baby","gotcha day","forever home","foster fail"],
+    equipment: ["leash","collar","harness","crate","kennel","bed","food bowl","litter box","cat tree","scratching post","toys","brush","nail clipper","Chewy","Petco","BarkBox","Rover"],
+    catWeights: {14:1.6,5:1.4,6:1.3,3:1.3,24:1.3,12:1.2,11:1.1,25:1.1,22:1.1}
+  },
+  sports: {
+    name: "Sports & Athletics", icon: "🏆",
+    primary: ["sports","athlete","team","game","match","tournament","championship","league","coach","player","competition","season"],
+    secondary: ["football","basketball","baseball","soccer","hockey","tennis","golf","volleyball","wrestling","boxing","MMA","UFC","track and field","swimming","gymnastics","Olympics","Super Bowl","NBA","NFL","MLB","NCAA","offense","defense","penalty","goal","touchdown"],
+    slang: ["W","L","dub","clutch","MVP","GOAT","beast","baller","underdog","comeback","buzzer beater","walk-off","Hail Mary","highlight reel","ankle breaker","hat trick","shutout","triple double","film room"],
+    equipment: ["ball","bat","glove","helmet","pads","cleats","racket","club","stick","puck","net","hoop","scoreboard","GoPro","Hudl","Nike","Adidas","Under Armour"],
+    catWeights: {5:1.6,23:1.5,11:1.4,3:1.3,14:1.3,7:1.2,19:1.2,8:1.2,1:1.1,2:1.1}
+  },
+  hospitality: {
+    name: "Hospitality & Food", icon: "🍽️",
+    primary: ["restaurant","dining","bar","lounge","hotel","resort","cafe","coffee","brewery","distillery","catering","chef","menu","cocktail","cuisine"],
+    secondary: ["kitchen","server","sous chef","sommelier","bartender","mixologist","appetizer","entree","dessert","wine","beer","spirits","brunch","dinner service","fine dining","casual dining","happy hour","room service","concierge","spa","lobby"],
+    slang: ["behind","heard","fire","86","on the fly","in the weeds","covers","turn","comp","walk-in","two-top","four-top","tasting menu","farm to table","craft cocktail","small batch","artisan"],
+    equipment: ["mandoline","immersion circulator","sous vide","plancha","combi oven","salamander","speed rack","jigger","muddler","shaker","strainer","POS","Toast","Square","Resy","OpenTable"],
+    catWeights: {12:1.8,7:1.5,9:1.4,14:1.3,11:1.2,4:1.3,6:1.2,25:1.2}
+  },
+};
 
 const PERSONALITIES = [
   { id: "luxury", name: "Luxury / Premium", tags: ["slow","macro","visual","payoff"], catBoost: { 4: 1.3, 10: 1.3, 12: 1.2 } },
@@ -1254,37 +1872,21 @@ const PERSONALITIES = [
   { id: "rustic", name: "Rustic / Handcrafted", tags: ["slow","close","tactile","texture"], catBoost: { 6: 1.4, 16: 1.3, 7: 1.2 } },
   { id: "playful", name: "Playful / Fun", tags: ["fast","close","visual","rhythm"], catBoost: { 2: 1.3, 5: 1.2, 24: 1.4 } },
   { id: "editorial", name: "Editorial / Refined", tags: ["slow","medium","visual","opener"], catBoost: { 10: 1.4, 3: 1.3, 16: 1.2 } },
-];
-
-const AUDIENCES = [
-  { id: "genz", name: "Gen Z (18-26)", platformBias: { tiktok: 1.4, instagram: 1.3 }, catBoost: { 24: 1.5, 5: 1.2, 11: 1.2 } },
-  { id: "millennial", name: "Millennials (27-42)", platformBias: { instagram: 1.4, youtube: 1.2 }, catBoost: { 9: 1.2, 12: 1.2, 14: 1.2 } },
-  { id: "genx", name: "Gen X (43-58)", platformBias: { youtube: 1.3, facebook: 1.3 }, catBoost: { 9: 1.3, 13: 1.2, 16: 1.2 } },
-  { id: "boomer", name: "Boomers (59+)", platformBias: { youtube: 1.3, facebook: 1.4 }, catBoost: { 9: 1.4, 13: 1.3, 12: 1.2 } },
-  { id: "families", name: "Families", platformBias: { youtube: 1.3, facebook: 1.3 }, catBoost: { 14: 1.4, 17: 1.3, 9: 1.2 } },
-  { id: "foodies", name: "Foodies / Enthusiasts", platformBias: { instagram: 1.4, tiktok: 1.3 }, catBoost: { 12: 1.5, 7: 1.3, 11: 1.3 } },
-  { id: "business", name: "Business / Corporate", platformBias: { linkedin: 1.4, youtube: 1.3 }, catBoost: { 13: 1.3, 18: 1.3, 3: 1.2 } },
-  { id: "tourists", name: "Tourists / Visitors", platformBias: { instagram: 1.3, tiktok: 1.3 }, catBoost: { 19: 1.4, 13: 1.3, 17: 1.2 } },
-];
-
-const PLATFORMS = [
-  { id: "instagram", name: "Instagram", icon: "📸" },
-  { id: "tiktok", name: "TikTok", icon: "🎵" },
-  { id: "youtube", name: "YouTube", icon: "▶️" },
-  { id: "facebook", name: "Facebook", icon: "📘" },
-  { id: "linkedin", name: "LinkedIn", icon: "💼" },
-  { id: "website", name: "Website / Embed", icon: "🌐" },
+  { id: "cinematic", name: "Cinematic / Dramatic", tags: ["slow","wide","visual","opener"], catBoost: { 3: 1.4, 4: 1.3, 19: 1.2 } },
+  { id: "documentary", name: "Documentary / Authentic", tags: ["medium","medium","visual","rhythm"], catBoost: { 14: 1.4, 25: 1.3, 9: 1.2 } },
 ];
 
 const MOODS = [
   { id: "candlelight", name: "Candlelight Evening", icon: "🕯️", tags: ["slow","close","visual","texture"] },
   { id: "highenergy", name: "High Energy", icon: "⚡", tags: ["fast","medium","motion","rhythm"] },
-  { id: "brunch", name: "Sunday Brunch", icon: "🥂", tags: ["slow","wide","visual","opener"] },
+  { id: "brunch", name: "Sunday Morning", icon: "🥂", tags: ["slow","wide","visual","opener"] },
   { id: "latenight", name: "Late Night", icon: "🌙", tags: ["medium","close","visual","rhythm"] },
   { id: "celebration", name: "Celebration", icon: "🎉", tags: ["fast","wide","audio","closer"] },
   { id: "craft", name: "Craft & Process", icon: "🔬", tags: ["slow","macro","visual","texture"] },
   { id: "social", name: "Social Buzz", icon: "📱", tags: ["fast","close","visual","rhythm"] },
   { id: "elegant", name: "Elegant & Refined", icon: "✨", tags: ["slow","medium","visual","payoff"] },
+  { id: "epic", name: "Epic & Grand", icon: "🏔️", tags: ["slow","wide","visual","opener"] },
+  { id: "raw", name: "Raw & Gritty", icon: "🎸", tags: ["fast","close","audio","rhythm"] },
 ];
 
 const DURATIONS = [
@@ -1294,165 +1896,145 @@ const DURATIONS = [
   { id: "90", name: "90s", shots: 16, label: "Mini Doc" },
 ];
 
-// ─── MATCHING ENGINE ───
-function computeBrandScores(profile) {
+// ─── KEYWORD DETECTION ENGINE ───
+function detectVerticals(text) {
+  if (!text || text.trim().length === 0) return [];
+  const t = text.toLowerCase();
+  const results = [];
+  
+  for (const [verticalId, vertical] of Object.entries(KEYWORD_ENGINE)) {
+    let score = 0;
+    const allKeywords = [
+      ...(vertical.primary || []).map(k => ({ word: k, weight: 3 })),
+      ...(vertical.secondary || []).map(k => ({ word: k, weight: 2 })),
+      ...(vertical.slang || []).map(k => ({ word: k, weight: 1.5 })),
+      ...(vertical.equipment || []).map(k => ({ word: k, weight: 1 })),
+    ];
+    
+    for (const { word, weight } of allKeywords) {
+      const escaped = word.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      const regex = new RegExp('\\b' + escaped + '\\b', 'gi');
+      const matches = t.match(regex);
+      if (matches) score += matches.length * weight;
+    }
+    
+    if (score > 0) results.push({ id: verticalId, score, ...vertical });
+  }
+  
+  return results.sort((a, b) => b.score - a.score);
+}
+
+function computeCatWeights(verticals, personalities) {
   const catScores = {};
   CATEGORIES.forEach(c => { catScores[c.id] = 1.0; });
-  const ind = INDUSTRIES.find(i => i.id === profile.industry);
-  if (ind) Object.entries(ind.catWeights).forEach(([k, w]) => { catScores[parseInt(k)] *= w; });
-  (profile.personalities || []).forEach(pId => {
+  
+  verticals.forEach((v, i) => {
+    const decay = 1 / (i + 1);
+    const weights = v.catWeights || {};
+    for (const [catId, w] of Object.entries(weights)) {
+      catScores[parseInt(catId)] = (catScores[parseInt(catId)] || 1) * (1 + (w - 1) * decay);
+    }
+  });
+  
+  (personalities || []).forEach(pId => {
     const p = PERSONALITIES.find(pp => pp.id === pId);
-    if (p) Object.entries(p.catBoost).forEach(([k, w]) => { catScores[parseInt(k)] *= w; });
+    if (p?.catBoost) {
+      for (const [catId, w] of Object.entries(p.catBoost)) {
+        catScores[parseInt(catId)] = (catScores[parseInt(catId)] || 1) * w;
+      }
+    }
   });
-  (profile.audiences || []).forEach(aId => {
-    const a = AUDIENCES.find(aa => aa.id === aId);
-    if (a) Object.entries(a.catBoost).forEach(([k, w]) => { catScores[parseInt(k)] *= w; });
-  });
+  
   return catScores;
 }
 
-function scoreStyle(style, catScores, profile, mood = null) {
+function scoreStyle(style, catScores, personalities, mood) {
   const [id, name, catId, tags] = style;
   let score = catScores[catId] || 1.0;
-  const pTags = (profile.personalities || []).flatMap(pId => {
+  
+  const pTags = (personalities || []).flatMap(pId => {
     const p = PERSONALITIES.find(pp => pp.id === pId);
     return p ? p.tags : [];
   });
-  score *= 1 + (tags.filter(t => pTags.includes(t)).length * 0.15);
+  if (pTags.length > 0) {
+    const overlap = tags.filter(t => pTags.includes(t)).length;
+    score *= 1 + overlap * 0.15;
+  }
+  
   if (mood) {
     const m = MOODS.find(mm => mm.id === mood);
-    if (m) score *= 1 + (tags.filter(t => m.tags.includes(t)).length * 0.2);
+    if (m) {
+      const overlap = tags.filter(t => m.tags.includes(t)).length;
+      score *= 1 + overlap * 0.2;
+    }
   }
-  // ── Offerings-based boosting ──
-  const nl = name.toLowerCase();
-  // Boost food styles if menu items detected
-  if ((profile.menuItems || []).length > 0 && tags[0] === "food") score *= 1.15;
-  // Boost drink styles if drinks detected
-  const hasDrinks = (profile.menuItems || []).some(m => m.category === "drink");
-  if (hasDrinks && tags[0] === "drink") score *= 1.2;
-  // Boost cocktail-specific if cocktails found
-  const hasCocktails = (profile.menuItems || []).some(m =>
-    /cocktail|martini|margarita|old fashioned|manhattan|mojito|negroni|daiquiri/i.test(m.name));
-  if (hasCocktails && /cocktail|pour|shake|muddle|garnish|spirit|mix/i.test(nl)) score *= 1.25;
-  // Boost space/aerial if outdoor spaces detected
-  const hasOutdoor = (profile.spaces || []).some(s => /patio|rooftop|terrace|garden|outdoor|deck|pool/i.test(s));
-  if (hasOutdoor && (catId === 19 || /aerial|outdoor|patio|rooftop|exterior|garden/i.test(nl))) score *= 1.3;
-  // Boost BTS/process if kitchen/prep spaces detected
-  const hasKitchen = (profile.spaces || []).some(s => /kitchen|prep|back of house|commissary/i.test(s));
-  if (hasKitchen && catId === 25) score *= 1.2;
-  // Boost food cinematography for specific cuisine
-  const hasSushi = (profile.cuisineTypes || []).some(c => /japanese|sushi|ramen|izakaya/i.test(c));
-  if (hasSushi && /sushi|chopstick|ramen|bao|gyoza|dumpling/i.test(nl)) score *= 1.4;
-  const hasPasta = (profile.cuisineTypes || []).some(c => /italian|pasta|pizza|trattoria/i.test(c));
-  if (hasPasta && /pasta|pizza|risotto|focaccia|tiramisu|gelato/i.test(nl)) score *= 1.4;
-  const hasMexican = (profile.cuisineTypes || []).some(c => /mexican|taco|tex-mex|latin/i.test(c));
-  if (hasMexican && /taco|salsa|guac|tortilla|margarita|cilantro/i.test(nl)) score *= 1.4;
-  const hasSeafood = (profile.cuisineTypes || []).some(c => /seafood|fish|shellfish|oyster|sushi/i.test(c));
-  if (hasSeafood && /oyster|lobster|shrimp|crab|fish|ceviche|mussel|seafood|raw bar/i.test(nl)) score *= 1.4;
-  const hasBBQ = (profile.cuisineTypes || []).some(c => /bbq|barbecue|smokehouse|grill/i.test(c));
-  if (hasBBQ && /smoke|grill|sear|char|bark|rib|brisket/i.test(nl)) score *= 1.4;
-  const hasBakery = (profile.cuisineTypes || []).some(c => /bakery|pastry|bread|patisserie/i.test(c));
-  if (hasBakery && /bread|dough|pastry|cake|sourdough|bake|flour|oven/i.test(nl)) score *= 1.4;
-  // Boost event styles if catering/events service
-  const hasEvents = (profile.serviceTypes || []).some(s => /cater|event|banquet|wedding|private/i.test(s));
-  if (hasEvents && catId === 17) score *= 1.3;
-  // Boost social-native if takeout/delivery detected
-  const hasDelivery = (profile.serviceTypes || []).some(s => /deliver|takeout|to-go|pickup|curbside/i.test(s));
-  if (hasDelivery && catId === 24) score *= 1.2;
-  // Price tier boost
-  if (profile.priceTier === "fine" || profile.priceTier === "premium") {
-    if (/tableside|sommelier|truffle|wagyu|lobster|champagne|crystal|candle|linen/i.test(nl)) score *= 1.3;
-  }
-  if (profile.priceTier === "budget" || profile.priceTier === "mid") {
-    if (/fun|casual|quick|street|counter|pop|bright|energy/i.test(nl)) score *= 1.2;
-  }
-  // Daypart boost
-  const hasLateNight = (profile.dayparts || []).includes("late-night");
-  if (hasLateNight && /neon|night|dark|glow|midnight|late/i.test(nl)) score *= 1.2;
-  const hasBrunch = (profile.dayparts || []).includes("brunch");
-  if (hasBrunch && /brunch|morning|golden hour|bright|airy|mimosa/i.test(nl)) score *= 1.2;
-  // Private dining / bar specific
-  const hasPrivateDining = (profile.spaces || []).some(s => /private|vip|cellar|chef.?s table/i.test(s));
-  if (hasPrivateDining && /private|cellar|intimate|chef.?s table|exclusive/i.test(nl)) score *= 1.3;
-  const hasBar = (profile.spaces || []).some(s => /\bbar\b|lounge|taproom|cocktail/i.test(s));
-  if (hasBar && /bar|cocktail|pour|tap|bottle|spirit|mix/i.test(nl)) score *= 1.2;
-
-  return { id, name, catId, tags, score };
+  
+  return score;
 }
 
-function getMatchedStyles(profile, mood = null) {
-  const catScores = computeBrandScores(profile);
-  return STYLES.map(s => scoreStyle(s, catScores, profile, mood)).sort((a, b) => b.score - a.score);
+function getMatchedStyles(verticals, personalities, mood) {
+  const catScores = computeCatWeights(verticals, personalities);
+  return STYLES.map(s => {
+    const [id, name, catId, tags] = s;
+    return { id, name, catId, tags, score: scoreStyle(s, catScores, personalities, mood) };
+  }).sort((a, b) => b.score - a.score);
 }
 
 const BEATS = {
-  hook: { name: "Hook", icon: "🔥", tags: ["fast","close","payoff","opener"] },
-  establish: { name: "Establish", icon: "🏛️", tags: ["slow","wide","opener","visual"] },
-  hero: { name: "Hero Shot", icon: "⭐", tags: ["slow","close","payoff","visual"] },
-  rhythm: { name: "Rhythm", icon: "🎵", tags: ["medium","rhythm","motion","audio"] },
-  texture: { name: "Texture", icon: "🔬", tags: ["slow","macro","texture","tactile"] },
-  energy: { name: "Energy", icon: "⚡", tags: ["fast","medium","rhythm","motion"] },
-  people: { name: "People", icon: "👤", tags: ["medium","close","visual","closer"] },
-  closer: { name: "Closer", icon: "🎬", tags: ["slow","medium","closer","visual"] },
+  open: { role: "opener", icon: "🎬", name: "Opener" },
+  rhythm: { role: "rhythm", icon: "🎵", name: "Rhythm" },
+  texture: { role: "texture", icon: "🧱", name: "Texture" },
+  payoff: { role: "payoff", icon: "💥", name: "Payoff" },
+  transition: { role: "transition", icon: "🔀", name: "Transition" },
+  closer: { role: "closer", icon: "🎬", name: "Closer" },
 };
-
 const BEAT_SEQ = {
-  4: ["hook","hero","texture","closer"],
-  7: ["hook","establish","hero","rhythm","texture","energy","closer"],
-  12: ["hook","establish","rhythm","hero","texture","rhythm","energy","people","hero","texture","rhythm","closer"],
-  16: ["hook","establish","rhythm","hero","texture","rhythm","people","energy","hero","texture","rhythm","people","energy","hero","texture","closer"],
+  4: ["open","rhythm","payoff","closer"],
+  7: ["open","rhythm","texture","rhythm","payoff","transition","closer"],
+  12: ["open","rhythm","texture","transition","rhythm","payoff","rhythm","texture","transition","rhythm","payoff","closer"],
+  16: ["open","rhythm","texture","transition","rhythm","payoff","rhythm","texture","rhythm","transition","rhythm","payoff","texture","rhythm","payoff","closer"],
 };
 
-function generateStoryboard(profile, mood, shotCount) {
-  const catScores = computeBrandScores(profile);
+function generateStoryboard(verticals, personalities, mood, shotCount) {
+  const catScores = computeCatWeights(verticals, personalities);
   const seq = BEAT_SEQ[shotCount] || BEAT_SEQ[7];
   const used = new Set();
   return seq.map(beatKey => {
     const beat = BEATS[beatKey];
     const scored = STYLES.map(s => {
-      const base = scoreStyle(s, catScores, profile, mood);
-      base.score *= 1 + (s[3].filter(t => beat.tags.includes(t)).length * 0.25);
-      if (used.has(s[0])) base.score *= 0.1;
-      return base;
-    }).sort((a, b) => b.score - a.score);
+      const base = scoreStyle(s, catScores, personalities, mood);
+      const roleMatch = s[3][4] === beat.role ? 1.5 : 1;
+      return { id: s[0], name: s[1], catId: s[2], tags: s[3], score: base * roleMatch, beatName: beat.name, beatIcon: beat.icon };
+    }).filter(s => !used.has(s.id)).sort((a, b) => b.score - a.score);
     const pool = scored.slice(0, 10);
     const totalW = pool.reduce((s, p) => s + p.score, 0);
-    let r = Math.random() * totalW;
-    let pick = pool[0];
+    let r = Math.random() * totalW, pick = pool[0];
     for (const p of pool) { r -= p.score; if (r <= 0) { pick = p; break; } }
-    used.add(pick.id);
-    return { ...pick, beat: beatKey, beatName: beat.name, beatIcon: beat.icon };
-  });
+    if (pick) used.add(pick.id);
+    return pick;
+  }).filter(Boolean);
 }
 
 function hexToHSL(hex) {
   let r = parseInt(hex.slice(1,3),16)/255, g = parseInt(hex.slice(3,5),16)/255, b = parseInt(hex.slice(5,7),16)/255;
   const max = Math.max(r,g,b), min = Math.min(r,g,b);
-  let h, s, l = (max+min)/2;
-  if (max===min) { h=s=0; } else {
+  let h=0, s=0, l=(max+min)/2;
+  if (max !== min) {
     const d=max-min; s=l>0.5?d/(2-max-min):d/(max+min);
-    switch(max){case r:h=((g-b)/d+(g<b?6:0))/6;break;case g:h=((b-r)/d+2)/6;break;case b:h=((r-g)/d+4)/6;break;}
+    if (max===r) h=((g-b)/d+(g<b?6:0))/6;
+    else if (max===g) h=((b-r)/d+2)/6;
+    else h=((r-g)/d+4)/6;
   }
   return { h: Math.round(h*360), s: Math.round(s*100), l: Math.round(l*100) };
 }
 
-// ─── APP ───
+// ─── MAIN APP COMPONENT ───
 export default function App() {
   const [screen, setScreen] = useState("landing");
-  const [wizStep, setWizStep] = useState(0);
-  const [profile, setProfile] = useState({
-    businessName: "", industry: "", personalities: [], audiences: [], platforms: [],
-    colorPrimary: "#1a1a2e", colorSecondary: "#16213e", colorAccent: "#e94560",
-    musicGenres: "", description: "", venues: [{ name: "", type: "" }],
-    // Offerings extracted from uploads
-    menuItems: [], // [{name, category}] - dishes, drinks, specials
-    serviceTypes: [], // dine-in, takeout, catering, delivery, etc.
-    spaces: [], // bar, patio, private room, rooftop, etc.
-    cuisineTypes: [], // italian, american, fusion, etc.
-    priceTier: "", // budget, mid, premium, fine
-    dayparts: [], // breakfast, lunch, dinner, late-night, brunch
-    signatures: [], // signature items / specialties
-  });
+  const [prompt, setPrompt] = useState("");
+  const [verticals, setVerticals] = useState([]);
+  const [personalities, setPersonalities] = useState([]);
+  const [projectName, setProjectName] = useState("");
   const [dashMode, setDashMode] = useState("browse");
   const [mood, setMood] = useState(null);
   const [duration, setDuration] = useState(null);
@@ -1461,18 +2043,25 @@ export default function App() {
   const [search, setSearch] = useState("");
   const [catFilter, setCatFilter] = useState(null);
   const [browseLimit, setBrowseLimit] = useState(50);
-  const [uploading, setUploading] = useState(false);
-  const [uploadStatus, setUploadStatus] = useState("");
-  const [uploadError, setUploadError] = useState("");
   const [dragOver, setDragOver] = useState(false);
+  const [uploadedFiles, setUploadedFiles] = useState([]);
+  const [showExport, setShowExport] = useState(false);
+  const [copyMsg, setCopyMsg] = useState("");
 
-  const up = useCallback((k, v) => setProfile(p => ({ ...p, [k]: v })), []);
-  const tog = useCallback((k, v) => setProfile(p => ({ ...p, [k]: p[k].includes(v) ? p[k].filter(x => x !== v) : [...p[k], v] })), []);
-  const addVenue = useCallback(() => setProfile(p => ({ ...p, venues: [...p.venues, { name: "", type: "" }] })), []);
-  const upVenue = useCallback((i, f, v) => setProfile(p => { const vs = [...p.venues]; vs[i] = { ...vs[i], [f]: v }; return { ...p, venues: vs }; }), []);
-  const rmVenue = useCallback((i) => setProfile(p => ({ ...p, venues: p.venues.filter((_, j) => j !== i) })), []);
+  const ac = "#e94560";
+  const acH = hexToHSL(ac);
 
-  const matched = useMemo(() => getMatchedStyles(profile, mood), [profile, mood]);
+  const detectedVerticals = useMemo(() => detectVerticals(prompt), [prompt]);
+
+  const activeVerticals = useMemo(() => {
+    if (verticals.length > 0) return verticals.map(id => {
+      const v = KEYWORD_ENGINE[id];
+      return v ? { id, ...v, score: 10 } : null;
+    }).filter(Boolean);
+    return detectedVerticals.slice(0, 3);
+  }, [verticals, detectedVerticals]);
+
+  const matched = useMemo(() => getMatchedStyles(activeVerticals, personalities, mood), [activeVerticals, personalities, mood]);
   const filtered = useMemo(() => {
     let s = matched;
     if (catFilter) s = s.filter(st => st.catId === catFilter);
@@ -1485,75 +2074,12 @@ export default function App() {
 
   const doGen = useCallback(() => {
     if (!mood || !duration) return;
-    setStoryboard(generateStoryboard(profile, mood, DURATIONS.find(d => d.id === duration).shots));
-  }, [profile, mood, duration]);
+    setStoryboard(generateStoryboard(activeVerticals, personalities, mood, DURATIONS.find(d => d.id === duration).shots));
+  }, [activeVerticals, personalities, mood, duration]);
 
-  const ac = profile.colorAccent || "#e94560";
-  const acH = hexToHSL(ac);
-
-  // ─── CLIENT-SIDE BRAND ANALYSIS (no API, no cost) ───
-
-  // Extract dominant colors from an image using canvas
-  const extractColorsFromImage = useCallback((imgSrc) => {
-    return new Promise((resolve) => {
-      const img = new Image();
-      img.crossOrigin = "anonymous";
-      img.onload = () => {
-        const canvas = document.createElement("canvas");
-        const size = 100; // Sample at small size for speed
-        canvas.width = size;
-        canvas.height = size;
-        const ctx = canvas.getContext("2d");
-        ctx.drawImage(img, 0, 0, size, size);
-        const data = ctx.getImageData(0, 0, size, size).data;
-
-        // Bucket colors
-        const buckets = {};
-        for (let i = 0; i < data.length; i += 4) {
-          const r = Math.round(data[i] / 32) * 32;
-          const g = Math.round(data[i+1] / 32) * 32;
-          const b = Math.round(data[i+2] / 32) * 32;
-          const a = data[i+3];
-          if (a < 128) continue; // Skip transparent
-          const key = `${r},${g},${b}`;
-          buckets[key] = (buckets[key] || 0) + 1;
-        }
-
-        const sorted = Object.entries(buckets).sort((a, b) => b[1] - a[1]);
-        const toHex = (rgb) => {
-          const [r,g,b] = rgb.split(",").map(Number);
-          return "#" + [r,g,b].map(c => Math.min(255, c).toString(16).padStart(2, "0")).join("");
-        };
-
-        // Get top 3 distinct colors (skip very similar ones)
-        const colors = [];
-        for (const [rgb] of sorted) {
-          const hex = toHex(rgb);
-          if (colors.length >= 3) break;
-          const [r,g,b] = rgb.split(",").map(Number);
-          // Skip near-white and near-black for accent
-          const brightness = (r + g + b) / 3;
-          if (colors.length === 0) { colors.push(hex); continue; } // darkest/most common is primary
-          // Check it's different enough from existing
-          const isDifferent = colors.every(existing => {
-            const [er,eg,eb] = existing.slice(1).match(/.{2}/g).map(h => parseInt(h, 16));
-            return Math.abs(r-er) + Math.abs(g-eg) + Math.abs(b-eb) > 80;
-          });
-          if (isDifferent) colors.push(hex);
-        }
-
-        while (colors.length < 3) colors.push(colors.length === 0 ? "#1a1a2e" : colors.length === 1 ? "#16213e" : "#e94560");
-        resolve(colors);
-      };
-      img.onerror = () => resolve(["#1a1a2e", "#16213e", "#e94560"]);
-      img.src = imgSrc;
-    });
-  }, []);
-
-  // Extract text from PDF using pdf.js
-  const extractPDFText = useCallback(async (arrayBuffer) => {
-    try {
-      // Dynamically load pdf.js if not present
+  const handleFile = useCallback(async (file) => {
+    let text = "";
+    if (file.type === "application/pdf") {
       if (!window.pdfjsLib) {
         await new Promise((resolve, reject) => {
           const script = document.createElement("script");
@@ -1564,771 +2090,212 @@ export default function App() {
         });
         window.pdfjsLib.GlobalWorkerOptions.workerSrc = "https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js";
       }
-      const pdf = await window.pdfjsLib.getDocument({ data: arrayBuffer }).promise;
-      let text = "";
-      for (let i = 1; i <= Math.min(pdf.numPages, 20); i++) {
-        const page = await pdf.getPage(i);
-        const content = await page.getTextContent();
-        text += content.items.map(item => item.str).join(" ") + "\n";
-      }
-      return text;
-    } catch (e) {
-      console.error("PDF parse error:", e);
-      return "";
+      try {
+        const ab = await file.arrayBuffer();
+        const pdf = await window.pdfjsLib.getDocument({ data: ab }).promise;
+        for (let i = 1; i <= Math.min(pdf.numPages, 20); i++) {
+          const page = await pdf.getPage(i);
+          const content = await page.getTextContent();
+          text += content.items.map(item => item.str).join(" ") + "\n";
+        }
+      } catch(e) { console.error("PDF parse error:", e); }
+    } else if (file.type.startsWith("text/") || /\.(txt|md|csv|json)$/i.test(file.name)) {
+      text = await new Promise(r => { const reader = new FileReader(); reader.onload = () => r(reader.result); reader.readAsText(file); });
     }
+    if (text.trim()) {
+      setPrompt(p => p + (p ? "\n\n" : "") + text.trim());
+    }
+    setUploadedFiles(prev => [...prev, file.name]);
   }, []);
-
-  // Keyword-based brand intelligence engine
-  const analyzeText = useCallback((text) => {
-    const t = text.toLowerCase();
-    const result = {
-      businessName: "",
-      industry: "other",
-      personalities: [],
-      audiences: [],
-      platforms: [],
-      colorPrimary: "#1a1a2e",
-      colorSecondary: "#16213e",
-      colorAccent: "#e94560",
-      musicGenres: "",
-      description: "",
-      venues: [],
-    };
-
-    // ── Extract business name (first capitalized multi-word phrase, or title-like patterns)
-    const namePatterns = [
-      /(?:welcome to|about|introducing|presenting)\s+([A-Z][A-Za-z'']+(?:\s+[A-Z&][A-Za-z'']*){0,4})/,
-      /^([A-Z][A-Za-z'']+(?:\s+[A-Z&][A-Za-z'']*){1,4})\s*(?:\n|$|—|-|:|\||brand)/m,
-      /(?:brand|company|business|restaurant|bar|hotel|cafe|venue)\s*(?:name)?(?:\s*[:=]\s*|\s+is\s+)([A-Z][A-Za-z'']+(?:\s+[A-Za-z''&]*){0,4})/i,
-    ];
-    for (const pat of namePatterns) {
-      const m = text.match(pat);
-      if (m && m[1] && m[1].length > 2 && m[1].length < 60) {
-        result.businessName = m[1].trim();
-        break;
-      }
-    }
-
-    // ── Industry detection
-    const industryKeywords = {
-      restaurant: /restaurant|dining|eatery|bistro|trattoria|brasserie|steakhouse|grill|kitchen|chef|menu|dine|entree|appetizer|dessert|fine dining|casual dining/,
-      bar: /\bbar\b|lounge|taproom|cocktail|mixolog|nightclub|pub|tavern|speakeasy|happy hour|drink menu|craft cocktail/,
-      hotel: /hotel|resort|suite|lobby|concierge|hospitality|lodging|accommodation|check-in|guest room|amenities|spa|pool/,
-      cafe: /cafe|café|coffee|espresso|latte|barista|roast|bakery|pastry|brunch spot/,
-      brewery: /brewery|distillery|taphouse|craft beer|brewing|ferment|barrel|hops|ale|lager|ipa|whiskey|bourbon|spirits/,
-      casino: /casino|gaming|slot|poker|blackjack|roulette|wager|jackpot|dice|betting|entertainment venue/,
-      catering: /catering|event\s*(?:space|venue|planning)|banquet|wedding|private.*dining|reception|corporate.*event/,
-      retail: /retail|store|shop|boutique|merchan|storefront|e-commerce|product.*line/,
-    };
-    let bestIndustry = "other", bestCount = 0;
-    for (const [ind, pat] of Object.entries(industryKeywords)) {
-      const matches = (t.match(pat) || []).length;
-      if (matches > bestCount) { bestCount = matches; bestIndustry = ind; }
-    }
-    result.industry = bestIndustry;
-
-    // ── Personality detection
-    const personalityKeywords = {
-      luxury: /luxury|premium|upscale|elegant|sophisticated|refined|exclusive|high-end|prestige|opulent|fine|curated/,
-      casual: /casual|relaxed|laid-back|approachable|friendly|comfortable|easy-going|chill|welcoming|neighborhood/,
-      energetic: /energetic|vibrant|dynamic|exciting|bold|lively|electric|high-energy|pumping|buzz|thrill/,
-      intimate: /intimate|cozy|warm|romantic|quiet|secluded|private|candlelit|personal|snug|tucked/,
-      modern: /modern|contemporary|innovative|cutting-edge|sleek|minimalist|clean|forward|tech|digital/,
-      rustic: /rustic|handcraft|artisan|homemade|farm|country|ranch|wood|barn|heritage|tradition|old-world/,
-      playful: /playful|fun|whimsical|colorful|quirky|creative|eclectic|unique|unexpected|adventurous/,
-      editorial: /editorial|stylish|aesthetic|curated|designed|architectural|visual|artistic|gallery|fashion/,
-    };
-    const personalityCounts = {};
-    for (const [pers, pat] of Object.entries(personalityKeywords)) {
-      personalityCounts[pers] = (t.match(pat) || []).length;
-    }
-    result.personalities = Object.entries(personalityCounts)
-      .filter(([, c]) => c > 0)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 3)
-      .map(([p]) => p);
-
-    // ── Audience detection
-    const audienceKeywords = {
-      genz: /gen z|gen-z|young|tiktok|viral|trend|18-2[0-9]|college|student|social media native/,
-      millennial: /millennial|instagram|brunch|foodie|experience|avocado|craft|artisan|27-4|28-4|30-4/,
-      genx: /gen x|gen-x|established|professional|mature|classic|43-5|45-5|50-5/,
-      boomer: /boomer|senior|retiree|tradition|legacy|classic|fine dining|old-fashioned|60\+|65\+/,
-      families: /famil|kid|child|parent|all ages|high chair|children.*menu|kid-friendly/,
-      foodies: /foodie|culinary|gastronom|connoisseur|tasting|chef.?driven|farm.to.table|michelin|james beard/,
-      business: /business|corporate|executive|meeting|conference|power lunch|private dining|networking/,
-      tourists: /tourist|visitor|travel|destination|landmark|must-visit|bucket list|trip advisor|tripadvisor/,
-    };
-    const audienceCounts = {};
-    for (const [aud, pat] of Object.entries(audienceKeywords)) {
-      audienceCounts[aud] = (t.match(pat) || []).length;
-    }
-    result.audiences = Object.entries(audienceCounts)
-      .filter(([, c]) => c > 0)
-      .sort((a, b) => b[1] - a[1])
-      .slice(0, 3)
-      .map(([a]) => a);
-
-    // ── Platform detection
-    const platformKeywords = {
-      instagram: /instagram|ig\b|insta\b|@|reels|stories|feed|grid/,
-      tiktok: /tiktok|tik tok|short-form|viral|duet|stitch/,
-      youtube: /youtube|video|vlog|channel|subscribe|long-form/,
-      facebook: /facebook|fb\b|meta\b|community|group|page/,
-      linkedin: /linkedin|professional|b2b|corporate|networking/,
-      website: /website|web|site|homepage|landing page|seo|blog|domain/,
-    };
-    for (const [plat, pat] of Object.entries(platformKeywords)) {
-      if (pat.test(t)) result.platforms.push(plat);
-    }
-
-    // ── Color extraction from text
-    const hexMatches = text.match(/#[0-9a-fA-F]{6}\b/g) || [];
-    if (hexMatches.length >= 3) {
-      result.colorPrimary = hexMatches[0];
-      result.colorSecondary = hexMatches[1];
-      result.colorAccent = hexMatches[2];
-    } else if (hexMatches.length > 0) {
-      result.colorAccent = hexMatches[0];
-    }
-    // Also check for named colors
-    const colorWords = {
-      red: "#c0392b", crimson: "#dc143c", scarlet: "#ff2400",
-      blue: "#2980b9", navy: "#1a237e", royal: "#4169e1", cobalt: "#0047ab",
-      green: "#27ae60", emerald: "#50c878", sage: "#87ae73", olive: "#556b2f",
-      gold: "#d4a017", amber: "#ffbf00", copper: "#b87333",
-      purple: "#8e44ad", violet: "#7b1fa2", plum: "#8e4585",
-      black: "#1a1a1a", charcoal: "#333333",
-      teal: "#008080", turquoise: "#40e0d0", cyan: "#00bcd4",
-      coral: "#ff7f50", salmon: "#fa8072", rose: "#e91e63", pink: "#e91e63",
-      burgundy: "#800020", maroon: "#800000", wine: "#722f37",
-      slate: "#708090", silver: "#c0c0c0", gray: "#808080",
-      cream: "#fffdd0", ivory: "#fffff0", tan: "#d2b48c",
-    };
-    if (hexMatches.length < 3) {
-      const foundColors = [];
-      for (const [name, hex] of Object.entries(colorWords)) {
-        const pat = new RegExp("\\b" + name + "\\b", "i");
-        if (pat.test(t) && !foundColors.includes(hex)) foundColors.push(hex);
-      }
-      if (foundColors.length > 0 && hexMatches.length < 1) result.colorAccent = foundColors[0];
-      if (foundColors.length > 1) result.colorSecondary = foundColors[1];
-      if (foundColors.length > 2) result.colorPrimary = foundColors[2];
-    }
-
-    // ── Music/vibe keywords
-    const musicWords = [];
-    const musicPatterns = {
-      jazz: /jazz/, "lo-fi": /lo-?fi/, rock: /rock\b/, acoustic: /acoustic/,
-      electronic: /electronic|edm|house|techno/, "r&b": /r&b|r\s*&\s*b|soul/,
-      indie: /indie/, pop: /pop\b/, classical: /classical|orchestr/,
-      country: /country/, blues: /blues/, latin: /latin|salsa|reggaeton/,
-      ambient: /ambient|chill|lounge/, hip: /hip.?hop|rap/,
-    };
-    for (const [genre, pat] of Object.entries(musicPatterns)) {
-      if (pat.test(t)) musicWords.push(genre);
-    }
-    result.musicGenres = musicWords.join(", ");
-
-    // ── Venue extraction
-    const venuePatterns = [
-      /(?:our|the)\s+([\w\s''&]+?)\s+(?:restaurant|bar|lounge|cafe|hotel|venue|room|space|kitchen|dining room|taproom|patio)/gi,
-      /(?:location|venue|outlet|space)\s*[:=]\s*([\w\s''&]+)/gi,
-    ];
-    const venueSet = new Set();
-    for (const pat of venuePatterns) {
-      let m;
-      while ((m = pat.exec(text)) !== null) {
-        const name = m[1].trim();
-        if (name.length > 2 && name.length < 50) venueSet.add(name);
-      }
-    }
-    result.venues = [...venueSet].map(v => ({ name: v, type: "" }));
-    if (result.venues.length === 0 && result.businessName) {
-      result.venues = [{ name: result.businessName, type: "" }];
-    }
-
-    // ── Description (first 2-3 sentences that seem descriptive)
-    const sentences = text.split(/[.!?]+/).map(s => s.trim()).filter(s => s.length > 30 && s.length < 300);
-    const descriptive = sentences.filter(s => {
-      const sl = s.toLowerCase();
-      return /we |our |is a |offers |features |serving |providing |known for |specializ|experience|atmosphere|community/.test(sl);
-    });
-    result.description = descriptive.slice(0, 2).join(". ").trim();
-    if (result.description && !result.description.endsWith(".")) result.description += ".";
-
-    // ── Defaults
-    if (result.personalities.length === 0) {
-      const industryDefaults = {
-        restaurant: ["casual"], bar: ["energetic"], hotel: ["luxury"], cafe: ["intimate"],
-        brewery: ["rustic"], casino: ["energetic"], catering: ["editorial"], retail: ["modern"],
-      };
-      result.personalities = industryDefaults[result.industry] || ["casual"];
-    }
-    if (result.audiences.length === 0) result.audiences = ["millennial"];
-    if (result.platforms.length === 0) result.platforms = ["instagram", "website"];
-
-    // ══════════════════════════════════════════════
-    // ── DEEP EXTRACTION: Menu, Services, Spaces ──
-    // ══════════════════════════════════════════════
-
-    // ── Menu items / dishes / drinks
-    const menuItems = [];
-    // Common dish patterns
-    const dishPatterns = [
-      // Proteins & mains
-      /\b((?:grilled|roasted|pan-seared|braised|fried|blackened|smoked|wood-fired|chargrilled)\s+(?:chicken|salmon|steak|pork|lamb|duck|shrimp|lobster|trout|halibut|tuna|cod|scallops|ribs|brisket|burger)(?:\s+[\w]+){0,3})/gi,
-      /\b((?:filet mignon|ribeye|new york strip|prime rib|t-bone|porterhouse|wagyu|tomahawk|beef wellington|rack of lamb|lamb chops|duck breast|pork belly|short ribs)(?:\s+[\w]+){0,2})/gi,
-      // Pasta & italian
-      /\b((?:spaghetti|fettuccine|linguine|penne|rigatoni|gnocchi|ravioli|tortellini|lasagna|risotto|carbonara|bolognese|alfredo|puttanesca|arrabbiata|cacio e pepe|aglio e olio)(?:\s+[\w]+){0,3})/gi,
-      // Sushi & japanese
-      /\b((?:sashimi|nigiri|maki|tempura|ramen|udon|soba|gyoza|edamame|teriyaki|katsu|yakitori|tataki|omakase)(?:\s+[\w]+){0,2})/gi,
-      // Mexican & latin
-      /\b((?:taco|burrito|enchilada|quesadilla|fajita|tamale|ceviche|carnitas|barbacoa|mole|chilaquiles|elote|churro|guacamole|pico de gallo)(?:s)?(?:\s+[\w]+){0,2})/gi,
-      // Asian
-      /\b((?:pad thai|fried rice|kung pao|general tso|sweet and sour|lo mein|chow mein|dim sum|pho|banh mi|satay|curry|tikka masala|vindaloo|biryani|naan|samosa)(?:\s+[\w]+){0,2})/gi,
-      // Appetizers & shared
-      /\b((?:bruschetta|charcuterie|crudité|calamari|wings|sliders|nachos|hummus|mezze|antipasto|spring roll|crab cake|oysters|clams|mussels)(?:\s+[\w]+){0,2})/gi,
-      // Salads & soups
-      /\b((?:caesar|cobb|wedge|caprese|niçoise|greek|arugula|kale|beet)\s+salad)/gi,
-      /\b((?:french onion|tomato bisque|clam chowder|lobster bisque|minestrone|gazpacho|ramen|pho)\s*(?:soup)?)/gi,
-      // Sandwiches & burgers
-      /\b((?:club|blt|reuben|cuban|po'?\s*boy|philly cheesesteak|muffuletta|grilled cheese|turkey club|pulled pork)\s*(?:sandwich)?)/gi,
-      /\b((?:classic|smash|wagyu|truffle|mushroom swiss|bacon|bbq|impossible|beyond)\s+burger)/gi,
-      // Pizza
-      /\b((?:margherita|pepperoni|hawaiian|meat lovers|supreme|four cheese|white|buffalo chicken|fig and prosciutto|truffle)\s+pizza)/gi,
-      // Desserts
-      /\b((?:crème brûlée|tiramisu|cheesecake|chocolate cake|key lime pie|panna cotta|bread pudding|gelato|sorbet|affogato|bananas foster|molten lava cake|carrot cake|cannoli|profiterole|tart tatin|soufflé|crêpe|churros|beignets))/gi,
-      // Breakfast & brunch
-      /\b((?:eggs benedict|french toast|pancakes|waffles|omelette|frittata|avocado toast|shakshuka|breakfast burrito|huevos rancheros|açaí bowl|granola|quiche))/gi,
-      // Seafood specific
-      /\b((?:lobster roll|fish and chips|fish tacos|poke bowl|seafood tower|oyster platter|shrimp cocktail|crab legs|clambake|bouillabaisse))/gi,
-    ];
-    // Drink patterns
-    const drinkPatterns = [
-      // Cocktails
-      /\b((?:old fashioned|manhattan|martini|margarita|mojito|daiquiri|negroni|cosmopolitan|mai tai|paloma|spritz|aperol spritz|espresso martini|moscow mule|whiskey sour|gimlet|sidecar|sazerac|mint julep|tom collins|french 75|pisco sour|dark and stormy|long island|bloody mary|bellini|mimosa|singapore sling|aviation|last word|paper plane|penicillin|boulevardier))/gi,
-      // Beer
-      /\b((?:ipa|pale ale|stout|porter|lager|pilsner|wheat beer|saison|sour beer|amber ale|brown ale|hefeweizen|kolsch|bock|dunkel|tripel|dubbel|witbier|gose|berliner weisse|cream ale|irish red|scotch ale|barleywine|imperial stout))/gi,
-      // Wine
-      /\b((?:cabernet|merlot|pinot noir|chardonnay|sauvignon blanc|riesling|pinot grigio|malbec|syrah|shiraz|zinfandel|tempranillo|sangiovese|nebbiolo|grenache|viognier|gewürztraminer|prosecco|champagne|cava|rosé|moscato|port|sherry|vermouth))/gi,
-      // Spirits
-      /\b((?:bourbon|scotch|rye whiskey|single malt|blended whiskey|tequila|mezcal|vodka|gin|rum|brandy|cognac|armagnac|grappa|absinthe|sake|soju|baijiu|pisco|cachaça))/gi,
-      // Non-alcoholic
-      /\b((?:espresso|cappuccino|latte|americano|cold brew|matcha|chai|kombucha|fresh juice|smoothie|mocktail|virgin|non-alcoholic|zero-proof|craft soda|arnold palmer|shrub|tonic))/gi,
-    ];
-
-    const seenItems = new Set();
-    for (const pat of dishPatterns) {
-      let m;
-      while ((m = pat.exec(text)) !== null) {
-        const item = m[1].trim().replace(/\s+/g, " ");
-        const key = item.toLowerCase();
-        if (item.length > 3 && item.length < 80 && !seenItems.has(key)) {
-          seenItems.add(key);
-          menuItems.push({ name: item, category: "food" });
-        }
-      }
-    }
-    for (const pat of drinkPatterns) {
-      let m;
-      while ((m = pat.exec(text)) !== null) {
-        const item = m[1].trim().replace(/\s+/g, " ");
-        const key = item.toLowerCase();
-        if (item.length > 2 && item.length < 60 && !seenItems.has(key)) {
-          seenItems.add(key);
-          menuItems.push({ name: item, category: "drink" });
-        }
-      }
-    }
-    // Also catch price-tagged items: "$14 Truffle Fries"
-    const priceItemPat = /\$\d+(?:\.\d{2})?\s+([A-Z][\w\s&'-]{2,40})/g;
-    let pm;
-    while ((pm = priceItemPat.exec(text)) !== null) {
-      const item = pm[1].trim();
-      const key = item.toLowerCase();
-      if (!seenItems.has(key) && item.length > 3) {
-        seenItems.add(key);
-        const isDrink = /cocktail|beer|wine|spirit|martini|margarita|sour|mule|spritz|ale|lager|ipa|stout|bourbon|scotch|vodka|gin|rum|tequila|juice|coffee|latte|tea/i.test(item);
-        menuItems.push({ name: item, category: isDrink ? "drink" : "food" });
-      }
-    }
-    result.menuItems = menuItems.slice(0, 100); // Cap at 100
-
-    // ── Service types
-    const serviceDetect = {
-      "Dine-in": /dine-in|dine in|sit-down|table service|full service|seated/i,
-      "Takeout": /takeout|take-out|take out|to-go|to go|carry-out|carryout/i,
-      "Delivery": /deliver|uber eats|doordash|grubhub|postmates|delivery/i,
-      "Catering": /cater|off-site|off site|banquet|corporate.*event|wedding.*reception/i,
-      "Private Events": /private.*event|private.*dining|private.*room|buyout|event.*space|event.*booking/i,
-      "Bar Service": /full bar|craft cocktail|bar program|mixolog|beverage program|drink menu|wine list|beer list/i,
-      "Brunch Service": /brunch|sunday.*brunch|weekend.*brunch|bottomless/i,
-      "Happy Hour": /happy hour|drink.*special|half.*off|discounted.*drink/i,
-      "Counter Service": /counter.*service|quick.*service|fast.*casual|order.*counter|self.*serve/i,
-      "Room Service": /room.*service|in-room.*dining|hotel.*dining/i,
-      "Curbside": /curbside|drive-up|drive.*thru|drive.*through/i,
-      "Ghost Kitchen": /ghost.*kitchen|virtual.*kitchen|cloud.*kitchen|delivery.*only/i,
-      "Food Truck": /food.*truck|mobile.*kitchen|pop-up/i,
-      "Tasting Menu": /tasting.*menu|prix.*fixe|omakase|degustation|multi-course/i,
-      "Wine Program": /wine.*program|wine.*list|sommelier|wine.*cellar|wine.*pairing|wine.*dinner/i,
-      "Live Entertainment": /live.*music|live.*band|entertainment|dj|karaoke|trivia|open.*mic/i,
-    };
-    result.serviceTypes = Object.entries(serviceDetect)
-      .filter(([, pat]) => pat.test(t))
-      .map(([name]) => name);
-
-    // ── Physical spaces
-    const spaceDetect = {
-      "Main Dining Room": /main.*dining|dining.*room|dining.*area|dining.*hall/i,
-      "Bar": /\bbar\b|bar area|bar seating|bar.*counter/i,
-      "Lounge": /lounge|cocktail.*lounge|wine.*lounge/i,
-      "Patio": /patio|outdoor.*seat|outdoor.*dining|al fresco|sidewalk.*seat/i,
-      "Rooftop": /rooftop|roof.*deck|rooftop.*bar|sky.*lounge|terrace/i,
-      "Private Dining Room": /private.*room|private.*dining|vip.*room|boardroom/i,
-      "Wine Cellar": /wine.*cellar|cellar.*room|cellar.*dining/i,
-      "Chef's Table": /chef'?s.*table|kitchen.*table|tasting.*room/i,
-      "Banquet Hall": /banquet|ballroom|event.*hall|reception.*hall|conference/i,
-      "Open Kitchen": /open.*kitchen|exhibition.*kitchen|show.*kitchen|kitchen.*theater/i,
-      "Garden": /garden|courtyard|green.*space|herb.*garden|kitchen.*garden/i,
-      "Pool Area": /pool|poolside|cabana|swim-up/i,
-      "Spa": /spa|wellness|treatment.*room|sauna|steam.*room/i,
-      "Lobby": /lobby|reception|foyer|entrance.*hall/i,
-      "Gaming Floor": /gaming.*floor|casino.*floor|slot|poker.*room|table.*games/i,
-      "Event Lawn": /event.*lawn|lawn|outdoor.*event|tent.*space/i,
-      "Raw Bar": /raw.*bar|oyster.*bar|shellfish.*bar|seafood.*bar/i,
-      "Sushi Bar": /sushi.*bar|sushi.*counter|omakase.*counter/i,
-      "Bakery Counter": /bakery|pastry.*case|display.*case|counter/i,
-      "Drive-Through": /drive.*thru|drive.*through|pickup.*window/i,
-    };
-    result.spaces = Object.entries(spaceDetect)
-      .filter(([, pat]) => pat.test(t))
-      .map(([name]) => name);
-
-    // ── Cuisine types
-    const cuisineDetect = {
-      "American": /american|burger|bbq|comfort food|diner|steakhouse|southern|cajun|creole|tex-mex/i,
-      "Italian": /italian|pasta|pizza|trattoria|ristorante|osteria|enoteca|focaccia|risotto|gelato/i,
-      "Japanese": /japanese|sushi|ramen|izakaya|tempura|yakitori|omakase|teppanyaki|robata/i,
-      "Mexican": /mexican|taco|burrito|enchilada|cantina|taqueria|mezcal|mole|elote/i,
-      "Chinese": /chinese|dim sum|szechuan|cantonese|wok|dumpling|peking|mapo|kung pao/i,
-      "French": /french|bistro|brasserie|patisserie|croissant|escargot|confit|bouillabaisse/i,
-      "Thai": /thai|pad thai|green curry|tom yum|satay|larb|som tum|basil chicken/i,
-      "Indian": /indian|curry|tikka|naan|tandoor|biryani|masala|vindaloo|samosa|chutney/i,
-      "Mediterranean": /mediterranean|hummus|falafel|mezze|kebab|pita|shawarma|tahini|za'atar/i,
-      "Korean": /korean|bibimbap|bulgogi|kimchi|korean bbq|banchan|japchae|tteok/i,
-      "Vietnamese": /vietnamese|pho|banh mi|spring roll|bun|vermicelli|lemongrass/i,
-      "Seafood": /seafood|fish|oyster|shellfish|lobster|crab|shrimp|raw bar|catch of the day/i,
-      "Steakhouse": /steakhouse|prime|usda|dry-aged|wet-aged|wagyu|angus|bone-in|porterhouse/i,
-      "Farm-to-Table": /farm.to.table|locally.*sourced|seasonal.*menu|organic|sustainable|foraged/i,
-      "Fusion": /fusion|cross-cultural|blend|eclectic.*menu|global.*flavors|world.*cuisine/i,
-      "BBQ / Smokehouse": /bbq|barbecue|smokehouse|smoked|pit|low and slow|brisket|pulled pork/i,
-      "Bakery & Pastry": /bakery|pastry|bread|sourdough|patisserie|confection|cake|croissant/i,
-      "Vegan / Plant-Based": /vegan|plant.based|vegetarian|meatless|plant.forward|dairy.free/i,
-      "Tapas / Small Plates": /tapas|small plate|shared plate|mezze|pintxos|cicchetti|izakaya/i,
-      "Brunch": /brunch.*menu|brunch.*spot|bottomless.*brunch|weekend.*brunch|eggs.*benedict/i,
-    };
-    result.cuisineTypes = Object.entries(cuisineDetect)
-      .filter(([, pat]) => pat.test(t))
-      .map(([name]) => name);
-
-    // ── Price tier
-    const prices = text.match(/\$(\d+(?:\.\d{2})?)/g) || [];
-    const priceVals = prices.map(p => parseFloat(p.replace("$", ""))).filter(v => v > 0 && v < 1000);
-    if (priceVals.length > 0) {
-      const avg = priceVals.reduce((s, v) => s + v, 0) / priceVals.length;
-      if (avg > 50) result.priceTier = "fine";
-      else if (avg > 25) result.priceTier = "premium";
-      else if (avg > 12) result.priceTier = "mid";
-      else result.priceTier = "budget";
-    }
-    // Also detect from language
-    if (!result.priceTier) {
-      if (/fine dining|luxury|prix fixe|tasting menu|michelin|white tablecloth|sommelier/i.test(t)) result.priceTier = "fine";
-      else if (/upscale|premium|craft|artisan|curated|elevated/i.test(t)) result.priceTier = "premium";
-      else if (/casual|neighborhood|family|comfort|affordable/i.test(t)) result.priceTier = "mid";
-      else if (/budget|cheap|value|deal|dollar|fast/i.test(t)) result.priceTier = "budget";
-    }
-
-    // ── Dayparts
-    const daypartDetect = {
-      "breakfast": /breakfast|morning|early.*bird|a\.m\./i,
-      "brunch": /brunch|sunday.*morning|weekend.*morning|bottomless|mimosa.*special/i,
-      "lunch": /lunch|midday|noon|lunch.*special|business.*lunch/i,
-      "dinner": /dinner|evening|supper|pm.*service|dinner.*service/i,
-      "late-night": /late.*night|after.*hours|midnight|night.*owl|bar.*bites|late.*menu/i,
-      "happy-hour": /happy.*hour|after.*work|drink.*special.*(?:3|4|5)|half.*off/i,
-      "all-day": /all.*day|open.*(?:to|through)|continuous|no.*break/i,
-    };
-    result.dayparts = Object.entries(daypartDetect)
-      .filter(([, pat]) => pat.test(t))
-      .map(([name]) => name);
-
-    // ── Signature items / specialties
-    const sigPatterns = [
-      /(?:signature|famous|renowned|award-winning|best-selling|house|specialty|our|the)\s+(?:dish|item|cocktail|drink|plate|)?\s*(?:is|are|:)?\s*(?:the\s+)?([A-Z][\w\s&'-]{3,50})/gi,
-      /(?:known for|famous for|celebrated for|must-try|don't miss|crowd favorite|fan favorite|best seller|house special)\s*(?::)?\s*(?:the\s+|our\s+)?([A-Z][\w\s&'-]{3,50})/gi,
-    ];
-    const sigSet = new Set();
-    for (const pat of sigPatterns) {
-      let m;
-      while ((m = pat.exec(text)) !== null) {
-        const item = m[1].trim().replace(/[.,;:!?]+$/, "");
-        if (item.length > 3 && item.length < 50 && !sigSet.has(item.toLowerCase())) {
-          sigSet.add(item.toLowerCase());
-          result.signatures.push(item);
-        }
-      }
-    }
-    result.signatures = result.signatures.slice(0, 15);
-
-    return result;
-  }, []);
-
-  const analyzeBrand = useCallback(async (file) => {
-    setUploading(true);
-    setUploadError("");
-    setUploadStatus("Reading file...");
-
-    try {
-      const isImage = file.type.startsWith("image/");
-      const isPDF = file.type === "application/pdf";
-
-      let extractedText = "";
-      let extractedColors = null;
-
-      if (isImage) {
-        // Extract colors from image
-        setUploadStatus("Extracting brand colors...");
-        const dataUrl = await new Promise((resolve) => {
-          const reader = new FileReader();
-          reader.onload = () => resolve(reader.result);
-          reader.readAsDataURL(file);
-        });
-        extractedColors = await extractColorsFromImage(dataUrl);
-        // Images don't have text to extract
-        extractedText = file.name.replace(/\.[^.]+$/, "").replace(/[-_]/g, " ");
-      } else if (isPDF) {
-        setUploadStatus("Parsing PDF...");
-        const arrayBuffer = await file.arrayBuffer();
-        extractedText = await extractPDFText(arrayBuffer);
-        if (!extractedText || extractedText.trim().length < 20) {
-          throw new Error("Could not extract text from PDF. Try a text-based PDF or upload a different format.");
-        }
-      } else {
-        // Text / markdown / other
-        setUploadStatus("Reading document...");
-        extractedText = await new Promise((resolve) => {
-          const reader = new FileReader();
-          reader.onload = () => resolve(reader.result);
-          reader.readAsText(file);
-        });
-      }
-
-      setUploadStatus("Analyzing brand identity...");
-      await new Promise(r => setTimeout(r, 400)); // Brief visual pause
-
-      const result = analyzeText(extractedText);
-
-      // Apply image colors if extracted
-      if (extractedColors) {
-        result.colorPrimary = extractedColors[0];
-        result.colorSecondary = extractedColors[1];
-        result.colorAccent = extractedColors[2];
-      }
-
-      // If no name found, use filename
-      if (!result.businessName) {
-        result.businessName = file.name.replace(/\.[^.]+$/, "").replace(/[-_]/g, " ").replace(/\b\w/g, c => c.toUpperCase());
-      }
-
-      setUploadStatus("Building profile...");
-      await new Promise(r => setTimeout(r, 300));
-
-      setProfile(result);
-      setUploadStatus("Profile built! Review and adjust →");
-
-      setTimeout(() => {
-        setUploading(false);
-        setUploadStatus("");
-        setScreen("wizard");
-        setWizStep(0);
-      }, 1200);
-
-    } catch (err) {
-      console.error("Brand analysis error:", err);
-      setUploading(false);
-      setUploadError(err.message || "Analysis failed. Try a different file or build your profile manually.");
-      setUploadStatus("");
-    }
-  }, [analyzeText, extractColorsFromImage, extractPDFText]);
 
   const handleFileDrop = useCallback((e) => {
-    e.preventDefault();
-    setDragOver(false);
-    const file = e.dataTransfer?.files?.[0] || e.target?.files?.[0];
-    if (file) analyzeBrand(file);
-  }, [analyzeBrand]);
+    e.preventDefault(); setDragOver(false);
+    const files = e.dataTransfer?.files || e.target?.files;
+    if (files) Array.from(files).forEach(f => handleFile(f));
+  }, [handleFile]);
 
   const handleFileSelect = useCallback((e) => {
-    const file = e.target?.files?.[0];
-    if (file) analyzeBrand(file);
-  }, [analyzeBrand]);
+    const files = e.target?.files;
+    if (files) Array.from(files).forEach(f => handleFile(f));
+  }, [handleFile]);
+
+  const startProject = useCallback(() => {
+    if (!projectName && prompt.length > 0) {
+      const firstLine = prompt.split('\n')[0].trim().slice(0, 60);
+      setProjectName(firstLine || "My Project");
+    }
+    setScreen("dashboard");
+    setDashMode("browse");
+  }, [prompt, projectName]);
+
+  const copyToClipboard = useCallback((text, label) => {
+    navigator.clipboard.writeText(text).then(() => {
+      setCopyMsg(label || "Copied!");
+      setTimeout(() => setCopyMsg(""), 2000);
+    });
+  }, []);
 
   const chip = (active) => ({
-    display: "inline-flex", alignItems: "center", gap: "0.5rem",
-    padding: "0.7rem 1.15rem", borderRadius: "2rem",
-    border: active ? `2px solid ${ac}` : "1px solid #333",
-    background: active ? `${ac}18` : "rgba(255,255,255,0.03)",
-    color: active ? ac : "#aaa", cursor: "pointer", transition: "all 0.2s",
-    fontSize: "0.88rem", fontFamily: "'Georgia', serif",
+    display: "inline-flex", alignItems: "center", gap: "0.4rem",
+    padding: "0.5rem 0.9rem", borderRadius: "2rem",
+    border: active ? `2px solid ${ac}` : "1px solid #2a2a2a",
+    background: active ? `${ac}15` : "rgba(255,255,255,0.02)",
+    color: active ? ac : "#999", cursor: "pointer", transition: "all 0.15s",
+    fontSize: "0.82rem", fontFamily: "inherit",
   });
-  const inp = {
-    width: "100%", padding: "0.85rem 1rem", background: "rgba(255,255,255,0.05)",
-    border: "1px solid #333", borderRadius: "0.5rem", color: "#e0e0e0",
-    fontSize: "0.95rem", fontFamily: "'Georgia', serif", outline: "none", boxSizing: "border-box",
-  };
 
   // ─── LANDING ───
   if (screen === "landing") return (
-    <div style={{ minHeight: "100vh", background: "linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 40%, #16213e 100%)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", fontFamily: "'Georgia', serif", color: "#e0e0e0", padding: "2rem" }}>
-      <div style={{ textAlign: "center", maxWidth: 640 }}>
-        <div style={{ fontSize: "3.5rem", fontWeight: 300, letterSpacing: "0.15em", color: "#fff" }}>SHOT LIST</div>
-        <div style={{ fontSize: "1rem", letterSpacing: "0.4em", textTransform: "uppercase", color: "#888", marginBottom: "2.5rem" }}>Generator</div>
-        <div style={{ width: 60, height: 1, background: "linear-gradient(90deg, transparent, #e94560, transparent)", margin: "0 auto 2.5rem" }} />
-        <p style={{ fontSize: "1.1rem", lineHeight: 1.8, color: "#aaa", marginBottom: "3rem", fontStyle: "italic" }}>
-          Input your brand. Get a visual language tailored to your identity.<br/>
-          1,200 cinematic styles across 25 categories — filtered through who you are.
+    <div style={{ minHeight: "100vh", background: "linear-gradient(160deg, #07070a 0%, #0d0d14 40%, #141422 100%)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", fontFamily: "'Inter', 'Segoe UI', system-ui, sans-serif", color: "#e0e0e0", padding: "2rem" }}>
+      <div style={{ textAlign: "center", maxWidth: 680, width: "100%" }}>
+        <div style={{ fontSize: "2.8rem", fontWeight: 700, letterSpacing: "0.06em", color: "#fff", marginBottom: "0.15rem" }}>MISE EN SHOT</div>
+        <div style={{ fontSize: "0.8rem", letterSpacing: "0.3em", textTransform: "uppercase", color: "#555", marginBottom: "2rem" }}>Universal Shot List Generator</div>
+        <div style={{ width: 50, height: 2, background: `linear-gradient(90deg, transparent, ${ac}, transparent)`, margin: "0 auto 2rem" }} />
+        <p style={{ fontSize: "0.95rem", lineHeight: 1.7, color: "#777", marginBottom: "2rem", maxWidth: 500, margin: "0 auto 2rem" }}>
+          Describe your project. Get a cinematic shot list tailored to your industry.
+          <br/><span style={{ color: "#555", fontSize: "0.85rem" }}>1,688 styles · 25 categories · 16 verticals — 100% client-side.</span>
         </p>
-        <div style={{ display: "flex", gap: "1rem", justifyContent: "center", flexWrap: "wrap" }}>
-          <button onClick={() => setScreen("upload")} style={{ background: "#e94560", border: "1px solid #e94560", color: "#fff", padding: "1rem 2.5rem", fontSize: "0.85rem", letterSpacing: "0.2em", textTransform: "uppercase", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem", transition: "all 0.3s" }}
-            onMouseEnter={e => { e.target.style.background = "#d63850"; }}
-            onMouseLeave={e => { e.target.style.background = "#e94560"; }}>
-            📄 Upload Brand Guide
-          </button>
-          <button onClick={() => setScreen("wizard")} style={{ background: "transparent", border: "1px solid #e94560", color: "#e94560", padding: "1rem 2.5rem", fontSize: "0.85rem", letterSpacing: "0.2em", textTransform: "uppercase", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem", transition: "all 0.3s" }}
-            onMouseEnter={e => { e.target.style.background = "#e94560"; e.target.style.color = "#fff"; }}
-            onMouseLeave={e => { e.target.style.background = "transparent"; e.target.style.color = "#e94560"; }}>
-            Build Manually →
-          </button>
+
+        <div style={{ textAlign: "left", marginBottom: "1.25rem" }}>
+          <textarea
+            value={prompt}
+            onChange={e => setPrompt(e.target.value)}
+            placeholder={"Describe your brand, project, or shoot concept...\n\nExamples:\n• \"Craft brewery in Portland — taproom + outdoor patio\"\n• \"Luxury real estate listing, 4-bed modern home with pool\"\n• \"Indie rock band music video for debut single\"\n• \"Vineyard estate wedding, golden hour ceremony\""}
+            style={{
+              width: "100%", minHeight: 130, padding: "1rem 1.15rem",
+              background: "rgba(255,255,255,0.03)", border: "1px solid #252525",
+              borderRadius: "0.6rem", color: "#ddd", fontSize: "0.9rem",
+              fontFamily: "inherit", outline: "none", resize: "vertical", lineHeight: 1.6,
+              boxSizing: "border-box",
+            }}
+            onFocus={e => e.target.style.borderColor = "#444"}
+            onBlur={e => e.target.style.borderColor = "#252525"}
+          />
         </div>
-        <p style={{ fontSize: "0.8rem", color: "#555", marginTop: "1.5rem" }}>
-          Upload a brand guide, one-pager, PDF, or logo — your profile is built instantly, 100% in-browser.
-        </p>
-      </div>
-      <div style={{ position: "absolute", bottom: "2rem", fontSize: "0.7rem", color: "#444", letterSpacing: "0.2em" }}>POWERED BY JSDETAIL LLC</div>
-    </div>
-  );
 
-  // ─── UPLOAD SCREEN ───
-  if (screen === "upload") return (
-    <div style={{ minHeight: "100vh", background: "linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 40%, #16213e 100%)", display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", fontFamily: "'Georgia', serif", color: "#e0e0e0", padding: "2rem" }}>
-      <div style={{ textAlign: "center", maxWidth: 600, width: "100%" }}>
-        <div style={{ fontSize: "0.75rem", letterSpacing: "0.3em", color: "#666", textTransform: "uppercase", marginBottom: "0.5rem" }}>BRAND INTELLIGENCE</div>
-        <h2 style={{ fontSize: "2rem", fontWeight: 300, marginBottom: "0.5rem", color: "#fff" }}>Upload Your Brand</h2>
-        <p style={{ color: "#888", marginBottom: "2.5rem", fontStyle: "italic" }}>
-          Drop a brand guide, one-pager, menu, or logo — the engine reads it locally and builds your profile. No data leaves your browser.
-        </p>
+        <div
+          onDragOver={e => { e.preventDefault(); setDragOver(true); }}
+          onDragLeave={() => setDragOver(false)}
+          onDrop={handleFileDrop}
+          onClick={() => document.getElementById("fileInput")?.click()}
+          style={{
+            border: dragOver ? `1px solid ${ac}` : "1px dashed #2a2a2a",
+            borderRadius: "0.6rem", padding: "1rem", cursor: "pointer",
+            background: dragOver ? `${ac}06` : "rgba(255,255,255,0.015)",
+            marginBottom: "1rem", transition: "all 0.15s",
+          }}
+        >
+          <span style={{ fontSize: "0.8rem", color: dragOver ? ac : "#555" }}>
+            📄 Drop brand docs here — PDF, text, markdown
+          </span>
+          <input id="fileInput" type="file" accept=".pdf,.txt,.md,.csv,.doc,.docx" onChange={handleFileSelect} style={{ display: "none" }} multiple />
+        </div>
 
-        {!uploading ? (
-          <div>
-            {/* Drop zone */}
-            <div
-              onDragOver={(e) => { e.preventDefault(); setDragOver(true); }}
-              onDragLeave={() => setDragOver(false)}
-              onDrop={handleFileDrop}
-              onClick={() => document.getElementById("brandFileInput")?.click()}
-              style={{
-                border: dragOver ? "2px solid #e94560" : "2px dashed #333",
-                borderRadius: "1rem",
-                padding: "3.5rem 2rem",
-                cursor: "pointer",
-                transition: "all 0.3s",
-                background: dragOver ? "rgba(233,69,96,0.08)" : "rgba(255,255,255,0.02)",
-                marginBottom: "1.5rem",
-              }}
-            >
-              <div style={{ fontSize: "3rem", marginBottom: "1rem" }}>📄</div>
-              <div style={{ fontSize: "1rem", color: dragOver ? "#e94560" : "#aaa", marginBottom: "0.5rem" }}>
-                {dragOver ? "Drop it here" : "Drag & drop a file here"}
-              </div>
-              <div style={{ fontSize: "0.8rem", color: "#555" }}>
-                or click to browse — PDF, DOCX, TXT, PNG, JPG
-              </div>
-              <input
-                id="brandFileInput"
-                type="file"
-                accept=".pdf,.doc,.docx,.txt,.md,.png,.jpg,.jpeg,.webp"
-                onChange={handleFileSelect}
-                style={{ display: "none" }}
-              />
-            </div>
-
-            {/* Supported formats */}
-            <div style={{ display: "flex", gap: "0.5rem", justifyContent: "center", flexWrap: "wrap", marginBottom: "2rem" }}>
-              {["Brand Guide", "One-Pager", "Menu PDF", "Logo Image", "Pitch Deck", "Website Screenshot"].map(f => (
-                <span key={f} style={{ padding: "0.35rem 0.75rem", background: "rgba(255,255,255,0.03)", border: "1px solid #222", borderRadius: "1rem", fontSize: "0.75rem", color: "#666" }}>{f}</span>
-              ))}
-            </div>
-
-            {/* What it extracts */}
-            <div style={{ background: "rgba(255,255,255,0.02)", border: "1px solid #1a1a1a", borderRadius: "0.5rem", padding: "1.25rem", textAlign: "left", marginBottom: "2rem" }}>
-              <div style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.15em", marginBottom: "0.75rem" }}>WHAT IT EXTRACTS</div>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.5rem" }}>
-                {["Business name & industry", "Brand personality & tone", "Target audience", "Brand colors from visuals", "Platforms & channels", "Venue / location info", "Music & vibe keywords", "Brand description"].map(item => (
-                  <div key={item} style={{ fontSize: "0.82rem", color: "#888", display: "flex", alignItems: "center", gap: "0.4rem" }}>
-                    <span style={{ color: "#e94560", fontSize: "0.7rem" }}>✓</span> {item}
-                  </div>
-                ))}
-              </div>
-            </div>
-
-            {uploadError && (
-              <div style={{ padding: "1rem", background: "rgba(233,69,96,0.1)", border: "1px solid rgba(233,69,96,0.3)", borderRadius: "0.5rem", color: "#e94560", fontSize: "0.85rem", marginBottom: "1.5rem" }}>
-                {uploadError}
-              </div>
-            )}
-
-            <button onClick={() => { setScreen("landing"); setUploadError(""); }} style={{ background: "transparent", border: "1px solid #333", color: "#888", padding: "0.75rem 2rem", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem", fontSize: "0.85rem" }}>
-              ← Back
-            </button>
+        {uploadedFiles.length > 0 && (
+          <div style={{ display: "flex", gap: "0.35rem", flexWrap: "wrap", marginBottom: "1rem", justifyContent: "center" }}>
+            {uploadedFiles.map((f, i) => <span key={i} style={{ padding: "0.25rem 0.6rem", background: `${ac}12`, border: `1px solid ${ac}28`, borderRadius: "1rem", fontSize: "0.7rem", color: ac }}>📄 {f}</span>)}
           </div>
-        ) : (
-          /* Analyzing state */
-          <div style={{ padding: "3rem 2rem" }}>
-            <div style={{ marginBottom: "2rem" }}>
-              <div style={{
-                width: 60, height: 60, borderRadius: "50%", border: "3px solid #222",
-                borderTopColor: "#e94560", margin: "0 auto 1.5rem",
-                animation: "spin 1s linear infinite",
-              }} />
-              <style>{`@keyframes spin { to { transform: rotate(360deg); } }`}</style>
-            </div>
-            <div style={{ fontSize: "1.1rem", color: "#fff", marginBottom: "0.5rem" }}>{uploadStatus}</div>
-            <p style={{ fontSize: "0.85rem", color: "#666", fontStyle: "italic" }}>
-              Reading your document, identifying brand attributes, matching visual styles — all locally in your browser.
-            </p>
-            {/* Progress stages */}
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem", marginTop: "2rem", textAlign: "left", maxWidth: 300, margin: "2rem auto 0" }}>
-              {["Reading file...", "Analyzing brand identity...", "Building profile..."].map((stage, i) => {
-                const active = uploadStatus === stage;
-                const done = ["Reading file...", "Analyzing brand identity...", "Building profile...", "Profile built! Review and adjust →"].indexOf(uploadStatus) > i;
-                return (
-                  <div key={stage} style={{ display: "flex", alignItems: "center", gap: "0.75rem", fontSize: "0.82rem" }}>
-                    <span style={{ width: 18, height: 18, borderRadius: "50%", display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.6rem",
-                      background: done ? "rgba(233,69,96,0.2)" : active ? "rgba(233,69,96,0.1)" : "rgba(255,255,255,0.03)",
-                      border: done ? "1px solid #e94560" : active ? "1px solid #e9456066" : "1px solid #333",
-                      color: done ? "#e94560" : "#555",
-                    }}>{done ? "✓" : active ? "●" : ""}</span>
-                    <span style={{ color: done ? "#e94560" : active ? "#fff" : "#555" }}>{stage}</span>
-                  </div>
-                );
-              })}
+        )}
+
+        {detectedVerticals.length > 0 && (
+          <div style={{ marginBottom: "1.25rem", padding: "0.85rem", background: "rgba(255,255,255,0.02)", border: "1px solid #1e1e1e", borderRadius: "0.6rem", textAlign: "left" }}>
+            <div style={{ fontSize: "0.65rem", color: "#444", letterSpacing: "0.12em", marginBottom: "0.4rem" }}>DETECTED INDUSTRIES</div>
+            <div style={{ display: "flex", gap: "0.35rem", flexWrap: "wrap" }}>
+              {detectedVerticals.slice(0, 5).map(v => (
+                <span key={v.id} style={{ padding: "0.3rem 0.65rem", background: `${ac}10`, border: `1px solid ${ac}28`, borderRadius: "1rem", fontSize: "0.75rem", color: ac }}>
+                  {v.icon} {v.name} <span style={{ color: "#555", fontSize: "0.65rem" }}>({Math.round(v.score)})</span>
+                </span>
+              ))}
             </div>
           </div>
         )}
+
+        <div style={{ marginBottom: "1.25rem", textAlign: "left" }}>
+          <div style={{ fontSize: "0.65rem", color: "#444", letterSpacing: "0.12em", marginBottom: "0.4rem" }}>VIBE <span style={{ color: "#333" }}>(optional)</span></div>
+          <div style={{ display: "flex", flexWrap: "wrap", gap: "0.35rem" }}>
+            {PERSONALITIES.map(p => (
+              <div key={p.id} onClick={() => setPersonalities(prev => prev.includes(p.id) ? prev.filter(x => x !== p.id) : [...prev, p.id].slice(0, 3))} style={chip(personalities.includes(p.id))}>
+                {p.name}
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div style={{ marginBottom: "1.75rem", textAlign: "left" }}>
+          <input
+            value={projectName}
+            onChange={e => setProjectName(e.target.value)}
+            placeholder="Project name (optional)"
+            style={{
+              width: "100%", padding: "0.65rem 1rem",
+              background: "rgba(255,255,255,0.03)", border: "1px solid #252525",
+              borderRadius: "0.4rem", color: "#ddd", fontSize: "0.85rem",
+              fontFamily: "inherit", outline: "none", boxSizing: "border-box",
+            }}
+          />
+        </div>
+
+        <button
+          onClick={startProject}
+          disabled={!prompt.trim() && detectedVerticals.length === 0}
+          style={{
+            background: (prompt.trim() || detectedVerticals.length > 0) ? ac : "#222",
+            border: "none", color: (prompt.trim() || detectedVerticals.length > 0) ? "#fff" : "#555",
+            padding: "0.9rem 3rem", fontSize: "0.85rem", letterSpacing: "0.15em",
+            textTransform: "uppercase", cursor: (prompt.trim() || detectedVerticals.length > 0) ? "pointer" : "default",
+            fontFamily: "inherit", borderRadius: "0.4rem", transition: "all 0.2s", width: "100%", maxWidth: 380,
+          }}
+        >
+          Generate Shot List →
+        </button>
+
+        <p style={{ fontSize: "0.7rem", color: "#333", marginTop: "1.25rem" }}>
+          No API calls · No backend · All processing happens in your browser
+        </p>
       </div>
     </div>
   );
 
-  // ─── WIZARD ───
-  if (screen === "wizard") {
-    const steps = [
-      { title: "Identity", sub: "Who are you?" },
-      { title: "Personality", sub: "What's your vibe?" },
-      { title: "Audience", sub: "Who are you reaching?" },
-      { title: "Aesthetics", sub: "Colors & platforms" },
-      { title: "Venues", sub: "Your spaces" },
-    ];
-    const ok = () => {
-      if (wizStep === 0) return profile.businessName && profile.industry;
-      if (wizStep === 1) return profile.personalities.length > 0;
-      if (wizStep === 2) return profile.audiences.length > 0;
-      if (wizStep === 3) return profile.platforms.length > 0;
-      return true;
-    };
+  // ─── TREATMENT EXPORT ───
+  if (showExport) {
+    const treatmentText = `${projectName || "Untitled Project"}\n${"═".repeat(50)}\n\nSHOT LIST — ${shotList.length} shots\nGenerated by Mise en Shot\n${"─".repeat(50)}\n\n` +
+      shotList.map((s, i) => {
+        const cat = CATEGORIES.find(c => c.id === s.catId);
+        return `${String(i+1).padStart(2, "0")}. ${s.name}\n    Category: ${cat?.name || "—"}\n    Tags: ${s.tags.join(" · ")}\n    ${s.note ? `Note: ${s.note}\n` : ""}`;
+      }).join("\n") +
+      `\n${"─".repeat(50)}\nVerticals: ${activeVerticals.map(v => v.name).join(", ") || "General"}\nVibes: ${personalities.map(p => PERSONALITIES.find(pp => pp.id === p)?.name).filter(Boolean).join(", ") || "—"}\n${mood ? `Mood: ${MOODS.find(m => m.id === mood)?.name || ""}` : ""}\n`;
+
     return (
-      <div style={{ minHeight: "100vh", background: "linear-gradient(135deg, #0a0a0f 0%, #1a1a2e 40%, #16213e 100%)", fontFamily: "'Georgia', serif", color: "#e0e0e0", display: "flex", flexDirection: "column" }}>
-        <div style={{ display: "flex", gap: "0.25rem", padding: "1.5rem 2rem 0" }}>
-          {steps.map((_, i) => <div key={i} style={{ flex: 1, height: 3, borderRadius: 2, background: i <= wizStep ? "#e94560" : "#222" }} />)}
-        </div>
-        <div style={{ flex: 1, display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center", padding: "2rem", maxWidth: 640, margin: "0 auto", width: "100%" }}>
-          <div style={{ fontSize: "0.75rem", letterSpacing: "0.3em", color: "#666", textTransform: "uppercase", marginBottom: "0.5rem" }}>Step {wizStep+1} of {steps.length}</div>
-          <h2 style={{ fontSize: "2rem", fontWeight: 300, marginBottom: "0.25rem", color: "#fff" }}>{steps[wizStep].title}</h2>
-          <p style={{ color: "#888", marginBottom: "2.5rem", fontStyle: "italic" }}>{steps[wizStep].sub}</p>
-
-          {wizStep === 0 && <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-            {/* Quick upload option */}
-            <div onClick={() => setScreen("upload")} style={{ padding: "0.85rem 1rem", background: "rgba(233,69,96,0.06)", border: "1px dashed rgba(233,69,96,0.3)", borderRadius: "0.5rem", cursor: "pointer", textAlign: "center", transition: "all 0.2s" }}
-              onMouseEnter={e => e.currentTarget.style.borderColor = "#e94560"}
-              onMouseLeave={e => e.currentTarget.style.borderColor = "rgba(233,69,96,0.3)"}>
-              <span style={{ fontSize: "0.85rem", color: "#e94560" }}>📄 Have a brand guide? Upload it instead</span>
-              <span style={{ fontSize: "0.75rem", color: "#666", display: "block", marginTop: "0.2rem" }}>Extracts your profile from the document — no API, runs locally</span>
+      <div style={{ minHeight: "100vh", background: "#07070a", fontFamily: "'Inter', 'Segoe UI', system-ui, sans-serif", color: "#e0e0e0", padding: "2rem" }}>
+        <div style={{ maxWidth: 780, margin: "0 auto" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.5rem", flexWrap: "wrap", gap: "0.5rem" }}>
+            <h2 style={{ fontWeight: 600, color: "#fff", fontSize: "1.2rem", margin: 0 }}>📄 Treatment Export</h2>
+            <div style={{ display: "flex", gap: "0.4rem" }}>
+              <button onClick={() => copyToClipboard(treatmentText, "Copied!")} style={{ padding: "0.4rem 0.85rem", background: `${ac}12`, border: `1px solid ${ac}33`, color: ac, cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem", fontSize: "0.8rem" }}>📋 Copy</button>
+              <button onClick={() => { const blob = new Blob([treatmentText], {type: "text/plain"}); const a = document.createElement("a"); a.href = URL.createObjectURL(blob); a.download = `${(projectName || "mise-en-shot").replace(/\s+/g, "-").toLowerCase()}-shotlist.txt`; a.click(); }} style={{ padding: "0.4rem 0.85rem", background: ac, border: "none", color: "#fff", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem", fontSize: "0.8rem" }}>⬇ Download</button>
+              <button onClick={() => setShowExport(false)} style={{ padding: "0.4rem 0.85rem", background: "transparent", border: "1px solid #252525", color: "#666", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem", fontSize: "0.8rem" }}>← Back</button>
             </div>
-            <div style={{ display: "flex", alignItems: "center", gap: "1rem" }}>
-              <div style={{ flex: 1, height: 1, background: "#222" }} />
-              <span style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.1em" }}>OR FILL MANUALLY</span>
-              <div style={{ flex: 1, height: 1, background: "#222" }} />
+          </div>
+          {copyMsg && <div style={{ padding: "0.4rem 0.85rem", background: `${ac}12`, border: `1px solid ${ac}28`, borderRadius: "0.25rem", color: ac, fontSize: "0.8rem", marginBottom: "0.75rem", textAlign: "center" }}>✓ {copyMsg}</div>}
+          <div style={{ background: "#0c0c10", border: "1px solid #1a1a1a", borderRadius: "0.6rem", padding: "2rem", lineHeight: 1.8 }}>
+            <div style={{ textAlign: "center", marginBottom: "2rem" }}>
+              <div style={{ fontSize: "1.6rem", fontWeight: 700, color: "#fff", letterSpacing: "0.04em" }}>{projectName || "Untitled Project"}</div>
+              <div style={{ width: 36, height: 2, background: ac, margin: "0.6rem auto" }} />
+              <div style={{ fontSize: "0.75rem", color: "#555" }}>Shot List · {shotList.length} shots · Mise en Shot</div>
+              {activeVerticals.length > 0 && <div style={{ fontSize: "0.7rem", color: "#444", marginTop: "0.2rem" }}>{activeVerticals.map(v => v.name).join(" · ")}</div>}
             </div>
-            <div><label style={{ fontSize: "0.8rem", color: "#888", letterSpacing: "0.1em", display: "block", marginBottom: "0.5rem" }}>BUSINESS NAME</label>
-            <input style={inp} placeholder="e.g. The Copper Vine" value={profile.businessName} onChange={e => up("businessName", e.target.value)} /></div>
-            <div><label style={{ fontSize: "0.8rem", color: "#888", letterSpacing: "0.1em", display: "block", marginBottom: "0.5rem" }}>INDUSTRY</label>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
-              {INDUSTRIES.map(i => <div key={i.id} onClick={() => up("industry", i.id)} style={chip(profile.industry === i.id)}><span>{i.icon}</span> {i.name}</div>)}
-            </div></div>
-            <div><label style={{ fontSize: "0.8rem", color: "#888", letterSpacing: "0.1em", display: "block", marginBottom: "0.5rem" }}>DESCRIPTION (optional)</label>
-            <textarea style={{ ...inp, minHeight: 80, resize: "vertical" }} placeholder="Anything about your brand..." value={profile.description} onChange={e => up("description", e.target.value)} /></div>
-          </div>}
-
-          {wizStep === 1 && <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-            <label style={{ fontSize: "0.8rem", color: "#888", letterSpacing: "0.1em" }}>SELECT ALL THAT FIT (1-3)</label>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
-              {PERSONALITIES.map(p => <div key={p.id} onClick={() => tog("personalities", p.id)} style={chip(profile.personalities.includes(p.id))}>{p.name}</div>)}
-            </div>
-            <div><label style={{ fontSize: "0.8rem", color: "#888", letterSpacing: "0.1em", display: "block", marginBottom: "0.5rem" }}>MUSIC / VIBE KEYWORDS (optional)</label>
-            <input style={inp} placeholder="jazz, lo-fi, rock, acoustic..." value={profile.musicGenres} onChange={e => up("musicGenres", e.target.value)} /></div>
-          </div>}
-
-          {wizStep === 2 && <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-            <label style={{ fontSize: "0.8rem", color: "#888", letterSpacing: "0.1em" }}>WHO ARE YOU TRYING TO REACH?</label>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
-              {AUDIENCES.map(a => <div key={a.id} onClick={() => tog("audiences", a.id)} style={chip(profile.audiences.includes(a.id))}>{a.name}</div>)}
-            </div>
-          </div>}
-
-          {wizStep === 3 && <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: "1.5rem" }}>
-            <div><label style={{ fontSize: "0.8rem", color: "#888", letterSpacing: "0.1em", display: "block", marginBottom: "0.5rem" }}>BRAND COLORS</label>
-            <div style={{ display: "flex", gap: "1rem", alignItems: "center" }}>
-              {[["colorPrimary","Primary"],["colorSecondary","Secondary"],["colorAccent","Accent"]].map(([k,l]) =>
-                <div key={k} style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "0.5rem" }}>
-                  <input type="color" value={profile[k]} onChange={e => up(k, e.target.value)} style={{ width: 48, height: 48, border: "1px solid #333", borderRadius: "0.5rem", cursor: "pointer", background: "transparent" }} />
-                  <span style={{ fontSize: "0.7rem", color: "#666" }}>{l}</span>
+            {shotList.map((shot, i) => {
+              const cat = CATEGORIES.find(c => c.id === shot.catId);
+              return (
+                <div key={i} style={{ display: "flex", gap: "0.85rem", padding: "0.6rem 0", borderBottom: i < shotList.length - 1 ? "1px solid #151515" : "none" }}>
+                  <div style={{ width: 30, textAlign: "right", color: ac, fontWeight: 600, fontSize: "0.85rem", flexShrink: 0 }}>{String(i+1).padStart(2, "0")}</div>
+                  <div style={{ flex: 1 }}>
+                    <div style={{ fontSize: "0.88rem", color: "#ccc", marginBottom: "0.15rem" }}>{shot.name}</div>
+                    <div style={{ fontSize: "0.7rem", color: "#444" }}>{cat?.icon} {cat?.name} · {shot.tags.join(" · ")}{shot.note ? ` · ${shot.note}` : ""}</div>
+                  </div>
                 </div>
-              )}
-              <div style={{ flex: 1, height: 48, borderRadius: "0.5rem", border: "1px solid #333", background: `linear-gradient(135deg, ${profile.colorPrimary}, ${profile.colorSecondary}, ${profile.colorAccent})` }} />
-            </div></div>
-            <div><label style={{ fontSize: "0.8rem", color: "#888", letterSpacing: "0.1em", display: "block", marginBottom: "0.5rem" }}>PLATFORMS</label>
-            <div style={{ display: "flex", flexWrap: "wrap", gap: "0.5rem" }}>
-              {PLATFORMS.map(p => <div key={p.id} onClick={() => tog("platforms", p.id)} style={chip(profile.platforms.includes(p.id))}><span>{p.icon}</span> {p.name}</div>)}
-            </div></div>
-          </div>}
-
-          {wizStep === 4 && <div style={{ width: "100%", display: "flex", flexDirection: "column", gap: "1rem" }}>
-            <label style={{ fontSize: "0.8rem", color: "#888", letterSpacing: "0.1em" }}>YOUR OUTLETS / VENUES</label>
-            {profile.venues.map((v, i) => <div key={i} style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
-              <input style={{ ...inp, flex: 2 }} placeholder="Venue name" value={v.name} onChange={e => upVenue(i, "name", e.target.value)} />
-              <input style={{ ...inp, flex: 1 }} placeholder="Type" value={v.type} onChange={e => upVenue(i, "type", e.target.value)} />
-              {profile.venues.length > 1 && <button onClick={() => rmVenue(i)} style={{ background: "none", border: "1px solid #444", color: "#666", width: 36, height: 36, borderRadius: "50%", cursor: "pointer" }}>×</button>}
-            </div>)}
-            <button onClick={addVenue} style={{ background: "none", border: "1px dashed #444", color: "#888", padding: "0.75rem", borderRadius: "0.5rem", cursor: "pointer", fontFamily: "inherit" }}>+ Add Venue</button>
-          </div>}
-
-          <div style={{ display: "flex", gap: "1rem", marginTop: "3rem", width: "100%" }}>
-            {wizStep > 0 && <button onClick={() => setWizStep(s => s-1)} style={{ flex: 1, padding: "1rem", background: "transparent", border: "1px solid #333", color: "#888", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem" }}>← Back</button>}
-            <button onClick={() => { if (wizStep < 4) setWizStep(s => s+1); else { setScreen("dashboard"); setDashMode("browse"); } }}
-              disabled={!ok()} style={{ flex: 2, padding: "1rem", background: ok() ? "#e94560" : "#333", border: "none", color: ok() ? "#fff" : "#666", cursor: ok() ? "pointer" : "default", fontFamily: "inherit", letterSpacing: "0.2em", textTransform: "uppercase", borderRadius: "0.25rem" }}>
-              {wizStep < 4 ? "Continue →" : "Launch Dashboard →"}
-            </button>
+              );
+            })}
           </div>
         </div>
       </div>
@@ -2336,288 +2303,158 @@ export default function App() {
   }
 
   // ─── DASHBOARD ───
-  const nav = [{ id: "browse", n: "Browse", i: "🔍" },{ id: "storyboard", n: "Storyboard", i: "🎬" },{ id: "shotlist", n: `Shot List (${shotList.length})`, i: "📋" },{ id: "profile", n: "Profile", i: "⚙️" }];
+  const nav = [
+    { id: "browse", n: "Browse", i: "🔍" },
+    { id: "storyboard", n: "Storyboard", i: "🎬" },
+    { id: "shotlist", n: `Shot List (${shotList.length})`, i: "📋" },
+  ];
+
   return (
-    <div style={{ minHeight: "100vh", background: `linear-gradient(135deg, ${profile.colorPrimary}ee 0%, #0a0a0f 40%, ${profile.colorSecondary}44 100%)`, fontFamily: "'Georgia', serif", color: "#e0e0e0" }}>
-      {/* Header */}
-      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "1rem 1.5rem", borderBottom: "1px solid #222", background: "rgba(0,0,0,0.4)", backdropFilter: "blur(10px)" }}>
-        <div>
-          <span style={{ fontSize: "1.1rem", fontWeight: 600, color: "#fff" }}>{profile.businessName}</span>
-          <span style={{ fontSize: "0.75rem", color: "#666", marginLeft: "0.75rem" }}>{INDUSTRIES.find(i => i.id === profile.industry)?.icon} {INDUSTRIES.find(i => i.id === profile.industry)?.name}</span>
+    <div style={{ minHeight: "100vh", background: "linear-gradient(160deg, #07070a 0%, #0d0d14 40%, #141422 100%)", fontFamily: "'Inter', 'Segoe UI', system-ui, sans-serif", color: "#e0e0e0" }}>
+      <div style={{ display: "flex", alignItems: "center", justifyContent: "space-between", padding: "0.6rem 1.25rem", borderBottom: "1px solid #151515", background: "rgba(7,7,10,0.8)", backdropFilter: "blur(10px)" }}>
+        <div style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
+          <span style={{ fontSize: "0.85rem", fontWeight: 700, color: "#fff", letterSpacing: "0.04em", cursor: "pointer" }} onClick={() => setScreen("landing")}>MISE EN SHOT</span>
+          {projectName && <span style={{ fontSize: "0.75rem", color: "#555" }}>— {projectName}</span>}
         </div>
-        <div style={{ display: "flex", gap: "0.75rem", alignItems: "center" }}>
-          <div style={{ width: 16, height: 16, borderRadius: "50%", background: ac, border: "2px solid rgba(255,255,255,0.2)" }} />
-          <span style={{ fontSize: "0.8rem", color: "#888" }}>1,200 styles</span>
+        <div style={{ display: "flex", gap: "0.5rem", alignItems: "center" }}>
+          {activeVerticals.slice(0, 2).map(v => <span key={v.id} style={{ fontSize: "0.65rem", color: "#444", background: "rgba(255,255,255,0.02)", padding: "0.15rem 0.4rem", borderRadius: "0.75rem", border: "1px solid #1a1a1a" }}>{v.icon} {v.name}</span>)}
+          <span style={{ fontSize: "0.7rem", color: "#444" }}>1,688 styles</span>
         </div>
-      </div>
-      {/* Nav */}
-      <div style={{ display: "flex", borderBottom: "1px solid #222", background: "rgba(0,0,0,0.2)" }}>
-        {nav.map(n => <button key={n.id} onClick={() => { setDashMode(n.id); if (n.id !== "storyboard") { setStoryboard(null); } }} style={{ flex: 1, padding: "0.85rem", background: dashMode === n.id ? "rgba(255,255,255,0.05)" : "transparent", border: "none", borderBottom: dashMode === n.id ? `2px solid ${ac}` : "2px solid transparent", color: dashMode === n.id ? "#fff" : "#666", cursor: "pointer", fontSize: "0.8rem", fontFamily: "inherit" }}>{n.i} {n.n}</button>)}
       </div>
 
-      <div style={{ padding: "1.5rem", maxWidth: 900, margin: "0 auto" }}>
-        {/* BROWSE */}
+      <div style={{ display: "flex", borderBottom: "1px solid #151515", background: "rgba(7,7,10,0.5)" }}>
+        {nav.map(n => <button key={n.id} onClick={() => { setDashMode(n.id); if (n.id !== "storyboard") setStoryboard(null); }} style={{ flex: 1, padding: "0.65rem", background: dashMode === n.id ? "rgba(255,255,255,0.03)" : "transparent", border: "none", borderBottom: dashMode === n.id ? `2px solid ${ac}` : "2px solid transparent", color: dashMode === n.id ? "#ddd" : "#555", cursor: "pointer", fontSize: "0.78rem", fontFamily: "inherit" }}>{n.i} {n.n}</button>)}
+      </div>
+
+      <div style={{ padding: "1.25rem", maxWidth: 920, margin: "0 auto" }}>
         {dashMode === "browse" && <div>
-          <div style={{ display: "flex", gap: "0.75rem", marginBottom: "1rem", flexWrap: "wrap" }}>
-            <input style={{ flex: 1, minWidth: 200, padding: "0.75rem 1rem", background: "rgba(255,255,255,0.05)", border: "1px solid #333", borderRadius: "0.5rem", color: "#e0e0e0", fontSize: "0.9rem", fontFamily: "inherit", outline: "none" }}
-              placeholder="Search 1,200 styles..." value={search} onChange={e => { setSearch(e.target.value); setBrowseLimit(50); }} />
+          <div style={{ display: "flex", gap: "0.5rem", marginBottom: "0.75rem", flexWrap: "wrap" }}>
+            <input style={{ flex: 1, minWidth: 200, padding: "0.6rem 0.85rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1e1e1e", borderRadius: "0.4rem", color: "#ddd", fontSize: "0.85rem", fontFamily: "inherit", outline: "none" }}
+              placeholder="Search 1,688 styles..." value={search} onChange={e => { setSearch(e.target.value); setBrowseLimit(50); }} />
             <select value={catFilter || ""} onChange={e => { setCatFilter(e.target.value ? parseInt(e.target.value) : null); setBrowseLimit(50); }}
-              style={{ padding: "0.75rem", background: "rgba(255,255,255,0.05)", border: "1px solid #333", borderRadius: "0.5rem", color: "#e0e0e0", fontFamily: "inherit" }}>
+              style={{ padding: "0.6rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1e1e1e", borderRadius: "0.4rem", color: "#ddd", fontFamily: "inherit" }}>
               <option value="">All Categories</option>
               {CATEGORIES.map(c => <option key={c.id} value={c.id}>{c.icon} {c.name}</option>)}
             </select>
           </div>
-          {/* Mood chips */}
-          <div style={{ display: "flex", gap: "0.4rem", marginBottom: "1rem", flexWrap: "wrap" }}>
-            <span style={{ fontSize: "0.75rem", color: "#666", alignSelf: "center", marginRight: "0.5rem" }}>MOOD:</span>
-            <div onClick={() => setMood(null)} style={{ padding: "0.4rem 0.75rem", borderRadius: "1rem", fontSize: "0.8rem", cursor: "pointer", border: !mood ? `1px solid ${ac}` : "1px solid #333", color: !mood ? ac : "#888", background: !mood ? `${ac}22` : "transparent" }}>All</div>
-            {MOODS.map(m => <div key={m.id} onClick={() => setMood(mood === m.id ? null : m.id)} style={{ padding: "0.4rem 0.75rem", borderRadius: "1rem", fontSize: "0.8rem", cursor: "pointer", border: mood === m.id ? `1px solid ${ac}` : "1px solid #333", color: mood === m.id ? ac : "#888", background: mood === m.id ? `${ac}22` : "transparent" }}>{m.icon} {m.name}</div>)}
+          <div style={{ display: "flex", gap: "0.3rem", marginBottom: "0.75rem", flexWrap: "wrap" }}>
+            <span style={{ fontSize: "0.65rem", color: "#444", alignSelf: "center", marginRight: "0.25rem" }}>MOOD:</span>
+            <div onClick={() => setMood(null)} style={{ padding: "0.3rem 0.55rem", borderRadius: "1rem", fontSize: "0.72rem", cursor: "pointer", border: !mood ? `1px solid ${ac}44` : "1px solid #1a1a1a", color: !mood ? ac : "#555", background: !mood ? `${ac}12` : "transparent" }}>All</div>
+            {MOODS.map(m => <div key={m.id} onClick={() => setMood(mood === m.id ? null : m.id)} style={{ padding: "0.3rem 0.55rem", borderRadius: "1rem", fontSize: "0.72rem", cursor: "pointer", border: mood === m.id ? `1px solid ${ac}44` : "1px solid #1a1a1a", color: mood === m.id ? ac : "#555", background: mood === m.id ? `${ac}12` : "transparent" }}>{m.icon} {m.name}</div>)}
           </div>
-          <div style={{ fontSize: "0.75rem", color: "#666", marginBottom: "0.75rem" }}>{filtered.length} styles matched — sorted by brand fit</div>
-          <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+          <div style={{ fontSize: "0.65rem", color: "#444", marginBottom: "0.4rem" }}>{filtered.length} styles — sorted by relevance</div>
+          <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
             {filtered.slice(0, browseLimit).map(st => {
               const cat = CATEGORIES.find(c => c.id === st.catId);
               const fit = Math.min(99, Math.round((st.score / 4) * 100));
-              return <div key={st.id} style={{ padding: "0.75rem 1rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.4rem", display: "flex", alignItems: "center", gap: "0.75rem" }}
-                onMouseEnter={e => e.currentTarget.style.borderColor = "#333"} onMouseLeave={e => e.currentTarget.style.borderColor = "#1a1a1a"}>
-                <span style={{ fontSize: "0.65rem", color: "#444", width: 28, textAlign: "right", flexShrink: 0 }}>#{st.id}</span>
-                <span style={{ flex: 1, fontSize: "0.88rem", color: "#ddd" }}>{st.name}</span>
-                <span style={{ fontSize: "0.7rem", color: "#555", whiteSpace: "nowrap" }}>{cat?.icon} {cat?.name}</span>
-                <div style={{ display: "flex", gap: "0.2rem", flexShrink: 0 }}>
-                  {st.tags.map((t,i) => <span key={i} style={{ padding: "0.1rem 0.35rem", background: "rgba(255,255,255,0.04)", borderRadius: "0.2rem", fontSize: "0.6rem", color: "#666" }}>{t}</span>)}
+              return <div key={st.id} style={{ padding: "0.55rem 0.75rem", background: "rgba(255,255,255,0.015)", border: "1px solid #111", borderRadius: "0.3rem", display: "flex", alignItems: "center", gap: "0.5rem", transition: "border-color 0.1s" }}
+                onMouseEnter={e => e.currentTarget.style.borderColor = "#2a2a2a"} onMouseLeave={e => e.currentTarget.style.borderColor = "#111"}>
+                <span style={{ fontSize: "0.55rem", color: "#2a2a2a", width: 24, textAlign: "right", flexShrink: 0 }}>#{st.id}</span>
+                <span style={{ flex: 1, fontSize: "0.82rem", color: "#bbb" }}>{st.name}</span>
+                <span style={{ fontSize: "0.6rem", color: "#3a3a3a", whiteSpace: "nowrap" }}>{cat?.icon} {cat?.name}</span>
+                <div style={{ display: "flex", gap: "1px", flexShrink: 0 }}>
+                  {st.tags.map((t,i) => <span key={i} style={{ padding: "0.08rem 0.25rem", background: "rgba(255,255,255,0.02)", borderRadius: "0.12rem", fontSize: "0.52rem", color: "#444" }}>{t}</span>)}
                 </div>
-                <div style={{ width: 45, height: 5, background: "#1a1a1a", borderRadius: 3, overflow: "hidden", flexShrink: 0 }}>
-                  <div style={{ width: `${fit}%`, height: "100%", background: fit > 70 ? ac : fit > 40 ? "#f0a500" : "#555", borderRadius: 3 }} />
+                <div style={{ width: 36, height: 3, background: "#0d0d0d", borderRadius: 2, overflow: "hidden", flexShrink: 0 }}>
+                  <div style={{ width: `${fit}%`, height: "100%", background: fit > 70 ? ac : fit > 40 ? "#c97a00" : "#333", borderRadius: 2 }} />
                 </div>
-                <span style={{ fontSize: "0.65rem", color: fit > 70 ? ac : "#555", width: 30, flexShrink: 0 }}>{fit}%</span>
-                <button onClick={() => addShot(st)} style={{ background: "none", border: `1px solid ${ac}33`, color: ac, padding: "0.25rem 0.5rem", borderRadius: "0.2rem", cursor: "pointer", fontSize: "0.7rem", fontFamily: "inherit", flexShrink: 0 }}>+</button>
+                <span style={{ fontSize: "0.55rem", color: fit > 70 ? ac : "#3a3a3a", width: 25, flexShrink: 0 }}>{fit}%</span>
+                <button onClick={() => addShot(st)} style={{ background: "none", border: `1px solid ${ac}1a`, color: ac, padding: "0.15rem 0.4rem", borderRadius: "0.12rem", cursor: "pointer", fontSize: "0.6rem", fontFamily: "inherit", flexShrink: 0, transition: "border-color 0.15s" }}
+                  onMouseEnter={e => e.currentTarget.style.borderColor = ac}
+                  onMouseLeave={e => e.currentTarget.style.borderColor = `${ac}1a`}>+</button>
               </div>;
             })}
           </div>
-          {browseLimit < filtered.length && <button onClick={() => setBrowseLimit(l => l + 50)} style={{ width: "100%", marginTop: "1rem", padding: "0.75rem", background: "rgba(255,255,255,0.03)", border: "1px solid #222", borderRadius: "0.4rem", color: "#888", cursor: "pointer", fontFamily: "inherit" }}>Load more ({filtered.length - browseLimit} remaining)</button>}
+          {browseLimit < filtered.length && <button onClick={() => setBrowseLimit(l => l + 50)} style={{ width: "100%", marginTop: "0.5rem", padding: "0.55rem", background: "rgba(255,255,255,0.015)", border: "1px solid #151515", borderRadius: "0.3rem", color: "#555", cursor: "pointer", fontFamily: "inherit", fontSize: "0.78rem" }}>Load more ({filtered.length - browseLimit} remaining)</button>}
         </div>}
 
-        {/* STORYBOARD */}
         {dashMode === "storyboard" && <div>
-          {!storyboard ? <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "2rem", paddingTop: "2rem" }}>
-            <h3 style={{ fontWeight: 300, color: "#fff", fontSize: "1.5rem" }}>Generate a Storyboard</h3>
-            <div style={{ width: "100%", maxWidth: 500 }}>
-              <label style={{ fontSize: "0.8rem", color: "#888", letterSpacing: "0.1em", display: "block", marginBottom: "0.75rem" }}>MOOD</label>
-              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.5rem" }}>
-                {MOODS.map(m => <div key={m.id} onClick={() => setMood(m.id)} style={{ padding: "1rem", borderRadius: "0.5rem", cursor: "pointer", border: mood === m.id ? `2px solid ${ac}` : "1px solid #333", background: mood === m.id ? `${ac}15` : "rgba(255,255,255,0.03)", textAlign: "center" }}>
-                  <div style={{ fontSize: "1.5rem" }}>{m.icon}</div>
-                  <div style={{ fontSize: "0.85rem", color: mood === m.id ? "#fff" : "#aaa", marginTop: "0.25rem" }}>{m.name}</div>
+          {!storyboard ? <div style={{ display: "flex", flexDirection: "column", alignItems: "center", gap: "1.75rem", paddingTop: "1.5rem" }}>
+            <h3 style={{ fontWeight: 500, color: "#fff", fontSize: "1.3rem" }}>Generate a Storyboard</h3>
+            <div style={{ width: "100%", maxWidth: 480 }}>
+              <label style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.1em", display: "block", marginBottom: "0.4rem" }}>MOOD</label>
+              <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "0.35rem" }}>
+                {MOODS.map(m => <div key={m.id} onClick={() => setMood(m.id)} style={{ padding: "0.75rem", borderRadius: "0.4rem", cursor: "pointer", border: mood === m.id ? `2px solid ${ac}` : "1px solid #1a1a1a", background: mood === m.id ? `${ac}0d` : "rgba(255,255,255,0.015)", textAlign: "center" }}>
+                  <div style={{ fontSize: "1.2rem" }}>{m.icon}</div>
+                  <div style={{ fontSize: "0.78rem", color: mood === m.id ? "#ddd" : "#777", marginTop: "0.15rem" }}>{m.name}</div>
                 </div>)}
               </div>
             </div>
-            {mood && <div style={{ width: "100%", maxWidth: 500 }}>
-              <label style={{ fontSize: "0.8rem", color: "#888", letterSpacing: "0.1em", display: "block", marginBottom: "0.75rem" }}>DURATION</label>
-              <div style={{ display: "flex", gap: "0.5rem" }}>
-                {DURATIONS.map(d => <div key={d.id} onClick={() => setDuration(d.id)} style={{ flex: 1, padding: "1rem", borderRadius: "0.5rem", cursor: "pointer", border: duration === d.id ? `2px solid ${ac}` : "1px solid #333", background: duration === d.id ? `${ac}15` : "rgba(255,255,255,0.03)", textAlign: "center" }}>
-                  <div style={{ fontSize: "1.2rem", fontWeight: 600, color: duration === d.id ? "#fff" : "#aaa" }}>{d.name}</div>
-                  <div style={{ fontSize: "0.7rem", color: "#666" }}>{d.label} · {d.shots} shots</div>
+            {mood && <div style={{ width: "100%", maxWidth: 480 }}>
+              <label style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.1em", display: "block", marginBottom: "0.4rem" }}>DURATION</label>
+              <div style={{ display: "flex", gap: "0.35rem" }}>
+                {DURATIONS.map(d => <div key={d.id} onClick={() => setDuration(d.id)} style={{ flex: 1, padding: "0.75rem", borderRadius: "0.4rem", cursor: "pointer", border: duration === d.id ? `2px solid ${ac}` : "1px solid #1a1a1a", background: duration === d.id ? `${ac}0d` : "rgba(255,255,255,0.015)", textAlign: "center" }}>
+                  <div style={{ fontSize: "1rem", fontWeight: 600, color: duration === d.id ? "#ddd" : "#777" }}>{d.name}</div>
+                  <div style={{ fontSize: "0.6rem", color: "#444" }}>{d.label} · {d.shots} shots</div>
                 </div>)}
               </div>
             </div>}
-            {mood && duration && <button onClick={doGen} style={{ padding: "1rem 3rem", background: ac, border: "none", color: "#fff", cursor: "pointer", fontFamily: "inherit", letterSpacing: "0.2em", textTransform: "uppercase", borderRadius: "0.25rem" }}>Generate</button>}
+            {mood && duration && <button onClick={doGen} style={{ padding: "0.75rem 2.5rem", background: ac, border: "none", color: "#fff", cursor: "pointer", fontFamily: "inherit", letterSpacing: "0.15em", textTransform: "uppercase", borderRadius: "0.3rem", fontSize: "0.82rem" }}>Generate</button>}
           </div> : <div>
-            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.5rem", flexWrap: "wrap", gap: "0.5rem" }}>
+            <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem", flexWrap: "wrap", gap: "0.4rem" }}>
               <div>
-                <h3 style={{ fontWeight: 300, color: "#fff", fontSize: "1.3rem", margin: 0 }}>{profile.businessName} — {MOODS.find(m => m.id === mood)?.icon} {MOODS.find(m => m.id === mood)?.name}</h3>
-                <span style={{ fontSize: "0.8rem", color: "#666" }}>{DURATIONS.find(d => d.id === duration)?.name} · {storyboard.length} shots</span>
+                <h3 style={{ fontWeight: 500, color: "#fff", fontSize: "1.1rem", margin: 0 }}>{projectName || "Storyboard"} — {MOODS.find(m => m.id === mood)?.icon} {MOODS.find(m => m.id === mood)?.name}</h3>
+                <span style={{ fontSize: "0.7rem", color: "#444" }}>{DURATIONS.find(d => d.id === duration)?.name} · {storyboard.length} shots</span>
               </div>
-              <div style={{ display: "flex", gap: "0.5rem" }}>
-                <button onClick={() => setStoryboard(null)} style={{ padding: "0.5rem 1rem", background: "transparent", border: "1px solid #333", color: "#888", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem" }}>← Back</button>
-                <button onClick={doGen} style={{ padding: "0.5rem 1rem", background: "transparent", border: "1px solid #444", color: "#aaa", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem" }}>🎲 Reroll</button>
-                <button onClick={() => storyboard.forEach(s => addShot(s, s.beatName))} style={{ padding: "0.5rem 1rem", background: ac, border: "none", color: "#fff", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem" }}>→ Add All</button>
+              <div style={{ display: "flex", gap: "0.35rem" }}>
+                <button onClick={() => setStoryboard(null)} style={{ padding: "0.35rem 0.75rem", background: "transparent", border: "1px solid #1e1e1e", color: "#555", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.2rem", fontSize: "0.78rem" }}>← Back</button>
+                <button onClick={doGen} style={{ padding: "0.35rem 0.75rem", background: "transparent", border: "1px solid #252525", color: "#777", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.2rem", fontSize: "0.78rem" }}>🎲 Reroll</button>
+                <button onClick={() => storyboard.forEach(s => addShot(s, s.beatName))} style={{ padding: "0.35rem 0.75rem", background: ac, border: "none", color: "#fff", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.2rem", fontSize: "0.78rem" }}>→ Add All</button>
               </div>
             </div>
-            <div style={{ display: "flex", gap: "2px", marginBottom: "1.5rem", height: 4, borderRadius: 2, overflow: "hidden" }}>
-              {storyboard.map((s, i) => <div key={i} style={{ flex: 1, background: `hsl(${(acH.h + i * 15) % 360}, ${acH.s}%, ${40 + (i%3)*10}%)` }} />)}
+            <div style={{ display: "flex", gap: "1px", marginBottom: "1rem", height: 3, borderRadius: 1, overflow: "hidden" }}>
+              {storyboard.map((s, i) => <div key={i} style={{ flex: 1, background: `hsl(${(acH.h + i * 15) % 360}, ${acH.s}%, ${35 + (i%3)*8}%)` }} />)}
             </div>
-            <div style={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}>
+            <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
               {storyboard.map((shot, i) => {
                 const cat = CATEGORIES.find(c => c.id === shot.catId);
-                return <div key={i} style={{ display: "flex", gap: "1rem", alignItems: "center", padding: "0.85rem 1rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.4rem" }}>
-                  <div style={{ width: 38, height: 38, borderRadius: "50%", background: `${ac}22`, border: `1px solid ${ac}44`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: "1rem", flexShrink: 0 }}>{shot.beatIcon}</div>
+                return <div key={i} style={{ display: "flex", gap: "0.6rem", alignItems: "center", padding: "0.6rem 0.75rem", background: "rgba(255,255,255,0.015)", border: "1px solid #111", borderRadius: "0.3rem" }}>
+                  <div style={{ width: 28, height: 28, borderRadius: "50%", background: `${ac}12`, border: `1px solid ${ac}28`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.8rem", flexShrink: 0 }}>{shot.beatIcon}</div>
                   <div style={{ flex: 1 }}>
-                    <div style={{ fontSize: "0.88rem", color: "#ddd" }}>{shot.name}</div>
-                    <div style={{ fontSize: "0.7rem", color: "#555" }}>{shot.beatName} · {cat?.icon} {cat?.name}</div>
+                    <div style={{ fontSize: "0.82rem", color: "#bbb" }}>{shot.name}</div>
+                    <div style={{ fontSize: "0.6rem", color: "#3a3a3a" }}>{shot.beatName} · {cat?.icon} {cat?.name}</div>
                   </div>
-                  <div style={{ display: "flex", gap: "0.2rem", flexWrap: "wrap" }}>
-                    {shot.tags.map((t,j) => <span key={j} style={{ padding: "0.1rem 0.35rem", background: "rgba(255,255,255,0.04)", borderRadius: "0.2rem", fontSize: "0.6rem", color: "#666" }}>{t}</span>)}
+                  <div style={{ display: "flex", gap: "1px", flexWrap: "wrap" }}>
+                    {shot.tags.map((t,j) => <span key={j} style={{ padding: "0.08rem 0.25rem", background: "rgba(255,255,255,0.02)", borderRadius: "0.12rem", fontSize: "0.52rem", color: "#444" }}>{t}</span>)}
                   </div>
-                  <button onClick={() => addShot(shot, shot.beatName)} style={{ background: "none", border: `1px solid ${ac}33`, color: ac, padding: "0.25rem 0.5rem", borderRadius: "0.2rem", cursor: "pointer", fontSize: "0.7rem", fontFamily: "inherit", flexShrink: 0 }}>+</button>
+                  <button onClick={() => addShot(shot, shot.beatName)} style={{ background: "none", border: `1px solid ${ac}1a`, color: ac, padding: "0.15rem 0.4rem", borderRadius: "0.12rem", cursor: "pointer", fontSize: "0.6rem", fontFamily: "inherit", flexShrink: 0 }}>+</button>
                 </div>;
               })}
             </div>
           </div>}
         </div>}
 
-        {/* SHOT LIST */}
         {dashMode === "shotlist" && <div>
-          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1.5rem" }}>
-            <h3 style={{ fontWeight: 300, color: "#fff", fontSize: "1.3rem", margin: 0 }}>Shot List <span style={{ color: "#666", fontSize: "0.9rem" }}>({shotList.length})</span></h3>
-            <div style={{ display: "flex", gap: "0.5rem" }}>
+          <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "1rem" }}>
+            <h3 style={{ fontWeight: 500, color: "#fff", fontSize: "1.1rem", margin: 0 }}>Shot List <span style={{ color: "#444", fontSize: "0.85rem" }}>({shotList.length})</span></h3>
+            <div style={{ display: "flex", gap: "0.35rem" }}>
               {shotList.length > 0 && <>
                 <button onClick={() => {
-                  const txt = `${profile.businessName} — Shot List\n${"=".repeat(40)}\n` + shotList.map((s,i) => `${i+1}. [${CATEGORIES.find(c => c.id === s.catId)?.name}] ${s.name}${s.note ? ` — ${s.note}` : ""}`).join("\n");
-                  navigator.clipboard.writeText(txt);
-                }} style={{ padding: "0.5rem 1rem", background: "transparent", border: "1px solid #444", color: "#aaa", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem" }}>📋 Copy</button>
-                <button onClick={() => setShotList([])} style={{ padding: "0.5rem 1rem", background: "transparent", border: "1px solid #444", color: "#666", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem" }}>Clear</button>
+                  const txt = `${projectName || "Untitled"} — Shot List\n${"=".repeat(40)}\n` + shotList.map((s,i) => `${i+1}. [${CATEGORIES.find(c => c.id === s.catId)?.name}] ${s.name}${s.note ? ` — ${s.note}` : ""}`).join("\n");
+                  copyToClipboard(txt, "Copied!");
+                }} style={{ padding: "0.35rem 0.75rem", background: "transparent", border: "1px solid #252525", color: "#777", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.2rem", fontSize: "0.78rem" }}>📋 Copy</button>
+                <button onClick={() => setShowExport(true)} style={{ padding: "0.35rem 0.75rem", background: `${ac}12`, border: `1px solid ${ac}33`, color: ac, cursor: "pointer", fontFamily: "inherit", borderRadius: "0.2rem", fontSize: "0.78rem" }}>📄 Export</button>
+                <button onClick={() => setShotList([])} style={{ padding: "0.35rem 0.75rem", background: "transparent", border: "1px solid #1a1a1a", color: "#444", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.2rem", fontSize: "0.78rem" }}>Clear</button>
               </>}
             </div>
           </div>
-          {shotList.length === 0 ? <div style={{ textAlign: "center", padding: "4rem 2rem", color: "#555" }}>
-            <div style={{ fontSize: "2.5rem", marginBottom: "1rem" }}>📋</div>
-            <p style={{ fontStyle: "italic" }}>No shots yet. Browse or generate a storyboard to start building.</p>
-          </div> : <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
+          {copyMsg && <div style={{ padding: "0.35rem 0.75rem", background: `${ac}0d`, border: `1px solid ${ac}22`, borderRadius: "0.2rem", color: ac, fontSize: "0.78rem", marginBottom: "0.6rem", textAlign: "center" }}>✓ {copyMsg}</div>}
+          {shotList.length === 0 ? <div style={{ textAlign: "center", padding: "3.5rem 2rem", color: "#333" }}>
+            <div style={{ fontSize: "2.5rem", marginBottom: "0.75rem", opacity: 0.3 }}>📋</div>
+            <p style={{ fontSize: "0.88rem", color: "#444" }}>No shots yet. Browse or generate a storyboard to start building.</p>
+          </div> : <div style={{ display: "flex", flexDirection: "column", gap: "2px" }}>
             {shotList.map((shot, i) => {
               const cat = CATEGORIES.find(c => c.id === shot.catId);
-              return <div key={i} style={{ display: "flex", gap: "0.75rem", alignItems: "center", padding: "0.75rem 1rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.4rem" }}>
-                <span style={{ width: 26, height: 26, borderRadius: "50%", background: `${ac}22`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.7rem", color: ac, fontWeight: 600, flexShrink: 0 }}>{i+1}</span>
+              return <div key={i} style={{ display: "flex", gap: "0.5rem", alignItems: "center", padding: "0.55rem 0.75rem", background: "rgba(255,255,255,0.015)", border: "1px solid #111", borderRadius: "0.3rem" }}>
+                <span style={{ width: 22, height: 22, borderRadius: "50%", background: `${ac}12`, display: "flex", alignItems: "center", justifyContent: "center", fontSize: "0.6rem", color: ac, fontWeight: 600, flexShrink: 0 }}>{i+1}</span>
                 <div style={{ flex: 1 }}>
-                  <div style={{ fontSize: "0.88rem", color: "#ddd" }}>{shot.name}</div>
-                  <div style={{ fontSize: "0.7rem", color: "#555" }}>{cat?.icon} {cat?.name}{shot.note ? ` · ${shot.note}` : ""}</div>
+                  <div style={{ fontSize: "0.82rem", color: "#bbb" }}>{shot.name}</div>
+                  <div style={{ fontSize: "0.6rem", color: "#3a3a3a" }}>{cat?.icon} {cat?.name}{shot.note ? ` · ${shot.note}` : ""}</div>
                 </div>
-                <button onClick={() => rmShot(i)} style={{ background: "none", border: "1px solid #222", color: "#555", width: 26, height: 26, borderRadius: "50%", cursor: "pointer", fontSize: "0.75rem" }}>×</button>
+                <button onClick={() => rmShot(i)} style={{ background: "none", border: "1px solid #151515", color: "#333", width: 20, height: 20, borderRadius: "50%", cursor: "pointer", fontSize: "0.65rem", display: "flex", alignItems: "center", justifyContent: "center" }}>×</button>
               </div>;
             })}
           </div>}
-        </div>}
-
-        {/* PROFILE */}
-        {dashMode === "profile" && <div>
-          <h3 style={{ fontWeight: 300, color: "#fff", fontSize: "1.3rem", marginBottom: "1.5rem" }}>Brand Profile</h3>
-          <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: "1.25rem" }}>
-            <div style={{ padding: "1.25rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.5rem" }}>
-              <div style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.15em", marginBottom: "0.75rem" }}>IDENTITY</div>
-              <div style={{ fontSize: "1.1rem", color: "#fff", marginBottom: "0.4rem" }}>{profile.businessName}</div>
-              <div style={{ fontSize: "0.85rem", color: "#aaa" }}>{INDUSTRIES.find(i => i.id === profile.industry)?.icon} {INDUSTRIES.find(i => i.id === profile.industry)?.name}</div>
-              {profile.description && <div style={{ fontSize: "0.8rem", color: "#555", marginTop: "0.5rem", fontStyle: "italic" }}>{profile.description}</div>}
-            </div>
-            <div style={{ padding: "1.25rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.5rem" }}>
-              <div style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.15em", marginBottom: "0.75rem" }}>PERSONALITY</div>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem" }}>
-                {profile.personalities.map(p => <span key={p} style={{ padding: "0.3rem 0.7rem", background: `${ac}22`, border: `1px solid ${ac}44`, borderRadius: "1rem", fontSize: "0.8rem", color: ac }}>{PERSONALITIES.find(pp => pp.id === p)?.name}</span>)}
-              </div>
-              {profile.musicGenres && <div style={{ fontSize: "0.8rem", color: "#555", marginTop: "0.75rem" }}>🎵 {profile.musicGenres}</div>}
-            </div>
-            <div style={{ padding: "1.25rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.5rem" }}>
-              <div style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.15em", marginBottom: "0.75rem" }}>AUDIENCE</div>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem" }}>
-                {profile.audiences.map(a => <span key={a} style={{ padding: "0.3rem 0.7rem", background: "rgba(255,255,255,0.05)", border: "1px solid #333", borderRadius: "1rem", fontSize: "0.8rem", color: "#aaa" }}>{AUDIENCES.find(aa => aa.id === a)?.name}</span>)}
-              </div>
-            </div>
-            <div style={{ padding: "1.25rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.5rem" }}>
-              <div style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.15em", marginBottom: "0.75rem" }}>AESTHETICS</div>
-              <div style={{ display: "flex", gap: "0.5rem", alignItems: "center", marginBottom: "0.75rem" }}>
-                {[profile.colorPrimary, profile.colorSecondary, profile.colorAccent].map((c, i) => <div key={i} style={{ width: 22, height: 22, borderRadius: "50%", background: c, border: "1px solid #444" }} />)}
-              </div>
-              <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem" }}>
-                {profile.platforms.map(p => <span key={p} style={{ padding: "0.3rem 0.7rem", background: "rgba(255,255,255,0.05)", border: "1px solid #333", borderRadius: "1rem", fontSize: "0.8rem", color: "#aaa" }}>{PLATFORMS.find(pp => pp.id === p)?.icon} {PLATFORMS.find(pp => pp.id === p)?.name}</span>)}
-              </div>
-            </div>
-            {/* Offerings extracted from uploads */}
-            {((profile.menuItems || []).length > 0 || (profile.serviceTypes || []).length > 0 || (profile.spaces || []).length > 0) && <>
-
-              {/* Cuisine & Price */}
-              {((profile.cuisineTypes || []).length > 0 || profile.priceTier) && (
-                <div style={{ padding: "1.25rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.5rem" }}>
-                  <div style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.15em", marginBottom: "0.75rem" }}>CUISINE & PRICE</div>
-                  <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", marginBottom: profile.priceTier ? "0.75rem" : 0 }}>
-                    {(profile.cuisineTypes || []).map(c => <span key={c} style={{ padding: "0.3rem 0.7rem", background: "rgba(255,255,255,0.05)", border: "1px solid #333", borderRadius: "1rem", fontSize: "0.8rem", color: "#aaa" }}>{c}</span>)}
-                  </div>
-                  {profile.priceTier && <div style={{ fontSize: "0.82rem", color: "#888" }}>
-                    {"💰".repeat(profile.priceTier === "fine" ? 4 : profile.priceTier === "premium" ? 3 : profile.priceTier === "mid" ? 2 : 1)} {profile.priceTier.charAt(0).toUpperCase() + profile.priceTier.slice(1)} tier
-                  </div>}
-                </div>
-              )}
-
-              {/* Service Types & Dayparts */}
-              {((profile.serviceTypes || []).length > 0 || (profile.dayparts || []).length > 0) && (
-                <div style={{ padding: "1.25rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.5rem" }}>
-                  <div style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.15em", marginBottom: "0.75rem" }}>SERVICES & HOURS</div>
-                  <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem" }}>
-                    {(profile.serviceTypes || []).map(s => <span key={s} style={{ padding: "0.3rem 0.7rem", background: `${ac}15`, border: `1px solid ${ac}33`, borderRadius: "1rem", fontSize: "0.78rem", color: ac }}>{s}</span>)}
-                  </div>
-                  {(profile.dayparts || []).length > 0 && <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem", marginTop: "0.75rem" }}>
-                    {(profile.dayparts || []).map(d => <span key={d} style={{ padding: "0.3rem 0.7rem", background: "rgba(255,255,255,0.03)", border: "1px solid #222", borderRadius: "1rem", fontSize: "0.78rem", color: "#888" }}>🕐 {d}</span>)}
-                  </div>}
-                </div>
-              )}
-
-              {/* Spaces */}
-              {(profile.spaces || []).length > 0 && (
-                <div style={{ padding: "1.25rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.5rem" }}>
-                  <div style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.15em", marginBottom: "0.75rem" }}>SPACES & AREAS</div>
-                  <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem" }}>
-                    {(profile.spaces || []).map(s => <span key={s} style={{ padding: "0.3rem 0.7rem", background: "rgba(255,255,255,0.05)", border: "1px solid #333", borderRadius: "1rem", fontSize: "0.78rem", color: "#aaa" }}>{s}</span>)}
-                  </div>
-                </div>
-              )}
-
-              {/* Signatures */}
-              {(profile.signatures || []).length > 0 && (
-                <div style={{ padding: "1.25rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.5rem" }}>
-                  <div style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.15em", marginBottom: "0.75rem" }}>⭐ SIGNATURES & SPECIALTIES</div>
-                  <div style={{ display: "flex", flexWrap: "wrap", gap: "0.4rem" }}>
-                    {(profile.signatures || []).map((s,i) => <span key={i} style={{ padding: "0.3rem 0.7rem", background: `${ac}15`, border: `1px solid ${ac}33`, borderRadius: "1rem", fontSize: "0.8rem", color: ac }}>{s}</span>)}
-                  </div>
-                </div>
-              )}
-
-              {/* Menu Items */}
-              {(profile.menuItems || []).length > 0 && (
-                <div style={{ gridColumn: "1/-1", padding: "1.25rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.5rem" }}>
-                  <div style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.15em", marginBottom: "0.75rem" }}>
-                    MENU ITEMS DETECTED ({(profile.menuItems || []).length})
-                    <span style={{ marginLeft: "0.75rem", color: "#444" }}>
-                      🍽️ {(profile.menuItems || []).filter(m => m.category === "food").length} food
-                      · 🍸 {(profile.menuItems || []).filter(m => m.category === "drink").length} drink
-                    </span>
-                  </div>
-                  <div style={{ display: "flex", flexWrap: "wrap", gap: "0.35rem", maxHeight: 200, overflow: "auto" }}>
-                    {(profile.menuItems || []).map((m, i) => (
-                      <span key={i} style={{
-                        padding: "0.25rem 0.6rem",
-                        background: m.category === "drink" ? "rgba(41,128,185,0.12)" : "rgba(255,255,255,0.04)",
-                        border: m.category === "drink" ? "1px solid rgba(41,128,185,0.3)" : "1px solid #222",
-                        borderRadius: "0.25rem", fontSize: "0.75rem",
-                        color: m.category === "drink" ? "#5dade2" : "#888",
-                      }}>{m.name}</span>
-                    ))}
-                  </div>
-                </div>
-              )}
-            </>}
-
-            {/* Top categories */}
-            <div style={{ gridColumn: "1/-1", padding: "1.25rem", background: "rgba(255,255,255,0.03)", border: "1px solid #1a1a1a", borderRadius: "0.5rem" }}>
-              <div style={{ fontSize: "0.7rem", color: "#555", letterSpacing: "0.15em", marginBottom: "0.75rem" }}>TOP MATCHED CATEGORIES</div>
-              {(() => {
-                const cs = computeBrandScores(profile);
-                const sorted = Object.entries(cs).sort((a,b) => b[1]-a[1]).slice(0,10);
-                const mx = sorted[0]?.[1] || 1;
-                return <div style={{ display: "flex", flexDirection: "column", gap: "0.4rem" }}>
-                  {sorted.map(([cid, sc]) => {
-                    const cat = CATEGORIES.find(c => c.id === parseInt(cid));
-                    const pct = Math.round((sc/mx)*100);
-                    return <div key={cid} style={{ display: "flex", alignItems: "center", gap: "0.75rem" }}>
-                      <span style={{ width: 140, fontSize: "0.78rem", color: "#aaa" }}>{cat?.icon} {cat?.name}</span>
-                      <div style={{ flex: 1, height: 5, background: "#1a1a1a", borderRadius: 3, overflow: "hidden" }}><div style={{ width: `${pct}%`, height: "100%", background: ac, borderRadius: 3 }} /></div>
-                      <span style={{ fontSize: "0.7rem", color: "#555", width: 35 }}>{sc.toFixed(1)}x</span>
-                    </div>;
-                  })}
-                </div>;
-              })()}
-            </div>
-          </div>
-          <div style={{ marginTop: "1.5rem", display: "flex", gap: "0.75rem", flexWrap: "wrap" }}>
-            <button onClick={() => { setScreen("upload"); setUploadError(""); }} style={{ padding: "0.75rem 1.5rem", background: `${ac}15`, border: `1px solid ${ac}44`, color: ac, cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem" }}>📄 Re-Upload Brand Doc</button>
-            <button onClick={() => { setScreen("wizard"); setWizStep(0); }} style={{ padding: "0.75rem 1.5rem", background: "transparent", border: "1px solid #444", color: "#aaa", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem" }}>✏️ Edit Profile</button>
-            <button onClick={() => navigator.clipboard.writeText(JSON.stringify(profile, null, 2))} style={{ padding: "0.75rem 1.5rem", background: "transparent", border: "1px solid #444", color: "#aaa", cursor: "pointer", fontFamily: "inherit", borderRadius: "0.25rem" }}>📋 Export JSON</button>
-          </div>
         </div>}
       </div>
     </div>

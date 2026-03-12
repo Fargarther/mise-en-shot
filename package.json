@@ -1,9 +1,9 @@
 {
-  "name": "shot-list-generator",
+  "name": "mise-en-shot",
   "private": true,
   "version": "1.0.0",
   "type": "module",
-  "description": "White-labeled shot list generator — upload a brand guide, get a visual language. 1,200 cinematic styles across 25 categories.",
+  "description": "Universal shot list generator — describe your project, get a cinematic shot list. 1,688 styles across 25 categories and 16 industry verticals.",
   "scripts": {
     "dev": "vite",
     "build": "vite build",

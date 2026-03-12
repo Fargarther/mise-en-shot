@@ -1,59 +1,44 @@
-# Shot List Generator
+# Mise en Shot
 
-**White-labeled content production tool by JSDetail LLC.**
+**Universal shot list generator for any industry.**
 
-Upload a brand guide, menu, one-pager, or logo — the engine reads it locally in your browser and builds a visual language profile. 1,200 cinematic styles across 25 categories, scored and ranked by how well they fit *your* brand.
+Describe your project, brand, or shoot concept — the keyword engine detects your industry and generates a cinematic shot list tailored to your vertical.
 
 ## Features
 
-### Brand Intelligence (Client-Side)
-- **Document upload** — drag & drop PDFs, images, text files, markdown
-- **Menu extraction** — recognizes 300+ dish and drink patterns, price-tagged items
-- **Service detection** — identifies 16 service types (dine-in, delivery, catering, tasting menu, etc.)
-- **Space mapping** — detects 20 physical space types (patio, rooftop, private dining, raw bar, etc.)
-- **Cuisine classification** — 20 cuisine types from American to Vietnamese
-- **Price tier analysis** — calculates from dollar amounts or language cues
-- **Color extraction** — pulls brand colors from images via canvas sampling
-- **100% in-browser** — no API calls, no data leaves the client
+- **1,688 cinematic styles** across 25 production categories
+- **16 industry verticals** — music, real estate, fitness, beauty, automotive, construction, medical, legal, agriculture, tech, education, retail, wedding, nonprofit, pet, sports, plus hospitality
+- **Keyword detection engine** — type a description, get auto-detected industry weighting
+- **Storyboard generator** — mood + duration → structured beat sequence
+- **Treatment export** — copy to clipboard or download as text
+- **Brand doc upload** — drop PDFs, text files, markdown for automatic analysis
+- **10 personality vibes** — luxury, casual, energetic, intimate, modern, rustic, playful, editorial, cinematic, documentary
+- **10 mood filters** — candlelight, high energy, sunday morning, late night, celebration, craft, social, elegant, epic, raw
 
-### Style Library
-- **1,200 cinematic styles** across 25 categories
-- **5-dimension semantic tags** — subject, energy, distance, sense, editorial role
-- Scored by brand profile, mood, and extracted offerings
-- Searchable, filterable, mood-selectable
+## How It Works
 
-### Storyboard Generator
-- **8 mood presets** — Candlelight Evening to High Energy
-- **4 duration formats** — 15s, 30s, 60s, 90s
-- **Beat-sequence logic** — Hook → Establish → Hero → Rhythm → Texture → Energy → People → Closer
-- Weighted randomness from top-scoring styles per beat
-
-### Shot List
-- Accumulate picks from browse, search, or storyboard
-- Copy as formatted text
-- Per-shot notes
+1. **Describe your project** — free-text prompt box
+2. **Upload docs** (optional) — PDFs, brand guides, text files
+3. **The engine detects** your industry verticals from keywords
+4. **Browse** 1,688 styles ranked by relevance to your project
+5. **Generate storyboards** with mood + duration presets
+6. **Build shot lists** and export as treatment documents
 
 ## Tech
 
-- React 18 + Vite
-- Zero dependencies beyond React
-- pdf.js loaded on-demand from CDN (only for PDF uploads)
-- Deployable to Vercel free tier
+- React + Vite, single-page app
+- 100% client-side — no API calls, no backend, no costs
+- All intelligence is keyword-based matching built into JS
+- PDF parsing via pdf.js (loaded on demand)
 
 ## Development
 
 ```bash
 npm install
-npm run dev
-```
-
-## Deploy
-
-```bash
-npm run build
-# Connect to Vercel via GitHub integration
+npm run dev     # dev server
+npm run build   # production build
 ```
 
 ## License
 
-Proprietary — JSDetail LLC. All rights reserved.
+MIT
